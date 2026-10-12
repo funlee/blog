@@ -529,6 +529,8 @@ main {
   gap: 22px;
 }
 .post-card {
+  display: flex;
+  flex-direction: column;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -570,21 +572,25 @@ main {
   backdrop-filter: blur(5px);
 }
 .post-content {
-  padding: 21px 23px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 26px 28px;
 }
+.post-pin { color: var(--accent); font-weight: 600; }
 .post-meta {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
 }
 .post-meta > a {
   color: var(--accent);
 }
 .post-card h2 {
-  font-size: 17px;
-  margin: 10px 0;
+  font-size: 20px;
+  margin: 14px 0 10px;
   letter-spacing: 0.2px;
   line-height: 1.65;
   display: -webkit-box;
@@ -593,11 +599,13 @@ main {
   overflow: hidden;
 }
 .post-content > p {
-  font-size: 12px;
+  font-size: 14px;
+  min-height: 5.7em;
+  margin: 0 0 22px;
   line-height: 1.9;
   color: var(--muted);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -607,8 +615,8 @@ main {
   gap: 8px;
   border-top: 1px solid var(--line);
   padding-top: 14px;
-  margin-top: 18px;
-  font-size: 10px;
+  margin-top: auto;
+  font-size: 11px;
   color: var(--muted);
 }
 .post-bottom > div {
@@ -623,55 +631,6 @@ main {
 .read-arrow {
   display: flex;
   margin-left: 3px;
-}
-.post-card.featured {
-  grid-column: 1/-1;
-  display: grid;
-  grid-template-columns: 46% 1fr;
-  min-height: 254px;
-}
-.featured .cover {
-  height: 100%;
-  min-height: 254px;
-}
-.featured .post-content {
-  padding: 28px;
-}
-.featured h2 {
-  font-size: 22px;
-  margin: 13px 0;
-}
-.featured .post-bottom {
-  margin-top: 22px;
-}
-.cover-type {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #44658f;
-  background:
-    radial-gradient(circle at 80% 100%, #b5c9e8 0, transparent 50%), #e1eafa;
-  position: relative;
-}
-.cover-type > span {
-  font-size: 28px;
-  font-weight: 650;
-  letter-spacing: 5px;
-  z-index: 1;
-}
-.cover-type svg {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  opacity: 0.18;
-  transform: rotate(-20deg);
-}
-.cover-type small {
-  font-size: 8px;
-  letter-spacing: 3px;
-  margin-top: 10px;
 }
 .pagination {
   display: flex;
@@ -1325,12 +1284,6 @@ html[data-theme="dark"] .hero {
   .filter-note {
     display: none;
   }
-  .featured .post-content {
-    padding: 22px;
-  }
-  .featured h2 {
-    font-size: 19px;
-  }
   .post-content {
     padding: 18px;
   }
@@ -1462,23 +1415,11 @@ html[data-theme="dark"] .hero {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  .post-card.featured {
-    display: block;
-    min-height: 0;
-  }
-  .featured .cover {
-    height: 180px;
-    min-height: 0;
-  }
   .cover {
     height: 180px;
   }
-  .featured .post-content,
   .post-content {
     padding: 21px;
-  }
-  .featured h2 {
-    font-size: 19px;
   }
   .post-card h2 {
     font-size: 18px;
@@ -1664,4 +1605,53 @@ html[data-theme="dark"] .hero {
 }
 @media (prefers-reduced-motion: reduce) {
   .is-typing .typewriter-cursor { animation: none; }
+}
+
+/* Long-form reading: keep the measure comfortable without changing moments. */
+.article > .prose {
+  max-width: 44rem;
+  margin-inline: auto;
+  font-size: 16px;
+  line-height: 1.95;
+}
+.article > .prose > p:first-child {
+  font-size: 17px;
+  color: var(--muted);
+}
+.article > .prose h2 {
+  padding-top: 12px;
+  margin-top: 42px;
+  line-height: 1.55;
+  border-top: 1px solid var(--line);
+}
+.article > .prose h3 {
+  line-height: 1.6;
+}
+.article > .prose blockquote {
+  font-size: 15px;
+}
+.article > .prose th,
+.article > .prose td {
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.8;
+}
+.article > .prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 24px auto;
+  border-radius: 8px;
+}
+.article .toc nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 20px;
+  row-gap: 9px;
+}
+@media (max-width: 640px) {
+  .article > .prose { font-size: 15px; }
+  .article > .prose > p:first-child { font-size: 16px; }
+  .article > .prose h2 { font-size: 20px; }
+  .article .toc nav { grid-template-columns: 1fr; }
 }

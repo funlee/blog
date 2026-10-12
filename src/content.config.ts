@@ -7,7 +7,7 @@ const common = {
   publishedAt: date,
   updatedAt: date.optional(),
   draft: z.boolean().default(false),
-  source: z.enum(["yuque", "douban"]).optional(),
+  source: z.enum(["yuque", "douban", "juejin", "zhihu"]).optional(),
   sourceId: z.string().optional(),
   sourceTitle: z.string().optional(),
   sourceUrl: z.url().optional(),
