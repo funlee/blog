@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import data from '../data/reading.json';
+import { readingProgress, markedFinished, latestReading, duration, recentBooks } from '../lib/reading.mjs';
+import '../styles/reading.css';
+const books = data.books;
+const markedCount = books.filter(markedFinished).length;
+const year = data.summary.year;
+const featured = recentBooks(books) as typeof books;
+const peak = Math.max(1, ...data.monthlySeconds);
+const cutoff = `${Number(data.updatedAt.slice(5, 7))}月截至${Number(data.updatedAt.slice(8, 10))}日`;
+const stats = [
+  {label: '读过的书', value: books.length, unit: '本', note: '不同版本合并计数'},
+  {label: '累计阅读', value: Math.floor(data.summary.overall.seconds / 3600), unit: '小时', note: duration(data.summary.overall.seconds)},
+  {label: '阅读的日子', value: data.summary.overall.days, unit: '天', note: '单日阅读满 1 分钟'},
+  {label: '留下的笔记', value: data.summary.overall.notes, unit: '条', note: '划线、书签与想法'},
+];
+---
+<Base title="读书" description="在别人的故事里，遇见更辽阔的世界。这里记录我读过的书，以及阅读留下的痕迹。">
+  <div class="reading-page" data-reading-page>
+    <div class="section-heading reading-heading"><h2>我的阅读足迹</h2><span class="muted">更新于 <time datetime={data.updatedAt}>{data.updatedAt}</time></span></div>
+    <div class="reading-stats">
+      {stats.map(stat => <div class="panel reading-stat"><span>{stat.label}</span><p><strong>{stat.value.toLocaleString('zh-CN')}</strong><small>{stat.unit}</small></p><span class="stat-note">{stat.note}</span></div>)}
+    </div>
+
+    <section class="panel reading-year" aria-labelledby="year-title">
+      <div class="reading-year-copy"><span class="eyebrow">A YEAR IN BOOKS</span><h2 id="year-title">{year.year}，与书相伴</h2><p>今年已阅读 <strong>{duration(year.seconds)}</strong>，<br/>在 <strong>{year.days} 天</strong>里翻开书页，留下 <strong>{year.notes} 条</strong>笔记。</p><span class="muted">每个月的阅读与收听时长</span></div>
+      <div class="reading-chart" role="img" aria-label={`${year.year}年月度阅读时长：${data.monthlySeconds.map((s,i) => `${i+1}月${duration(s)}`).join('，')}。${cutoff}。`}>
+        {data.monthlySeconds.map((seconds, index) => <div class="reading-month"><span class="month-value">{(seconds / 3600).toFixed(1)}</span><div class="month-track"><div class:list={['month-bar', {current: index === data.monthlySeconds.length - 1}]} style={`height:${seconds / peak * 100}%`}></div></div><span>{index+1}月</span></div>)}
+        <span class="chart-note">单位：小时 · {cutoff}</span>
+      </div>
+    </section>
+
+    {featured.length > 0 && <section class="reading-current" aria-labelledby="current-title">
+      <div class="section-heading"><h2 id="current-title">最近在读<span>慢慢读，也慢慢想</span></h2><Icon name="book"/></div>
+      <div class="reading-featured">
+        {featured.map(book => <a class="panel featured-book" href={book.versions[0].url} target="_blank" rel="noopener noreferrer"><div class="featured-cover">{book.cover && <img src={book.cover} alt="" width="76" height="110" loading="lazy" referrerpolicy="no-referrer"/>}</div><div><h3>{book.title}</h3><p>{book.author}</p><span>当前版本 {book.versions[0].progress}% <span aria-hidden="true">↗</span></span></div></a>)}
+      </div>
+    </section>}
+
+    <section class="reading-library" aria-labelledby="library-title">
+      <div class="section-heading"><h2 id="library-title">读过的书<span>{books.length} 本，收藏一路的好奇心</span></h2><span class="eyebrow">MY BOOKSHELF</span></div>
+      <details class="reading-method"><summary>关于这份书单</summary><p>书单来自可查询的书架与笔记记录，合并同一作品的不同版本，排除公众号和没有阅读或笔记标记的条目；套装按一本计。已移出书架且无笔记的书可能未收录。</p><p>“已标记读完”与阅读进度独立记录。多版本作品显示各版本中的最高进度，展开可查看每个版本。累计时长、天数和笔记采用微信读书的全部历史统计，不仅限于这份书单。数据截至 {data.updatedAt}，每次部署时更新。</p></details>
+      <div class="reading-tools" data-reading-controls hidden>
+        <label class="book-search"><Icon name="search" size={18}/><span class="sr-only">搜索书名或作者</span><input type="search" placeholder="搜索书名、作者…" data-book-search autocomplete="off"/></label>
+        <label class="book-sort"><span class="sr-only">书单排序</span><select data-book-sort><option value="recent">最近更新</option><option value="progress">阅读进度</option><option value="title">书名排序</option></select></label>
+      </div>
+      <div class="book-filters" role="group" aria-label="阅读状态筛选" data-reading-controls hidden>
+        <button type="button" data-book-filter="all" aria-pressed="true">全部 <span>{books.length}</span></button>
+        <button type="button" data-book-filter="finished" aria-pressed="false">已标记读完 <span>{markedCount}</span></button>
+        <button type="button" data-book-filter="unfinished" aria-pressed="false">未标记读完 <span>{books.length - markedCount}</span></button>
+      </div>
+      <p class="book-result-count muted" data-book-count role="status" aria-live="polite">共 {books.length} 本</p>
+      <div class="book-grid" data-book-list>
+        {books.map((book, index) => <article class="panel reading-book" data-book data-title={book.title} data-search={[book.title,book.author,...book.versions.map(v => v.title)].join(' ').toLocaleLowerCase()} data-marked={markedFinished(book) ? 'finished' : 'unfinished'} data-progress={readingProgress(book)} data-updated={latestReading(book)}>
+          <div class="book-card-head"><span class="book-number">{String(index+1).padStart(3,'0')}</span><span class="book-category">{book.category}</span></div>
+          <h3>{book.title}</h3><p class="book-author">{book.author}</p>
+          <div class="book-card-bottom"><div class="book-progress-label"><span>{book.versions.length > 1 ? '最高进度' : '阅读进度'}</span><strong>{readingProgress(book)}%</strong></div><progress value={readingProgress(book)} max="100" aria-label={`${book.title}阅读进度`}/><div class="book-status-row"><span class:list={['book-status', {finished:markedFinished(book)}]}>{markedFinished(book) ? '已标记读完' : '未标记读完'}</span><span class="book-date">{latestReading(book) || '日期未记录'}</span></div>
+          {book.versions.length > 1 && <details class="book-editions"><summary>{book.versions.length} 个版本的阅读记录</summary>{book.versions.map(v => <div><b>{v.title}</b><p>{v.progress}% · {v.markedFinished ? '已标记读完' : '未标记读完'}</p>{v.url && <a href={v.url} target="_blank" rel="noopener noreferrer">打开阅读 ↗</a>}</div>)}</details>}
+          {book.versions[0].url && <a class="book-open" href={book.versions[0].url} target="_blank" rel="noopener noreferrer" aria-label={`在微信读书打开${book.title}`}>打开阅读 <span aria-hidden="true">↗</span></a>}</div>
+        </article>)}
+      </div>
+      <div class="panel empty" data-book-empty hidden><Icon name="book" size={32}/><h3>暂时没有找到这本书</h3><p>换一个书名或作者，或清除筛选后再看看。</p><button class="soft-button" type="button" data-book-reset>查看全部书籍</button></div>
+      <nav class="reading-pagination" aria-label="书单分页" data-reading-controls hidden><button class="soft-button" type="button" data-book-prev>← 上一页</button><span data-book-page></span><button class="soft-button" type="button" data-book-next>下一页 →</button></nav>
+      <noscript><p class="muted">当前显示全部书籍，可使用浏览器的页面查找搜索书名。</p></noscript>
+    </section>
+  </div>
+</Base>
+<script>import '../scripts/reading';</script>

@@ -1,0 +1,4411 @@
+{
+  "updatedAt": "2026-10-12",
+  "source": "微信读书",
+  "summary": {
+    "overall": {
+      "seconds": 2184957,
+      "days": 1563,
+      "notes": 1405
+    },
+    "year": {
+      "year": 2026,
+      "seconds": 1279766,
+      "days": 277,
+      "notes": 218
+    },
+    "month": {
+      "month": "2026-10",
+      "seconds": 63562,
+      "days": 12,
+      "notes": 22
+    }
+  },
+  "monthlySeconds": [
+    80827,
+    77195,
+    133024,
+    101834,
+    245766,
+    227492,
+    76613,
+    111342,
+    162111,
+    63562
+  ],
+  "books": [
+    {
+      "id": "26078968",
+      "title": "四世同堂",
+      "author": "老舍",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/46/YueWen_26078968/t6_YueWen_26078968.jpg",
+      "versions": [
+        {
+          "id": "26078968",
+          "title": "四世同堂",
+          "progress": 64,
+          "markedFinished": false,
+          "updatedAt": "2026-10-12",
+          "url": "https://weread.qq.com/web/reader/32232710718deef8322406a"
+        },
+        {
+          "id": "23562148",
+          "title": "四世同堂：足本（全三册）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-10",
+          "url": "https://weread.qq.com/web/reader/7e532a50716787a47e5d34a"
+        }
+      ]
+    },
+    {
+      "id": "3300210401",
+      "title": "安娜.卡列尼娜（名家译、深度注释、人物关系图）当爱情成为唯一的救赎，铁轨就是最后的审判",
+      "author": "[俄]列夫·托尔斯泰 著",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/23/cpplatform_sutausx4opasmtcjoa5jmd/t6_cpplatform_sutausx4opasmtcjoa5jmd1780907841.jpg",
+      "versions": [
+        {
+          "id": "3300210401",
+          "title": "安娜.卡列尼娜（名家译、深度注释、人物关系图）当爱情成为唯一的救赎，铁轨就是最后的审判",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/be6323a0813abb8b0g011b55"
+        }
+      ]
+    },
+    {
+      "id": "3300018114",
+      "title": "抱住棒棒的自己",
+      "author": "徐慢慢心理话",
+      "category": "心理",
+      "cover": "https://cdn.weread.qq.com/weread/cover/14/3300018114/t6_3300018114.jpg",
+      "versions": [
+        {
+          "id": "3300018114",
+          "title": "抱住棒棒的自己",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/38c32410813ab6d93g014c61"
+        }
+      ]
+    },
+    {
+      "id": "25615385",
+      "title": "被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
+      "author": "岸见一郎 古贺史健",
+      "category": "心理",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/385/25615385/t6_25615385.jpg",
+      "versions": [
+        {
+          "id": "25615385",
+          "title": "被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/8b9329607186dc198b9bdab"
+        }
+      ]
+    },
+    {
+      "id": "847310",
+      "title": "大明王朝1566（全集）",
+      "author": "刘和平",
+      "category": "历史",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/310/847310/t6_847310.jpg",
+      "versions": [
+        {
+          "id": "847310",
+          "title": "大明王朝1566（全集）",
+          "progress": 92,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/31732f305cedce317fc3b6a"
+        }
+      ]
+    },
+    {
+      "id": "40792928",
+      "title": "地藏经",
+      "author": "[唐]实叉难陀",
+      "category": "哲学宗教",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/928/40792928/t6_40792928.jpg",
+      "versions": [
+        {
+          "id": "40792928",
+          "title": "地藏经",
+          "progress": 97,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/fc332520726e7360fc3e0a1"
+        }
+      ]
+    },
+    {
+      "id": "32206126",
+      "title": "房思琪的初恋乐园（精编版）",
+      "author": "林奕含",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/28/YueWen_32206126/t6_YueWen_32206126.jpg",
+      "versions": [
+        {
+          "id": "32206126",
+          "title": "房思琪的初恋乐园（精编版）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/cbb3285071eb6d2ecbba023"
+        }
+      ]
+    },
+    {
+      "id": "856239",
+      "title": "非暴力沟通",
+      "author": "马歇尔·卢森堡",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/239/856239/t6_856239.jpg",
+      "versions": [
+        {
+          "id": "856239",
+          "title": "非暴力沟通",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/684323505d10af6849e6c12"
+        }
+      ]
+    },
+    {
+      "id": "40933502",
+      "title": "红与黑",
+      "author": "[法]司汤达",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/58/yuewen_40933502/t6_yuewen_409335021737010373.jpg",
+      "versions": [
+        {
+          "id": "40933502",
+          "title": "红与黑",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/71d32c107270987e71dd9a5"
+        }
+      ]
+    },
+    {
+      "id": "3300110859",
+      "title": "历史转折中的邓小平（同名电视剧原著）",
+      "author": "龙平平 黄亚洲 张强 魏人",
+      "category": "人物传记",
+      "cover": "https://cdn.weread.qq.com/weread/cover/11/cpplatform_4tenfeme5rd1ldk9ftlvjb/t6_cpplatform_4tenfeme5rd1ldk9ftlvjb1723194681.jpg",
+      "versions": [
+        {
+          "id": "3300110859",
+          "title": "历史转折中的邓小平（同名电视剧原著）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/34c32ff0813ab91cdg019b06"
+        }
+      ]
+    },
+    {
+      "id": "3300197688",
+      "title": "鲁滨逊漂流记",
+      "author": "[英]丹尼尔·笛福",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/18/cpplatform_78ucqwlymvuccph4dbn5jj/t6_cpplatform_78ucqwlymvuccph4dbn5jj1773114223.jpg",
+      "versions": [
+        {
+          "id": "3300197688",
+          "title": "鲁滨逊漂流记",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/26032ea0813abb3b8g018f67"
+        }
+      ]
+    },
+    {
+      "id": "3300153770",
+      "title": "飘",
+      "author": "[美]玛格丽特·米切尔",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/57/cpplatform_gphbw2c9duvae1kcvxmhfo/t6_cpplatform_gphbw2c9duvae1kcvxmhfo1753438332.jpg",
+      "versions": [
+        {
+          "id": "3300153770",
+          "title": "飘",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/3d7321f0813aba291g010c9e"
+        }
+      ]
+    },
+    {
+      "id": "3300128305",
+      "title": "人生财富靠康波",
+      "author": "周金涛",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/75/cpplatform_tpwzkagpzrvbkwwpe2swrf/t6_cpplatform_tpwzkagpzrvbkwwpe2swrf1735290012.jpg",
+      "versions": [
+        {
+          "id": "3300128305",
+          "title": "人生财富靠康波",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/b5e325b0813ab989eg01578a"
+        }
+      ]
+    },
+    {
+      "id": "217327",
+      "title": "史蒂夫·乔布斯传",
+      "author": "沃尔特·艾萨克森",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/327/217327/t6_217327.jpg",
+      "versions": [
+        {
+          "id": "217327",
+          "title": "史蒂夫·乔布斯传",
+          "progress": 2,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/3b4321905350ef3b4f14672"
+        }
+      ]
+    },
+    {
+      "id": "39889296",
+      "title": "顺着历史学古诗",
+      "author": "蒙曼",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/36/YueWen_39889296/t6_YueWen_39889296.jpg",
+      "versions": [
+        {
+          "id": "39889296",
+          "title": "顺着历史学古诗",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/a67322907260a990a67581d"
+        }
+      ]
+    },
+    {
+      "id": "35281084",
+      "title": "天真的人类学家",
+      "author": "奈吉尔·巴利",
+      "category": "科学技术",
+      "cover": "https://cdn.weread.qq.com/weread/cover/31/YueWen_35281084/t6_YueWen_35281084.jpg",
+      "versions": [
+        {
+          "id": "35281084",
+          "title": "天真的人类学家",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/e4d323c0721a58bce4de379"
+        }
+      ]
+    },
+    {
+      "id": "848660",
+      "title": "我的职业是小说家",
+      "author": "[日]村上春树",
+      "category": "人物传记",
+      "cover": "https://cdn.weread.qq.com/weread/cover/68/YueWen_848660/t6_YueWen_848660.jpg",
+      "versions": [
+        {
+          "id": "848660",
+          "title": "我的职业是小说家",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/f8f32c405cf314f8f0e01e1"
+        }
+      ]
+    },
+    {
+      "id": "3300055149",
+      "title": "我在北京送快递",
+      "author": "胡安焉",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/88/cpplatform_8th7igjxnsgez3s8ir24vp/t6_cpplatform_8th7igjxnsgez3s8ir24vp1681204246.jpg",
+      "versions": [
+        {
+          "id": "3300055149",
+          "title": "我在北京送快递",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/51532c40813ab7c0ag019c84"
+        }
+      ]
+    },
+    {
+      "id": "3300036031",
+      "title": "西线无战事",
+      "author": "埃里希·玛丽亚·雷马克",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/69/cpPlatform_sQNWWhqEEeif7s6rv6H9Gg/t6_cpPlatform_sQNWWhqEEeif7s6rv6H9Gg.jpg",
+      "versions": [
+        {
+          "id": "3300036031",
+          "title": "西线无战事",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/24f323d0813ab7493g011798"
+        }
+      ]
+    },
+    {
+      "id": "3300038268",
+      "title": "一本书读懂财报",
+      "author": "肖星",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/71/cpPlatform_gqk25P4awViyZspmzdqvf5/t6_cpPlatform_gqk25P4awViyZspmzdqvf5.jpg",
+      "versions": [
+        {
+          "id": "3300038268",
+          "title": "一本书读懂财报",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/15332930813ab7572g018073"
+        }
+      ]
+    },
+    {
+      "id": "3300024943",
+      "title": "一句顶一万句（2022新版）",
+      "author": "刘震云",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/43/3300024943/t6_3300024943.jpg",
+      "versions": [
+        {
+          "id": "3300024943",
+          "title": "一句顶一万句（2022新版）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/3de32670813ab703eg013597"
+        }
+      ]
+    },
+    {
+      "id": "37477534",
+      "title": "早起的奇迹",
+      "author": "哈尔·埃尔罗德",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/534/37477534/t6_37477534.jpg",
+      "versions": [
+        {
+          "id": "37477534",
+          "title": "早起的奇迹",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/e9c32220723bdc9ee9ca9c7"
+        }
+      ]
+    },
+    {
+      "id": "3300143921",
+      "title": "窄门",
+      "author": "[法]安德烈·纪德",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/62/cpplatform_bqzkybmwsj1jgdqhlwdc5k/t6_cpplatform_bqzkybmwsj1jgdqhlwdc5k1746526432.jpg",
+      "versions": [
+        {
+          "id": "3300143921",
+          "title": "窄门",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/a97325a0813ab9eb8g01118a"
+        }
+      ]
+    },
+    {
+      "id": "3300199477",
+      "title": "中年破局：别信什么35岁危机（轻纪实）",
+      "author": "张峻滔",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/67/cpplatform_dftlcasgsptlu8wlw9jfh9/t6_cpplatform_dftlcasgsptlu8wlw9jfh91774582781.jpg",
+      "versions": [
+        {
+          "id": "3300199477",
+          "title": "中年破局：别信什么35岁危机（轻纪实）",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/81632110813abb46bg017ebd"
+        }
+      ]
+    },
+    {
+      "id": "917691",
+      "title": "OKR工作法：谷歌、领英等顶级公司的高绩效秘籍",
+      "author": "克里斯蒂娜·沃特克",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/95/YueWen_917691/t6_YueWen_917691.jpg",
+      "versions": [
+        {
+          "id": "917691",
+          "title": "OKR工作法：谷歌、领英等顶级公司的高绩效秘籍",
+          "progress": 17,
+          "markedFinished": true,
+          "updatedAt": "2026-10-09",
+          "url": "https://weread.qq.com/web/reader/d87320605e00bbd874a12ae"
+        }
+      ]
+    },
+    {
+      "id": "573318",
+      "title": "论人类不平等的起源和基础（果麦经典）",
+      "author": "[法]卢梭",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/37/YueWen_573318/t6_YueWen_573318.jpg",
+      "versions": [
+        {
+          "id": "573318",
+          "title": "论人类不平等的起源和基础（果麦经典）",
+          "progress": 0,
+          "markedFinished": true,
+          "updatedAt": "2026-10-08",
+          "url": "https://weread.qq.com/web/reader/f963287058bf86f96cbb7c4"
+        }
+      ]
+    },
+    {
+      "id": "34628083",
+      "title": "优势成长",
+      "author": "帅健翔",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/83/34628083/t6_34628083.jpg",
+      "versions": [
+        {
+          "id": "34628083",
+          "title": "优势成长",
+          "progress": 1,
+          "markedFinished": false,
+          "updatedAt": "2026-10-07",
+          "url": "https://weread.qq.com/web/reader/29232170721061f32924b22"
+        }
+      ]
+    },
+    {
+      "id": "3300210572",
+      "title": "金粉世家（全集）",
+      "author": "张恨水",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/24/cpplatform_m96vtbvhhueuv2hifqyolv/t6_cpplatform_m96vtbvhhueuv2hifqyolv1780912249.jpg",
+      "versions": [
+        {
+          "id": "3300210572",
+          "title": "金粉世家（全集）",
+          "progress": 64,
+          "markedFinished": false,
+          "updatedAt": "2026-10-02",
+          "url": "https://weread.qq.com/web/reader/c7f32430813abb8c1g012dc6"
+        }
+      ]
+    },
+    {
+      "id": "3300048459",
+      "title": "如何抑止女性写作",
+      "author": "乔安娜·拉斯",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/12/cpplatform_sbse8zfzo7nkinusnr53jj/t6_cpplatform_sbse8zfzo7nkinusnr53jj1676279020.jpg",
+      "versions": [
+        {
+          "id": "3300048459",
+          "title": "如何抑止女性写作",
+          "progress": 7,
+          "markedFinished": false,
+          "updatedAt": "2026-10-01",
+          "url": "https://weread.qq.com/web/reader/1ba329d0813ab796dg0198d8"
+        }
+      ]
+    },
+    {
+      "id": "3300153913",
+      "title": "激情耗尽：伍尔夫挚友笔下的女性独立物语",
+      "author": "[英]薇塔·萨克维尔-韦斯特",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/25/cpplatform_jqehbqgu7hmuq3xpcamw8h/t6_cpplatform_jqehbqgu7hmuq3xpcamw8h1753177922.jpg",
+      "versions": [
+        {
+          "id": "3300153913",
+          "title": "激情耗尽：伍尔夫挚友笔下的女性独立物语",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-09-09",
+          "url": "https://weread.qq.com/web/reader/b11327d0813aba29fg0135cc"
+        }
+      ]
+    },
+    {
+      "id": "3300130136",
+      "title": "蔡康永的说话之道",
+      "author": "蔡康永",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/53/cpplatform_61xwr6k9ojafqn7nm2hkd6/t6_cpplatform_61xwr6k9ojafqn7nm2hkd61736324746.jpg",
+      "versions": [
+        {
+          "id": "3300130136",
+          "title": "蔡康永的说话之道",
+          "progress": 14,
+          "markedFinished": true,
+          "updatedAt": "2026-09-02",
+          "url": "https://weread.qq.com/web/reader/568324d0813ab9955g01694d"
+        }
+      ]
+    },
+    {
+      "id": "3300024284",
+      "title": "毛泽东选集（全四卷）",
+      "author": "作者未提供",
+      "category": "政治军事",
+      "cover": "https://cdn.weread.qq.com/weread/cover/84/3300024284/t6_3300024284.jpg",
+      "versions": [
+        {
+          "id": "3300024284",
+          "title": "毛泽东选集（全四卷）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-09-02",
+          "url": "https://weread.qq.com/web/reader/2bb32ff0813ab6ffcg014315"
+        }
+      ]
+    },
+    {
+      "id": "3300199871",
+      "title": "你赚不到认知以外的任何一分钱（轻成长）",
+      "author": "鹤老师",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/65/cpplatform_pg5m4yxxhqdncmsjwdc293/t6_cpplatform_pg5m4yxxhqdncmsjwdc2931775026791.jpg",
+      "versions": [
+        {
+          "id": "3300199871",
+          "title": "你赚不到认知以外的任何一分钱（轻成长）",
+          "progress": 98,
+          "markedFinished": true,
+          "updatedAt": "2026-08-27",
+          "url": "https://weread.qq.com/web/reader/e83320f0813abb493g011828"
+        }
+      ]
+    },
+    {
+      "id": "3300131415",
+      "title": "45度的人生：躺不平也卷不动",
+      "author": "真实故事计划主编",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/40/cpplatform_a7njkhnwyzeaelvchewfe5/t6_cpplatform_a7njkhnwyzeaelvchewfe51737110233.jpg",
+      "versions": [
+        {
+          "id": "3300131415",
+          "title": "45度的人生：躺不平也卷不动",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-08-26",
+          "url": "https://weread.qq.com/web/reader/d9132ca0813ab99d5g0157e2"
+        }
+      ]
+    },
+    {
+      "id": "3300205387",
+      "title": "林徽因传",
+      "author": "许清檐",
+      "category": "人物传记",
+      "cover": "https://cdn.weread.qq.com/weread/cover/76/cpplatform_9auxh7ynyfymchcakvhw3g/t6_cpplatform_9auxh7ynyfymchcakvhw3g1778811741.jpg",
+      "versions": [
+        {
+          "id": "3300205387",
+          "title": "林徽因传",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-08-25",
+          "url": "https://weread.qq.com/web/reader/9f1324b0813abb6bag017b97"
+        }
+      ]
+    },
+    {
+      "id": "3300032913",
+      "title": "津巴多普通心理学（第8版）",
+      "author": "[美]菲利普•津巴多   [美]罗伯特•约翰逊    [美]薇薇安•麦卡恩　著",
+      "category": "心理",
+      "cover": "https://cdn.weread.qq.com/weread/cover/94/cpPlatform_ahzgQiJDz6zjjZe8CoNMh3/t6_cpPlatform_ahzgQiJDz6zjjZe8CoNMh3.jpg",
+      "versions": [
+        {
+          "id": "3300032913",
+          "title": "津巴多普通心理学（第8版）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-08-24",
+          "url": "https://weread.qq.com/web/reader/631324c0813ab735bg01382c"
+        }
+      ]
+    },
+    {
+      "id": "33628204",
+      "title": "认知觉醒：开启自我改变的原动力",
+      "author": "周岭",
+      "category": "心理",
+      "cover": "https://cdn.weread.qq.com/weread/cover/86/YueWen_33628204/t6_YueWen_33628204.jpg",
+      "versions": [
+        {
+          "id": "33628204",
+          "title": "认知觉醒：开启自我改变的原动力",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-08-24",
+          "url": "https://weread.qq.com/web/reader/6a732ce07201202c6a7b30a"
+        }
+      ]
+    },
+    {
+      "id": "695233",
+      "title": "三体全集（全三册）",
+      "author": "刘慈欣",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/80/yuewen_695233/t6_yuewen_6952331784884457.jpg",
+      "versions": [
+        {
+          "id": "695233",
+          "title": "三体全集（全三册）",
+          "progress": 86,
+          "markedFinished": true,
+          "updatedAt": "2026-08-24",
+          "url": "https://weread.qq.com/web/reader/ce032b305a9bc1ce0b0dd2a"
+        }
+      ]
+    },
+    {
+      "id": "3300160575",
+      "title": "《遥远的救世主》在说什么",
+      "author": "刘芋麟",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/20/cpplatform_qn29jovfckyxuqkcy6vye6/t6_cpplatform_qn29jovfckyxuqkcy6vye61759991107.jpg",
+      "versions": [
+        {
+          "id": "3300160575",
+          "title": "《遥远的救世主》在说什么",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-08-20",
+          "url": "https://weread.qq.com/web/reader/339328b0813aba539g015557"
+        }
+      ]
+    },
+    {
+      "id": "3300170628",
+      "title": "天涯神贴智慧大全",
+      "author": "玄谷",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/54/cpplatform_58b1h157fhrcgapk6mncr4/t6_cpplatform_58b1h157fhrcgapk6mncr41760953929.jpg",
+      "versions": [
+        {
+          "id": "3300170628",
+          "title": "天涯神贴智慧大全",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-08-20",
+          "url": "https://weread.qq.com/web/reader/b3a32f00813aba926g018a42"
+        }
+      ]
+    },
+    {
+      "id": "27094987",
+      "title": "走遍中国",
+      "author": "霍晨昕",
+      "category": "生活百科",
+      "cover": "https://cdn.weread.qq.com/weread/cover/74/YueWen_27094987/t6_YueWen_27094987.jpg",
+      "versions": [
+        {
+          "id": "27094987",
+          "title": "走遍中国",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-08-17",
+          "url": "https://weread.qq.com/web/reader/5df32ec0719d6fcb5df870f"
+        }
+      ]
+    },
+    {
+      "id": "3300216775",
+      "title": "Claude Code源码架构：核心解析",
+      "author": "叶文滔",
+      "category": "科学技术",
+      "cover": "https://cdn.weread.qq.com/weread/cover/1/cpplatform_8aap7witft6sjaf4z4q81g/t6_cpplatform_8aap7witft6sjaf4z4q81g1783309832.jpg",
+      "versions": [
+        {
+          "id": "3300216775",
+          "title": "Claude Code源码架构：核心解析",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-08-05",
+          "url": "https://weread.qq.com/web/reader/2e632780813abbb2dg015c11"
+        }
+      ]
+    },
+    {
+      "id": "3300198252",
+      "title": "半小时玩转小龙虾：OpenClaw极简入门（轻科技）",
+      "author": "图灵智能研究院 刘江",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/88/cpplatform_1ajxmfgn8uo6ncapuhqj4c/t6_cpplatform_1ajxmfgn8uo6ncapuhqj4c1773388806.jpg",
+      "versions": [
+        {
+          "id": "3300198252",
+          "title": "半小时玩转小龙虾：OpenClaw极简入门（轻科技）",
+          "progress": 98,
+          "markedFinished": true,
+          "updatedAt": "2026-08-04",
+          "url": "https://weread.qq.com/web/reader/eab32d10813abb3f1g012d12"
+        }
+      ]
+    },
+    {
+      "id": "25790250",
+      "title": "一本书读懂日本史",
+      "author": "杨宁一",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/66/YueWen_25790250/t6_YueWen_25790250.jpg",
+      "versions": [
+        {
+          "id": "25790250",
+          "title": "一本书读懂日本史",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-08-04",
+          "url": "https://weread.qq.com/web/reader/b12328207189872ab123a12"
+        }
+      ]
+    },
+    {
+      "id": "3300212883",
+      "title": "Hermes Agent橙皮书",
+      "author": "花叔",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/11/cpplatform_mymmhmbzxz1qbm5pfcfmkb/t6_cpplatform_mymmhmbzxz1qbm5pfcfmkb1781600416.jpg",
+      "versions": [
+        {
+          "id": "3300212883",
+          "title": "Hermes Agent橙皮书",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-08-04",
+          "url": "https://weread.qq.com/web/reader/47f32260813abb9a8g0132c5"
+        }
+      ]
+    },
+    {
+      "id": "41504771",
+      "title": "影响力",
+      "author": "罗伯特·西奥迪尼",
+      "category": "心理",
+      "cover": "https://cdn.weread.qq.com/weread/cover/41/YueWen_41504771/t6_YueWen_41504771.jpg",
+      "versions": [
+        {
+          "id": "41504771",
+          "title": "影响力（全新升级版）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-07-28",
+          "url": "https://weread.qq.com/web/reader/9ad32d40727950039add092"
+        },
+        {
+          "id": "823426",
+          "title": "影响力（湛庐经典）",
+          "progress": 3,
+          "markedFinished": false,
+          "updatedAt": "2021-01-19",
+          "url": "https://weread.qq.com/web/reader/f5e32d805c9082f5e041522"
+        }
+      ]
+    },
+    {
+      "id": "3300215568",
+      "title": "不想上班，就去新疆（轻游记）",
+      "author": "猴面包的树",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/9/cpplatform_bxjsfnr9quyktklyjx1ahp/t6_cpplatform_bxjsfnr9quyktklyjx1ahp1782805708.jpg",
+      "versions": [
+        {
+          "id": "3300215568",
+          "title": "不想上班，就去新疆（轻游记）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-07-27",
+          "url": "https://weread.qq.com/web/reader/06932e70813abbab4g01886d"
+        }
+      ]
+    },
+    {
+      "id": "655710",
+      "title": "口口相传的海南旅游书",
+      "author": "陈新主编",
+      "category": "生活百科",
+      "cover": "https://cdn.weread.qq.com/weread/cover/0/YueWen_655710/t6_YueWen_655710.jpg",
+      "versions": [
+        {
+          "id": "655710",
+          "title": "口口相传的海南旅游书",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-07-22",
+          "url": "https://weread.qq.com/web/reader/82c32a105a015e82c6a5d45"
+        }
+      ]
+    },
+    {
+      "id": "806780",
+      "title": "MacTalk·人生元编程",
+      "author": "池建强",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/61/yuewen_806780/t6_yuewen_8067801783659000.jpg",
+      "versions": [
+        {
+          "id": "806780",
+          "title": "MacTalk·人生元编程",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-07-17",
+          "url": "https://weread.qq.com/web/reader/f66325405c4f7cf66f11365"
+        }
+      ]
+    },
+    {
+      "id": "3300036895",
+      "title": "费可的晚宴",
+      "author": "珞珈",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/94/cpPlatform_dCqi6dpbtB1eynDnjD12j2/t6_cpPlatform_dCqi6dpbtB1eynDnjD12j2.jpg",
+      "versions": [
+        {
+          "id": "3300036895",
+          "title": "费可的晚宴",
+          "progress": 9,
+          "markedFinished": true,
+          "updatedAt": "2026-07-16",
+          "url": "https://weread.qq.com/web/reader/60c325d0813ab74e9g015b91"
+        }
+      ]
+    },
+    {
+      "id": "728514",
+      "title": "无人生还（同名英剧原著）",
+      "author": "阿加莎·克里斯蒂",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/63/yuewen_728514/t6_yuewen_7285141680854106.jpg",
+      "versions": [
+        {
+          "id": "728514",
+          "title": "无人生还（同名英剧原著）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-07-12",
+          "url": "https://weread.qq.com/web/reader/d6332fd05b1dc2d63df8938"
+        }
+      ]
+    },
+    {
+      "id": "22614287",
+      "title": "今日简史",
+      "author": "尤瓦尔·赫拉利",
+      "category": "社会文化",
+      "cover": "https://cdn.weread.qq.com/weread/cover/8/YueWen_22614287/t6_YueWen_22614287.jpg",
+      "versions": [
+        {
+          "id": "22614287",
+          "title": "今日简史（精华版）",
+          "progress": 97,
+          "markedFinished": true,
+          "updatedAt": "2026-07-03",
+          "url": "https://weread.qq.com/web/reader/00632c607159110f0066a3e"
+        },
+        {
+          "id": "22973166",
+          "title": "今日简史：人类命运大议题",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/63432820715e8aee634792d"
+        }
+      ]
+    },
+    {
+      "id": "933041",
+      "title": "心流+发现心流（套装全2册）",
+      "author": "米哈里·契克森米哈赖",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/52/YueWen_933041/t6_YueWen_933041.jpg",
+      "versions": [
+        {
+          "id": "933041",
+          "title": "心流+发现心流（套装全2册）",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-07-02",
+          "url": "https://weread.qq.com/web/reader/0dd321a05e3cb10dd843813"
+        }
+      ]
+    },
+    {
+      "id": "814447",
+      "title": "人性的弱点",
+      "author": "卡耐基",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/447/814447/t6_814447.jpg",
+      "versions": [
+        {
+          "id": "814447",
+          "title": "人性的弱点",
+          "progress": 32,
+          "markedFinished": true,
+          "updatedAt": "2026-06-28",
+          "url": "https://weread.qq.com/web/reader/6c4328f05c6d6f6c4e30819"
+        }
+      ]
+    },
+    {
+      "id": "838795",
+      "title": "超级版图：全球供应链、超级城市与新商业文明的崛起",
+      "author": "帕拉格·康纳",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/6/YueWen_838795/t6_YueWen_838795.jpg",
+      "versions": [
+        {
+          "id": "838795",
+          "title": "超级版图：全球供应链、超级城市与新商业文明的崛起",
+          "progress": 9,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/a7d322605ccc8ba7d503f43"
+        }
+      ]
+    },
+    {
+      "id": "907761",
+      "title": "程序是怎样跑起来的",
+      "author": "矢泽久雄",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/42/YueWen_907761/t6_YueWen_907761.jpg",
+      "versions": [
+        {
+          "id": "907761",
+          "title": "程序是怎样跑起来的",
+          "progress": 8,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/99b32fe05dd9f199b1014ef"
+        }
+      ]
+    },
+    {
+      "id": "735821",
+      "title": "沸腾十五年",
+      "author": "林军",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/86/YueWen_735821/t6_YueWen_735821.jpg",
+      "versions": [
+        {
+          "id": "735821",
+          "title": "沸腾十五年",
+          "progress": 2,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/4c8323b05b3a4d4c89ce165"
+        }
+      ]
+    },
+    {
+      "id": "655484",
+      "title": "计算机网络",
+      "author": "谢希仁编著",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/38/YueWen_655484/t6_YueWen_655484.jpg",
+      "versions": [
+        {
+          "id": "655484",
+          "title": "计算机网络",
+          "progress": 3,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/af532c005a007caf51371b1"
+        }
+      ]
+    },
+    {
+      "id": "907772",
+      "title": "简约至上：交互式设计四策略",
+      "author": "Giles Colborne",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/772/907772/t6_907772.jpg",
+      "versions": [
+        {
+          "id": "907772",
+          "title": "简约至上：交互式设计四策略",
+          "progress": 15,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/f08324c05dd9fcf08dbca5e"
+        }
+      ]
+    },
+    {
+      "id": "3300098493",
+      "title": "马来西亚通史",
+      "author": "骆永昆",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/57/cpplatform_aarpnfv5wk3bub5nqtpn7j/t6_cpplatform_aarpnfv5wk3bub5nqtpn7j1714975665.jpg",
+      "versions": [
+        {
+          "id": "3300098493",
+          "title": "马来西亚通史",
+          "progress": 9,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/5b632b60813ab8cf9g01354d"
+        }
+      ]
+    },
+    {
+      "id": "848235",
+      "title": "人生所有经过的路，都是必经之路",
+      "author": "鬼脚七",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/235/848235/t6_848235.jpg",
+      "versions": [
+        {
+          "id": "848235",
+          "title": "人生所有经过的路，都是必经之路",
+          "progress": 8,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/256327705cf16b256c52aec"
+        }
+      ]
+    },
+    {
+      "id": "857316",
+      "title": "上瘾：让用户养成使用习惯的四大产品逻辑",
+      "author": "尼尔·埃亚尔 瑞安·胡佛",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/18/YueWen_857316/t6_YueWen_857316.jpg",
+      "versions": [
+        {
+          "id": "857316",
+          "title": "上瘾：让用户养成使用习惯的四大产品逻辑",
+          "progress": 61,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/6c832db05d14e46c82bca3e"
+        }
+      ]
+    },
+    {
+      "id": "856423",
+      "title": "所谓情商高，就是会说话",
+      "author": "佐佐木圭一",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/16/YueWen_856423/t6_YueWen_856423.jpg",
+      "versions": [
+        {
+          "id": "856423",
+          "title": "所谓情商高，就是会说话",
+          "progress": 5,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/a3432e905d1167a34d55b3e"
+        }
+      ]
+    },
+    {
+      "id": "920939",
+      "title": "资本论（超值白金版）",
+      "author": "马克思",
+      "category": "哲学宗教",
+      "cover": "https://cdn.weread.qq.com/weread/cover/84/YueWen_920939/t6_YueWen_920939.jpg",
+      "versions": [
+        {
+          "id": "920939",
+          "title": "资本论（超值白金版）",
+          "progress": 7,
+          "markedFinished": true,
+          "updatedAt": "2026-06-27",
+          "url": "https://weread.qq.com/web/reader/f1c32f005e0d6bf1c506c79"
+        }
+      ]
+    },
+    {
+      "id": "22806928",
+      "title": "你不知道的JavaScript（中卷）",
+      "author": "凯尔·辛普森",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/85/YueWen_22806928/t6_YueWen_22806928.jpg",
+      "versions": [
+        {
+          "id": "22806928",
+          "title": "你不知道的JavaScript（中卷）",
+          "progress": 9,
+          "markedFinished": true,
+          "updatedAt": "2026-06-25",
+          "url": "https://weread.qq.com/web/reader/f5d32510715c0190f5ddc42"
+        }
+      ]
+    },
+    {
+      "id": "23566637",
+      "title": "艺术的故事",
+      "author": "房龙",
+      "category": "艺术",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/637/23566637/t6_23566637.jpg",
+      "versions": [
+        {
+          "id": "23566637",
+          "title": "艺术的故事",
+          "progress": 78,
+          "markedFinished": true,
+          "updatedAt": "2026-06-25",
+          "url": "https://weread.qq.com/web/reader/181320f07167992d1816043"
+        }
+      ]
+    },
+    {
+      "id": "814415",
+      "title": "人间词话",
+      "author": "[清]王国维",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/415/814415/t6_814415.jpg",
+      "versions": [
+        {
+          "id": "814415",
+          "title": "人间词话",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-06-22",
+          "url": "https://weread.qq.com/web/reader/97f32cc05c6d4f97f65e89c"
+        }
+      ]
+    },
+    {
+      "id": "840995",
+      "title": "万历十五年（精装版）",
+      "author": "黄仁宇",
+      "category": "历史",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/995/840995/t6_840995.jpg",
+      "versions": [
+        {
+          "id": "840995",
+          "title": "万历十五年（精装版）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-22",
+          "url": "https://weread.qq.com/web/reader/091322d05cd5230913042e3"
+        }
+      ]
+    },
+    {
+      "id": "921568",
+      "title": "原则",
+      "author": "瑞·达利欧",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/23/YueWen_921568/t6_YueWen_921568.jpg",
+      "versions": [
+        {
+          "id": "921568",
+          "title": "原则",
+          "progress": 88,
+          "markedFinished": true,
+          "updatedAt": "2026-06-22",
+          "url": "https://weread.qq.com/web/reader/848324405e0fe08483ab6a4"
+        }
+      ]
+    },
+    {
+      "id": "629534",
+      "title": "中国自助游（2015全新升级版）",
+      "author": "《中国自助游》编辑部",
+      "category": "生活百科",
+      "cover": "https://cdn.weread.qq.com/weread/cover/93/YueWen_629534/t6_YueWen_629534.jpg",
+      "versions": [
+        {
+          "id": "629534",
+          "title": "中国自助游（2015全新升级版）",
+          "progress": 5,
+          "markedFinished": true,
+          "updatedAt": "2026-06-22",
+          "url": "https://weread.qq.com/web/reader/8b832650599b1e8b8afe166"
+        }
+      ]
+    },
+    {
+      "id": "855833",
+      "title": "娱乐至死",
+      "author": "尼尔·波兹曼",
+      "category": "社会文化",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/833/855833/t6_855833.jpg",
+      "versions": [
+        {
+          "id": "855833",
+          "title": "娱乐至死",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-06-19",
+          "url": "https://weread.qq.com/web/reader/aef326f05d0f19aef085d2b"
+        }
+      ]
+    },
+    {
+      "id": "33810600",
+      "title": "高效能人士的七个习惯（30周年纪念版）（全新增订版）",
+      "author": "史蒂芬·柯维",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/600/33810600/t6_33810600.jpg",
+      "versions": [
+        {
+          "id": "33810600",
+          "title": "高效能人士的七个习惯（30周年纪念版）（全新增订版）",
+          "progress": 48,
+          "markedFinished": true,
+          "updatedAt": "2026-06-18",
+          "url": "https://weread.qq.com/web/reader/56d325907203e8a856def7f"
+        }
+      ]
+    },
+    {
+      "id": "23358839",
+      "title": "庄子",
+      "author": "孙通海译注",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/97/YueWen_23358839/t6_YueWen_23358839.jpg",
+      "versions": [
+        {
+          "id": "23358839",
+          "title": "庄子（中华经典指掌文库）",
+          "progress": 6,
+          "markedFinished": false,
+          "updatedAt": "2026-06-18",
+          "url": "https://weread.qq.com/web/reader/c3832ec071646d77c38c45c"
+        },
+        {
+          "id": "131875",
+          "title": "庄子",
+          "progress": 15,
+          "markedFinished": false,
+          "updatedAt": "2018-05-17",
+          "url": "https://weread.qq.com/web/reader/db932390520323db9b1c794"
+        },
+        {
+          "id": "606533",
+          "title": "庄子（读好书系列）",
+          "progress": 27,
+          "markedFinished": false,
+          "updatedAt": "2017-05-17",
+          "url": "https://weread.qq.com/web/reader/09a3209059414509a2a60f8"
+        }
+      ]
+    },
+    {
+      "id": "843464",
+      "title": "刻意练习：如何从新手到大师",
+      "author": "[美]安德斯·艾利克森 [英]罗伯特·普尔",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/95/YueWen_843464/t6_YueWen_843464.jpg",
+      "versions": [
+        {
+          "id": "843464",
+          "title": "刻意练习：如何从新手到大师",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-06-17",
+          "url": "https://weread.qq.com/web/reader/2e932c005cdec82e9a0e3e8"
+        }
+      ]
+    },
+    {
+      "id": "3300028083",
+      "title": "5小时吃透小红书",
+      "author": "厦九九　著",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/62/cpPlatform_qd25iQSrcjiTaFcJNy9viE/t6_cpPlatform_qd25iQSrcjiTaFcJNy9viE.jpg",
+      "versions": [
+        {
+          "id": "3300028083",
+          "title": "5小时吃透小红书",
+          "progress": 19,
+          "markedFinished": true,
+          "updatedAt": "2026-06-16",
+          "url": "https://weread.qq.com/web/reader/dea328b0813ab7178g013f30"
+        }
+      ]
+    },
+    {
+      "id": "33810356",
+      "title": "禅与摩托车维修艺术",
+      "author": "罗伯特·M.波西格",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/1/yuewen_33810356/t6_yuewen_338103561689835422.jpg",
+      "versions": [
+        {
+          "id": "33810356",
+          "title": "禅与摩托车维修艺术",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-16",
+          "url": "https://weread.qq.com/web/reader/3a332f307203e7b43a34b29"
+        }
+      ]
+    },
+    {
+      "id": "3300053062",
+      "title": "程序员的底层思维",
+      "author": "张建飞",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/21/cpplatform_jj1czpx4mwbpef3a748n99/t6_cpplatform_jj1czpx4mwbpef3a748n991679298569.jpg",
+      "versions": [
+        {
+          "id": "3300053062",
+          "title": "程序员的底层思维",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-16",
+          "url": "https://weread.qq.com/web/reader/dac32720813ab7b3ag012a22"
+        }
+      ]
+    },
+    {
+      "id": "30179194",
+      "title": "代码精进之路：从码农到工匠",
+      "author": "张建飞",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/2/YueWen_30179194/t6_YueWen_30179194.jpg",
+      "versions": [
+        {
+          "id": "30179194",
+          "title": "代码精进之路：从码农到工匠",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-16",
+          "url": "https://weread.qq.com/web/reader/81132f5071cc7f7a81151c9"
+        }
+      ]
+    },
+    {
+      "id": "3300101839",
+      "title": "计算机程序的构造和解释（JavaScript版）",
+      "author": "[美]哈罗德·阿贝尔森  [美]杰拉尔德·杰伊·萨斯曼  [德]马丁·亨茨  托拜厄斯·瑞格斯塔德",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/94/cpplatform_8sd8xfqyucbexmrrpf3zva/t6_cpplatform_8sd8xfqyucbexmrrpf3zva1717386089.jpg",
+      "versions": [
+        {
+          "id": "3300101839",
+          "title": "计算机程序的构造和解释（JavaScript版）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-16",
+          "url": "https://weread.qq.com/web/reader/542325f0813ab8e47g019062"
+        }
+      ]
+    },
+    {
+      "id": "3300027766",
+      "title": "美国儿科学会育儿百科（第七版）",
+      "author": "美国儿科学会",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/24/cpPlatform_jJwozpZTRxYDFwwjZRfzck/t6_cpPlatform_jJwozpZTRxYDFwwjZRfzck.jpg",
+      "versions": [
+        {
+          "id": "3300027766",
+          "title": "美国儿科学会育儿百科（第七版）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-16",
+          "url": "https://weread.qq.com/web/reader/0b632700813ab7158g01664e"
+        }
+      ]
+    },
+    {
+      "id": "40055543",
+      "title": "置身事内：中国政府与经济发展",
+      "author": "兰小欢",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/52/YueWen_40055543/t6_YueWen_40055543.jpg",
+      "versions": [
+        {
+          "id": "40055543",
+          "title": "置身事内：中国政府与经济发展",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-16",
+          "url": "https://weread.qq.com/web/reader/2a332d10726332f72a34943"
+        }
+      ]
+    },
+    {
+      "id": "635942",
+      "title": "反脆弱：从不确定性中获益",
+      "author": "纳西姆·尼古拉斯·塔勒布",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/942/635942/t6_635942.jpg",
+      "versions": [
+        {
+          "id": "635942",
+          "title": "反脆弱：从不确定性中获益",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-15",
+          "url": "https://weread.qq.com/web/reader/0633241059b4260632af2bf"
+        }
+      ]
+    },
+    {
+      "id": "3300070510",
+      "title": "软技能：代码之外的生存指南（第2版）",
+      "author": "约翰·Z.森梅兹",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/83/cpplatform_5aysnpdnnnwetmvmcchajm/t6_cpplatform_5aysnpdnnnwetmvmcchajm1694002715.jpg",
+      "versions": [
+        {
+          "id": "3300070510",
+          "title": "软技能：代码之外的生存指南（第2版）",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-15",
+          "url": "https://weread.qq.com/web/reader/d7432d00813ab820bg010313"
+        }
+      ]
+    },
+    {
+      "id": "29963761",
+      "title": "厚黑学全集（足本典藏版）",
+      "author": "李宗吾",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/87/YueWen_29963761/t6_YueWen_29963761.jpg",
+      "versions": [
+        {
+          "id": "29963761",
+          "title": "厚黑学全集（足本典藏版）",
+          "progress": 68,
+          "markedFinished": true,
+          "updatedAt": "2026-06-14",
+          "url": "https://weread.qq.com/web/reader/1e532a3071c935f11e5669b"
+        }
+      ]
+    },
+    {
+      "id": "3300046707",
+      "title": "人生只有一件事",
+      "author": "金惟纯",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/10/cpplatform_9jmnaaecwrxf8p3bfrc7yh/t6_cpplatform_9jmnaaecwrxf8p3bfrc7yh1674023485.jpg",
+      "versions": [
+        {
+          "id": "3300046707",
+          "title": "人生只有一件事",
+          "progress": 64,
+          "markedFinished": true,
+          "updatedAt": "2026-06-12",
+          "url": "https://weread.qq.com/web/reader/1d932fb0813ab78beg017bc3"
+        }
+      ]
+    },
+    {
+      "id": "3300048195",
+      "title": "正面管教（修订版）",
+      "author": "简•尼尔森",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/33/cpplatform_nxkyuocaxczycncqyfugye/t6_cpplatform_nxkyuocaxczycncqyfugye1675999568.jpg",
+      "versions": [
+        {
+          "id": "3300048195",
+          "title": "正面管教（修订版）",
+          "progress": 91,
+          "markedFinished": true,
+          "updatedAt": "2026-06-12",
+          "url": "https://weread.qq.com/web/reader/bbc32a50813ab7953g01522a"
+        }
+      ]
+    },
+    {
+      "id": "907755",
+      "title": "网络是怎样连接的",
+      "author": "户根勤",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/15/YueWen_907755/t6_YueWen_907755.jpg",
+      "versions": [
+        {
+          "id": "907755",
+          "title": "网络是怎样连接的",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-11",
+          "url": "https://weread.qq.com/web/reader/6f932ec05dd9eb6f96f14b9"
+        }
+      ]
+    },
+    {
+      "id": "3300019014",
+      "title": "活法",
+      "author": "稻盛和夫",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/14/3300019014/t6_3300019014.jpg",
+      "versions": [
+        {
+          "id": "3300019014",
+          "title": "活法",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-06-10",
+          "url": "https://weread.qq.com/web/reader/1fb32560813ab6dedg014d47"
+        }
+      ]
+    },
+    {
+      "id": "25856507",
+      "title": "世界尽头与冷酷仙境",
+      "author": "[日]村上春树",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/507/25856507/t6_25856507.jpg",
+      "versions": [
+        {
+          "id": "25856507",
+          "title": "世界尽头与冷酷仙境",
+          "progress": 58,
+          "markedFinished": true,
+          "updatedAt": "2026-06-09",
+          "url": "https://weread.qq.com/web/reader/d5d32f90718a89fbd5db004"
+        }
+      ]
+    },
+    {
+      "id": "927231",
+      "title": "曾国藩（全三册）",
+      "author": "唐浩明",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/86/YueWen_927231/t6_YueWen_927231.jpg",
+      "versions": [
+        {
+          "id": "927231",
+          "title": "曾国藩（全三册）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/211320a05e25ff2119d8731"
+        }
+      ]
+    },
+    {
+      "id": "918496",
+      "title": "常识",
+      "author": "托马斯·潘恩",
+      "category": "政治军事",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/496/918496/t6_918496.jpg",
+      "versions": [
+        {
+          "id": "918496",
+          "title": "常识",
+          "progress": 26,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/35d325005e03e035d41c50f"
+        }
+      ]
+    },
+    {
+      "id": "40638608",
+      "title": "崔玉涛自然养育法",
+      "author": "崔玉涛 刘子君",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/47/YueWen_40638608/t6_YueWen_40638608.jpg",
+      "versions": [
+        {
+          "id": "40638608",
+          "title": "崔玉涛自然养育法",
+          "progress": 81,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/38132d10726c1890381088d"
+        }
+      ]
+    },
+    {
+      "id": "914561",
+      "title": "格鲁夫给经理人的第一课（畅销版）",
+      "author": "安迪·格鲁夫",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/561/914561/t6_914561.jpg",
+      "versions": [
+        {
+          "id": "914561",
+          "title": "格鲁夫给经理人的第一课（畅销版）",
+          "progress": 28,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/b3b320a05df481b3bea6e62"
+        }
+      ]
+    },
+    {
+      "id": "3300185594",
+      "title": "汉书（全本全注全译版，辛德勇导读）",
+      "author": "[汉]班固",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/38/cpplatform_mmud2397usbenysstuazcb/t6_cpplatform_mmud2397usbenysstuazcb1765527978.jpg",
+      "versions": [
+        {
+          "id": "3300185594",
+          "title": "汉书（全本全注全译版，辛德勇导读）",
+          "progress": 5,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/e9d32200813abaeffg0149f2"
+        }
+      ]
+    },
+    {
+      "id": "23691233",
+      "title": "如何想到又做到",
+      "author": "[美]肖恩·扬",
+      "category": "心理",
+      "cover": "https://cdn.weread.qq.com/weread/cover/85/YueWen_23691233/t6_YueWen_23691233.jpg",
+      "versions": [
+        {
+          "id": "23691233",
+          "title": "如何想到又做到",
+          "progress": 38,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/b253292071697fe1b25cd24"
+        }
+      ]
+    },
+    {
+      "id": "37683761",
+      "title": "深入浅出Vue.js",
+      "author": "刘博文",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/97/YueWen_37683761/t6_YueWen_37683761.jpg",
+      "versions": [
+        {
+          "id": "37683761",
+          "title": "深入浅出Vue.js",
+          "progress": 2,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/f8632810723f0231f86d9aa"
+        }
+      ]
+    },
+    {
+      "id": "23303612",
+      "title": "瓦尔登湖",
+      "author": "梭罗",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/612/23303612/t6_23303612.jpg",
+      "versions": [
+        {
+          "id": "23303612",
+          "title": "瓦尔登湖",
+          "progress": 31,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/f4632a00716395bcf46ca37"
+        }
+      ]
+    },
+    {
+      "id": "928645",
+      "title": "职场动物进化手册",
+      "author": "雾满拦江",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/645/928645/t6_928645.jpg",
+      "versions": [
+        {
+          "id": "928645",
+          "title": "职场动物进化手册",
+          "progress": 16,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/a5b328805e2b85a5b4f894a"
+        }
+      ]
+    },
+    {
+      "id": "807885",
+      "title": "MacTalk·跨越边界",
+      "author": "池建强",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/18/yuewen_807885/t6_yuewen_8078851784279700.jpg",
+      "versions": [
+        {
+          "id": "807885",
+          "title": "MacTalk·跨越边界",
+          "progress": 85,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/a53326405c53cda53fec089"
+        }
+      ]
+    },
+    {
+      "id": "31403502",
+      "title": "React Native移动开发实战（第2版）",
+      "author": "向治洪",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/70/YueWen_31403502/t6_YueWen_31403502.jpg",
+      "versions": [
+        {
+          "id": "31403502",
+          "title": "React Native移动开发实战（第2版）",
+          "progress": 83,
+          "markedFinished": true,
+          "updatedAt": "2026-06-07",
+          "url": "https://weread.qq.com/web/reader/32932df071df2dee32933c1"
+        }
+      ]
+    },
+    {
+      "id": "3300021317",
+      "title": "父母做这9件事，孩子从厌学变爱学",
+      "author": "刘亮",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/17/3300021317/t6_3300021317.jpg",
+      "versions": [
+        {
+          "id": "3300021317",
+          "title": "父母做这9件事，孩子从厌学变爱学",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/66332870813ab6ed3g017ae2"
+        }
+      ]
+    },
+    {
+      "id": "713413",
+      "title": "教出乐观的孩子：让孩子受用一生的幸福经典（经典版）",
+      "author": "马丁·塞利格曼",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_713413/t6_YueWen_713413.jpg",
+      "versions": [
+        {
+          "id": "713413",
+          "title": "教出乐观的孩子：让孩子受用一生的幸福经典（经典版）",
+          "progress": 3,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/611325805ae2c561133540c"
+        }
+      ]
+    },
+    {
+      "id": "3300095580",
+      "title": "跨过鸭绿江：抗美援朝影像记忆",
+      "author": "《跨过鸭绿江》编写组",
+      "category": "政治军事",
+      "cover": "https://cdn.weread.qq.com/weread/cover/30/cpplatform_c4mvlyyz1jwuvvd3sbc3r8/t6_cpplatform_c4mvlyyz1jwuvvd3sbc3r81713338431.jpg",
+      "versions": [
+        {
+          "id": "3300095580",
+          "title": "跨过鸭绿江：抗美援朝影像记忆",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/8a232280813ab8bd6g01010c"
+        }
+      ]
+    },
+    {
+      "id": "24952969",
+      "title": "鲁迅全集（全十八卷）",
+      "author": "鲁迅",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/969/24952969/t6_24952969.jpg",
+      "versions": [
+        {
+          "id": "24952969",
+          "title": "鲁迅全集（全十八卷）",
+          "progress": 53,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/801320b0717cc0898015b87"
+        }
+      ]
+    },
+    {
+      "id": "716664",
+      "title": "蒙台梭利10分钟亲子早教（0-3岁）",
+      "author": "夕子",
+      "category": "教育学习",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/664/716664/t6_716664.jpg",
+      "versions": [
+        {
+          "id": "716664",
+          "title": "蒙台梭利10分钟亲子早教（0-3岁）",
+          "progress": 8,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/237326b05aef7823768664c"
+        }
+      ]
+    },
+    {
+      "id": "3300027135",
+      "title": "怦然心动：中英双语新版",
+      "author": "文德琳·范·德拉安南",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/7/cpPlatform_8edrZHSwUnQXW5ai62uCtg/t6_cpPlatform_8edrZHSwUnQXW5ai62uCtg.jpg",
+      "versions": [
+        {
+          "id": "3300027135",
+          "title": "怦然心动：中英双语新版",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/5ce32420813ab7119g01589f"
+        }
+      ]
+    },
+    {
+      "id": "788370",
+      "title": "奇点临近",
+      "author": "雷·库兹韦尔",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_788370/t6_YueWen_788370.jpg",
+      "versions": [
+        {
+          "id": "788370",
+          "title": "奇点临近",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/85d326e05c079285d02a273"
+        }
+      ]
+    },
+    {
+      "id": "3300160461",
+      "title": "如何快速了解一个行业",
+      "author": "肖璟",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/10/cpplatform_sg3znank75by5ydmb6p7sj/t6_cpplatform_sg3znank75by5ydmb6p7sj1756275316.jpg",
+      "versions": [
+        {
+          "id": "3300160461",
+          "title": "如何快速了解一个行业",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/4a1321f0813aba52eg011a0a"
+        }
+      ]
+    },
+    {
+      "id": "25462428",
+      "title": "深入浅出WebAssembly",
+      "author": "于航",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/428/25462428/t6_25462428.jpg",
+      "versions": [
+        {
+          "id": "25462428",
+          "title": "深入浅出WebAssembly",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/9f232de07184869c9f2cc73"
+        }
+      ]
+    },
+    {
+      "id": "3300024931",
+      "title": "小米创业思考",
+      "author": "雷军 徐洁云",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/31/3300024931/t6_3300024931.jpg",
+      "versions": [
+        {
+          "id": "3300024931",
+          "title": "小米创业思考",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/43832a10813ab703dg011c78"
+        }
+      ]
+    },
+    {
+      "id": "25614397",
+      "title": "学会提问（原书第11版）",
+      "author": "尼尔·布朗 斯图尔特·基利",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/15/YueWen_25614397/t6_YueWen_25614397.jpg",
+      "versions": [
+        {
+          "id": "25614397",
+          "title": "学会提问（原书第11版）",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/42932ec07186d83d429d640"
+        }
+      ]
+    },
+    {
+      "id": "22692329",
+      "title": "CSS世界",
+      "author": "张鑫旭",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/23/YueWen_22692329/t6_YueWen_22692329.jpg",
+      "versions": [
+        {
+          "id": "22692329",
+          "title": "CSS世界",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-06",
+          "url": "https://weread.qq.com/web/reader/00932ab0715a41e90093ab5"
+        }
+      ]
+    },
+    {
+      "id": "41787784",
+      "title": "大话设计模式",
+      "author": "程杰",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/42/YueWen_41787784/t6_YueWen_41787784.jpg",
+      "versions": [
+        {
+          "id": "41787784",
+          "title": "大话设计模式",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-05",
+          "url": "https://weread.qq.com/web/reader/5d932bf0727da1885d91283"
+        }
+      ]
+    },
+    {
+      "id": "688875",
+      "title": "货币战争4：战国时代",
+      "author": "宋鸿兵",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/88/YueWen_688875/t6_YueWen_688875.jpg",
+      "versions": [
+        {
+          "id": "688875",
+          "title": "货币战争4：战国时代",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-06-05",
+          "url": "https://weread.qq.com/web/reader/757329605a82eb7578dae61"
+        }
+      ]
+    },
+    {
+      "id": "25169058",
+      "title": "作家榜名著：月亮与六便士",
+      "author": "[英]毛姆",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/58/yuewen_25169058/t6_yuewen_251690581750754477.jpg",
+      "versions": [
+        {
+          "id": "25169058",
+          "title": "作家榜名著：月亮与六便士",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-05",
+          "url": "https://weread.qq.com/web/reader/8d53201071800ca28d5de36"
+        }
+      ]
+    },
+    {
+      "id": "22791651",
+      "title": "《金刚经》说什么",
+      "author": "南怀瑾",
+      "category": "哲学宗教",
+      "cover": "https://cdn.weread.qq.com/weread/cover/87/YueWen_22791651/t6_YueWen_22791651.jpg",
+      "versions": [
+        {
+          "id": "22791651",
+          "title": "《金刚经》说什么",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/e5832360715bc5e3e581083"
+        }
+      ]
+    },
+    {
+      "id": "598097",
+      "title": "0~3岁育儿经典",
+      "author": "李明辉主编",
+      "category": "教育学习",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/97/598097/t6_598097.jpg",
+      "versions": [
+        {
+          "id": "598097",
+          "title": "0~3岁育儿经典",
+          "progress": 7,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/dfa32bf0592051dfa783ef6"
+        }
+      ]
+    },
+    {
+      "id": "812778",
+      "title": "金庸作品集（全集共36册）",
+      "author": "金庸",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/95/yuewen_812778/t6_yuewen_8127781744883578.jpg",
+      "versions": [
+        {
+          "id": "812778",
+          "title": "金庸作品集（全集共36册）",
+          "progress": 22,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/d20320905c66ead2099adbc"
+        }
+      ]
+    },
+    {
+      "id": "598104",
+      "title": "每天10分钟胎教故事",
+      "author": "悦然",
+      "category": "教育学习",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/104/598104/t6_598104.jpg",
+      "versions": [
+        {
+          "id": "598104",
+          "title": "每天10分钟胎教故事",
+          "progress": 78,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/8f532f705920588f5bbf355"
+        }
+      ]
+    },
+    {
+      "id": "43806817",
+      "title": "如何开一家小而美的店",
+      "author": "陈国圹",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/817/43806817/t6_43806817.jpg",
+      "versions": [
+        {
+          "id": "43806817",
+          "title": "如何开一家小而美的店",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/baf32110729c7061bafd96c"
+        }
+      ]
+    },
+    {
+      "id": "933890",
+      "title": "深入浅出RxJS",
+      "author": "程墨",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/94/YueWen_933890/t6_YueWen_933890.jpg",
+      "versions": [
+        {
+          "id": "933890",
+          "title": "深入浅出RxJS",
+          "progress": 13,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/cfd321e05e4002cfd1a1ec2"
+        }
+      ]
+    },
+    {
+      "id": "931848",
+      "title": "诗经（果麦经典）",
+      "author": "骆玉明解注 细井徇撰绘",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_931848/t6_YueWen_931848.jpg",
+      "versions": [
+        {
+          "id": "931848",
+          "title": "诗经（果麦经典）",
+          "progress": 8,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/28332af05e3808283d8680a"
+        }
+      ]
+    },
+    {
+      "id": "25449786",
+      "title": "数据可视化（第2版）",
+      "author": "陈为 沈则潜 陶煜波等编著",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/71/YueWen_25449786/t6_YueWen_25449786.jpg",
+      "versions": [
+        {
+          "id": "25449786",
+          "title": "数据可视化（第2版）",
+          "progress": 16,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/fd8323407184553afd86a78"
+        }
+      ]
+    },
+    {
+      "id": "32084362",
+      "title": "我们今天怎样做父亲：梁启超谈家庭教育",
+      "author": "[清]梁启超著 彭树欣选评",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/34/YueWen_32084362/t6_YueWen_32084362.jpg",
+      "versions": [
+        {
+          "id": "32084362",
+          "title": "我们今天怎样做父亲：梁启超谈家庭教育",
+          "progress": 61,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/5723291071e9918a572e823"
+        }
+      ]
+    },
+    {
+      "id": "22523972",
+      "title": "最美宋词",
+      "author": "苏缨",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/42/YueWen_22523972/t6_YueWen_22523972.jpg",
+      "versions": [
+        {
+          "id": "22523972",
+          "title": "最美宋词",
+          "progress": 93,
+          "markedFinished": true,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/c77322d07157b044c776f76"
+        }
+      ]
+    },
+    {
+      "id": "3300124413",
+      "title": "GPT图解 大模型是怎样构建的",
+      "author": "黄佳",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/33/cpplatform_gickgwdxnbffxwdubus7lm/t6_cpplatform_gickgwdxnbffxwdubus7lm1733738924.jpg",
+      "versions": [
+        {
+          "id": "3300124413",
+          "title": "GPT图解 大模型是怎样构建的",
+          "progress": 16,
+          "markedFinished": false,
+          "updatedAt": "2026-06-04",
+          "url": "https://weread.qq.com/web/reader/5a032360813ab9719g013cb4"
+        }
+      ]
+    },
+    {
+      "id": "3300013357",
+      "title": "大话数据结构",
+      "author": "程杰",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/57/3300013357/t6_3300013357.jpg",
+      "versions": [
+        {
+          "id": "3300013357",
+          "title": "大话数据结构",
+          "progress": 0,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/f7c324d0813ab6bb7g017833"
+        }
+      ]
+    },
+    {
+      "id": "3300128403",
+      "title": "大模型RAG实战：RAG原理、应用与系统构建",
+      "author": "汪鹏 谷清水 卞龙鹏",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/88/cpplatform_npacht88yjr411ttbnagkw/t6_cpplatform_npacht88yjr411ttbnagkw1735528120.jpg",
+      "versions": [
+        {
+          "id": "3300128403",
+          "title": "大模型RAG实战：RAG原理、应用与系统构建",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/d8732b60813ab98a8g01395b"
+        }
+      ]
+    },
+    {
+      "id": "773202",
+      "title": "大型网站技术架构",
+      "author": "李智慧",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/202/773202/t6_773202.jpg",
+      "versions": [
+        {
+          "id": "773202",
+          "title": "大型网站技术架构",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/cc1326e05bcc52cc1669fc0"
+        }
+      ]
+    },
+    {
+      "id": "33091646",
+      "title": "金赛性学报告（男人篇&女人篇）",
+      "author": "阿尔弗雷德·C·金赛",
+      "category": "生活百科",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/646/33091646/t6_33091646.jpg",
+      "versions": [
+        {
+          "id": "33091646",
+          "title": "金赛性学报告（男人篇&女人篇）",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/cc532da071f8f03ecc59ef6"
+        }
+      ]
+    },
+    {
+      "id": "25135387",
+      "title": "流浪地球",
+      "author": "刘慈欣",
+      "category": "精品小说",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/387/25135387/t6_25135387.jpg",
+      "versions": [
+        {
+          "id": "25135387",
+          "title": "流浪地球",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/4db32510717f891b4dbdaca"
+        }
+      ]
+    },
+    {
+      "id": "43822033",
+      "title": "人间修炼指南",
+      "author": "半佛仙人",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/39/YueWen_43822033/t6_YueWen_43822033.jpg",
+      "versions": [
+        {
+          "id": "43822033",
+          "title": "人间修炼指南",
+          "progress": 12,
+          "markedFinished": false,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/45c32cd0729cabd145ce668"
+        }
+      ]
+    },
+    {
+      "id": "22623667",
+      "title": "索尼微单摄影技巧大全",
+      "author": "FUN视觉 雷波",
+      "category": "艺术",
+      "cover": "https://cdn.weread.qq.com/weread/cover/20/YueWen_22623667/t6_YueWen_22623667.jpg",
+      "versions": [
+        {
+          "id": "22623667",
+          "title": "索尼微单摄影技巧大全",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/d83326b0715935b3d8320f0"
+        }
+      ]
+    },
+    {
+      "id": "29135954",
+      "title": "晚安，宝贝：睡前胎教故事",
+      "author": "一一妈妈",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/4/YueWen_29135954/t6_YueWen_29135954.jpg",
+      "versions": [
+        {
+          "id": "29135954",
+          "title": "晚安，宝贝：睡前胎教故事",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/6a6321d071bc94526a686e6"
+        }
+      ]
+    },
+    {
+      "id": "852290",
+      "title": "未来简史：从智人到智神",
+      "author": "尤瓦尔·赫拉利",
+      "category": "社会文化",
+      "cover": "https://cdn.weread.qq.com/weread/cover/44/YueWen_852290/t6_YueWen_852290.jpg",
+      "versions": [
+        {
+          "id": "852290",
+          "title": "未来简史：从智人到智神",
+          "progress": 92,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/cf3326205d0142cf3606771"
+        }
+      ]
+    },
+    {
+      "id": "36213094",
+      "title": "AI 3.0",
+      "author": "梅拉妮·米歇尔",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/94/36213094/t6_36213094.jpg",
+      "versions": [
+        {
+          "id": "36213094",
+          "title": "AI 3.0",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-03",
+          "url": "https://weread.qq.com/web/reader/a72320c072289166a7200ff"
+        }
+      ]
+    },
+    {
+      "id": "22806945",
+      "title": "你不知道的JavaScript（上卷）",
+      "author": "凯尔辛普森",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/945/22806945/t6_22806945.jpg",
+      "versions": [
+        {
+          "id": "22806945",
+          "title": "你不知道的JavaScript（上卷）",
+          "progress": 18,
+          "markedFinished": true,
+          "updatedAt": "2026-06-02",
+          "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8"
+        }
+      ]
+    },
+    {
+      "id": "33040347",
+      "title": "一往无前",
+      "author": "范海涛",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/347/33040347/t6_33040347.jpg",
+      "versions": [
+        {
+          "id": "33040347",
+          "title": "一往无前",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-06-02",
+          "url": "https://weread.qq.com/web/reader/50732ef071f827db507bad1"
+        }
+      ]
+    },
+    {
+      "id": "3300055099",
+      "title": "ES6 标准入门（第2版）",
+      "author": "阮一峰",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/49/cpplatform_396tgw74wpvstplzlsfsjg/t6_cpplatform_396tgw74wpvstplzlsfsjg1681196202.jpg",
+      "versions": [
+        {
+          "id": "3300055099",
+          "title": "ES6 标准入门（第2版）",
+          "progress": 58,
+          "markedFinished": true,
+          "updatedAt": "2026-06-02",
+          "url": "https://weread.qq.com/web/reader/d2432530813ab7c05g019f02"
+        }
+      ]
+    },
+    {
+      "id": "729871",
+      "title": "JavaScript框架设计",
+      "author": "司徒正美编著",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/84/YueWen_729871/t6_YueWen_729871.jpg",
+      "versions": [
+        {
+          "id": "729871",
+          "title": "JavaScript框架设计",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-06-02",
+          "url": "https://weread.qq.com/web/reader/56d32bd05b230f56d1828f0"
+        }
+      ]
+    },
+    {
+      "id": "26211817",
+      "title": "JavaScript高级程序设计（第3版）",
+      "author": "Nicholas C.Zakas",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/88/YueWen_26211817/t6_YueWen_26211817.jpg",
+      "versions": [
+        {
+          "id": "26211817",
+          "title": "JavaScript高级程序设计（第3版）",
+          "progress": 95,
+          "markedFinished": true,
+          "updatedAt": "2026-06-01",
+          "url": "https://weread.qq.com/web/reader/eb232f50718ff5e9eb2a999"
+        }
+      ]
+    },
+    {
+      "id": "3300141394",
+      "title": "出师表",
+      "author": "[三国]诸葛亮 著 / 徐若央 解读",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/81/cpplatform_aoa96apxfjoo5jstw9fkxh/t6_cpplatform_aoa96apxfjoo5jstw9fkxh1752237721.jpg",
+      "versions": [
+        {
+          "id": "3300141394",
+          "title": "前出师表（轻古籍）",
+          "progress": 86,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/31432460813ab9dbbg01457b"
+        },
+        {
+          "id": "3300130668",
+          "title": "出师表",
+          "progress": 96,
+          "markedFinished": true,
+          "updatedAt": "2026-05-21",
+          "url": "https://weread.qq.com/web/reader/ab932f50813ab998ag0187c5"
+        }
+      ]
+    },
+    {
+      "id": "3300147172",
+      "title": "归去来兮辞（轻古籍）",
+      "author": "[东晋]陶渊明著 徐若央解读",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/66/cpplatform_gtxzhwzy43xac3becjbrsk/t6_cpplatform_gtxzhwzy43xac3becjbrsk1752237723.jpg",
+      "versions": [
+        {
+          "id": "3300147172",
+          "title": "归去来兮辞（轻古籍）",
+          "progress": 88,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/45f32190813ab9ffdg012f39"
+        }
+      ]
+    },
+    {
+      "id": "3300164335",
+      "title": "诫子书（千古奇文）",
+      "author": "[三国]诸葛亮",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/59/cpplatform_kwwk8grgettc4fz9h4p1jb/t6_cpplatform_kwwk8grgettc4fz9h4p1jb1757668754.jpg",
+      "versions": [
+        {
+          "id": "3300164335",
+          "title": "诫子书（千古奇文）",
+          "progress": 0,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/78c32120813aba6b1g015123"
+        }
+      ]
+    },
+    {
+      "id": "3300180761",
+      "title": "离骚",
+      "author": "[战国]屈原",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/35/cpplatform_9zleprfs3jptnmaz7fwvrx/t6_cpplatform_9zleprfs3jptnmaz7fwvrx1764583201.jpg",
+      "versions": [
+        {
+          "id": "3300180761",
+          "title": "离骚",
+          "progress": 0,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/e8032120813abad1cg0115b9"
+        }
+      ]
+    },
+    {
+      "id": "3300120107",
+      "title": "洛神赋",
+      "author": "[三国]曹植",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/11/cpplatform_cxmjukisyk7vvhchitqrec/t6_cpplatform_cxmjukisyk7vvhchitqrec1731054902.jpg",
+      "versions": [
+        {
+          "id": "3300120107",
+          "title": "洛神赋",
+          "progress": 96,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/36432460813ab956ag017915"
+        }
+      ]
+    },
+    {
+      "id": "30182147",
+      "title": "美国金宝贝早教婴幼儿游戏（0~3岁）",
+      "author": "温迪·玛斯 罗尼科恩·菜德曼",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/86/YueWen_30182147/t6_YueWen_30182147.jpg",
+      "versions": [
+        {
+          "id": "30182147",
+          "title": "美国金宝贝早教婴幼儿游戏（0~3岁）",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/91e329d071cc8b0391e226b"
+        }
+      ]
+    },
+    {
+      "id": "3300183871",
+      "title": "神异经",
+      "author": "[汉]东方朔",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/54/cpplatform_gajudwshw3yfo7yejngrp2/t6_cpplatform_gajudwshw3yfo7yejngrp21765248116.jpg",
+      "versions": [
+        {
+          "id": "3300183871",
+          "title": "神异经",
+          "progress": 0,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/24232d90813abae53g011f42"
+        }
+      ]
+    },
+    {
+      "id": "26211795",
+      "title": "CSS揭秘",
+      "author": "Lea Verou",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/795/26211795/t6_26211795.jpg",
+      "versions": [
+        {
+          "id": "26211795",
+          "title": "CSS揭秘",
+          "progress": 11,
+          "markedFinished": true,
+          "updatedAt": "2026-05-26",
+          "url": "https://weread.qq.com/web/reader/77832ba0718ff5d377894a0"
+        }
+      ]
+    },
+    {
+      "id": "3300115952",
+      "title": "滕王阁序",
+      "author": "[唐]王勃",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/74/cpplatform_5qn4ais4ckvcs2eepteeey/t6_cpplatform_5qn4ais4ckvcs2eepteeey1733208836.jpg",
+      "versions": [
+        {
+          "id": "3300115952",
+          "title": "滕王阁序",
+          "progress": 97,
+          "markedFinished": true,
+          "updatedAt": "2026-05-21",
+          "url": "https://weread.qq.com/web/reader/74832c80813ab93cbg01288d"
+        }
+      ]
+    },
+    {
+      "id": "34631845",
+      "title": "西游记（人民文学版）",
+      "author": "[明]吴承恩",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/22/yuewen_34631845/t6_yuewen_346318451676961764.jpg",
+      "versions": [
+        {
+          "id": "34631845",
+          "title": "西游记（人民文学版）",
+          "progress": 96,
+          "markedFinished": true,
+          "updatedAt": "2026-05-21",
+          "url": "https://weread.qq.com/web/reader/64032210721070a5640294f"
+        }
+      ]
+    },
+    {
+      "id": "635782",
+      "title": "养育男孩（典藏版）",
+      "author": "史蒂夫·比达尔夫",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/25/YueWen_635782/t6_YueWen_635782.jpg",
+      "versions": [
+        {
+          "id": "635782",
+          "title": "养育男孩（典藏版）",
+          "progress": 9,
+          "markedFinished": true,
+          "updatedAt": "2026-05-21",
+          "url": "https://weread.qq.com/web/reader/96c322a059b38696c52f884"
+        }
+      ]
+    },
+    {
+      "id": "25631488",
+      "title": "说话的艺术",
+      "author": "卡耐基",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/488/25631488/t6_25631488.jpg",
+      "versions": [
+        {
+          "id": "25631488",
+          "title": "说话的艺术",
+          "progress": 95,
+          "markedFinished": true,
+          "updatedAt": "2026-05-19",
+          "url": "https://weread.qq.com/web/reader/11a32c9071871b0011a1beb"
+        }
+      ]
+    },
+    {
+      "id": "567606",
+      "title": "美丽中国美丽新疆",
+      "author": "董恒年",
+      "category": "生活百科",
+      "cover": "https://cdn.weread.qq.com/weread/cover/30/YueWen_567606/t6_YueWen_567606.jpg",
+      "versions": [
+        {
+          "id": "567606",
+          "title": "美丽中国美丽新疆",
+          "progress": 17,
+          "markedFinished": true,
+          "updatedAt": "2026-05-18",
+          "url": "https://weread.qq.com/web/reader/0df323c058a9360df4d6309"
+        }
+      ]
+    },
+    {
+      "id": "849878",
+      "title": "冰与火之歌（全五卷｜美剧《权力的游戏》原著）",
+      "author": "乔治·R.R.马丁",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/8/yuewen_849878/t6_yuewen_8498781681371731.jpg",
+      "versions": [
+        {
+          "id": "849878",
+          "title": "冰与火之歌（全五卷｜美剧《权力的游戏》原著）",
+          "progress": 4,
+          "markedFinished": false,
+          "updatedAt": "2026-05-17",
+          "url": "https://weread.qq.com/web/reader/330322e05cf7d6330dfa225"
+        }
+      ]
+    },
+    {
+      "id": "3300039000",
+      "title": "海蒂怀孕大百科",
+      "author": "海蒂·麦考夫 莎伦·梅泽尔",
+      "category": "医学健康",
+      "cover": "https://cdn.weread.qq.com/weread/cover/84/cpplatform_mxgboytuoyac6sp16mho4t/t6_cpplatform_mxgboytuoyac6sp16mho4t1749111669.jpg",
+      "versions": [
+        {
+          "id": "3300039000",
+          "title": "海蒂怀孕大百科",
+          "progress": 97,
+          "markedFinished": true,
+          "updatedAt": "2026-05-17",
+          "url": "https://weread.qq.com/web/reader/61d32400813ab75bcg010070"
+        }
+      ]
+    },
+    {
+      "id": "27337558",
+      "title": "JavaScript DOM编程艺术(第2版)",
+      "author": "Jeremy Keith  Jeffrey Sambells",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/94/YueWen_27337558/t6_YueWen_27337558.jpg",
+      "versions": [
+        {
+          "id": "27337558",
+          "title": "JavaScript DOM编程艺术(第2版)",
+          "progress": 72,
+          "markedFinished": true,
+          "updatedAt": "2026-05-17",
+          "url": "https://weread.qq.com/web/reader/7a8324c071a123567a89289"
+        }
+      ]
+    },
+    {
+      "id": "41493063",
+      "title": "时间从来不语，却回答了所有问题",
+      "author": "季羡林",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/48/YueWen_41493063/t6_YueWen_41493063.jpg",
+      "versions": [
+        {
+          "id": "41493063",
+          "title": "时间从来不语，却回答了所有问题",
+          "progress": 97,
+          "markedFinished": true,
+          "updatedAt": "2026-05-15",
+          "url": "https://weread.qq.com/web/reader/0e232070727922470e25338"
+        }
+      ]
+    },
+    {
+      "id": "26189215",
+      "title": "怀孕大百科：备孕·怀孕·胎教·分娩·婴儿护理一本全",
+      "author": "孟斐",
+      "category": "医学健康",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/215/26189215/t6_26189215.jpg",
+      "versions": [
+        {
+          "id": "26189215",
+          "title": "怀孕大百科：备孕·怀孕·胎教·分娩·婴儿护理一本全",
+          "progress": 10,
+          "markedFinished": true,
+          "updatedAt": "2026-05-14",
+          "url": "https://weread.qq.com/web/reader/efc32d50718f9d9fefc0c2a"
+        }
+      ]
+    },
+    {
+      "id": "23549144",
+      "title": "亮剑（同名电视剧原著）",
+      "author": "都梁",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/40/YueWen_23549144/t6_YueWen_23549144.jpg",
+      "versions": [
+        {
+          "id": "23549144",
+          "title": "亮剑（同名电视剧原著）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-05-14",
+          "url": "https://weread.qq.com/web/reader/ba632bb0716754d8ba65b18"
+        }
+      ]
+    },
+    {
+      "id": "662905",
+      "title": "葡萄酒入门百科全书",
+      "author": "财新Enjoy雅趣 ",
+      "category": "科学技术",
+      "cover": "https://cdn.weread.qq.com/weread/cover/80/yuewen_662905/t6_yuewen_6629051703749953.jpg",
+      "versions": [
+        {
+          "id": "662905",
+          "title": "葡萄酒入门百科全书",
+          "progress": 68,
+          "markedFinished": true,
+          "updatedAt": "2026-05-14",
+          "url": "https://weread.qq.com/web/reader/02632e705a1d790268ab2ab"
+        }
+      ]
+    },
+    {
+      "id": "29313355",
+      "title": "上下五千年（珍藏版）（套装共3册）",
+      "author": "林汉达 曹余章",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/37/YueWen_29313355/t6_YueWen_29313355.jpg",
+      "versions": [
+        {
+          "id": "29313355",
+          "title": "上下五千年（珍藏版）（套装共3册）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-05-14",
+          "url": "https://weread.qq.com/web/reader/48d3294071bf494b48d5e6b"
+        }
+      ]
+    },
+    {
+      "id": "840978",
+      "title": "Java核心技术·卷Ⅰ：基础知识（原书第10版）",
+      "author": "凯S.霍斯特曼",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/978/840978/t6_840978.jpg",
+      "versions": [
+        {
+          "id": "840978",
+          "title": "Java核心技术·卷Ⅰ：基础知识（原书第10版）",
+          "progress": 93,
+          "markedFinished": true,
+          "updatedAt": "2026-05-14",
+          "url": "https://weread.qq.com/web/reader/80a32bc05cd51280a170717"
+        }
+      ]
+    },
+    {
+      "id": "3300161288",
+      "title": "水浒传（原著120回无删减版）",
+      "author": "[明]施耐庵",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/84/cpplatform_1frsrqhrtwzn3g39yavxkb/t6_cpplatform_1frsrqhrtwzn3g39yavxkb1767494980.jpg",
+      "versions": [
+        {
+          "id": "3300161288",
+          "title": "水浒传（原著120回无删减版）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-05-12",
+          "url": "https://weread.qq.com/web/reader/091326e0813aba580g018191"
+        }
+      ]
+    },
+    {
+      "id": "3300186820",
+      "title": "熟读《心经》得心安",
+      "author": "[唐]玄奘",
+      "category": "哲学宗教",
+      "cover": "https://cdn.weread.qq.com/weread/cover/3/cpplatform_ddghl5zzzecafhsczpnzp1/t6_cpplatform_ddghl5zzzecafhsczpnzp11765956151.jpg",
+      "versions": [
+        {
+          "id": "3300186820",
+          "title": "熟读《心经》得心安",
+          "progress": 91,
+          "markedFinished": true,
+          "updatedAt": "2026-05-10",
+          "url": "https://weread.qq.com/web/reader/78e32020813abaf7ag0106ea"
+        }
+      ]
+    },
+    {
+      "id": "814917",
+      "title": "心经",
+      "author": "[唐]玄奘",
+      "category": "哲学宗教",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/917/814917/t6_814917.jpg",
+      "versions": [
+        {
+          "id": "814917",
+          "title": "心经",
+          "progress": 89,
+          "markedFinished": true,
+          "updatedAt": "2026-05-10",
+          "url": "https://weread.qq.com/web/reader/ae6323505c6f45ae60eb9e2"
+        }
+      ]
+    },
+    {
+      "id": "600273",
+      "title": "药师琉璃光如来本愿功德经",
+      "author": "[唐]玄奘",
+      "category": "哲学宗教",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/273/600273/t6_600273.jpg",
+      "versions": [
+        {
+          "id": "600273",
+          "title": "药师琉璃光如来本愿功德经",
+          "progress": 93,
+          "markedFinished": true,
+          "updatedAt": "2026-05-10",
+          "url": "https://weread.qq.com/web/reader/c37329b05928d1c37249c93"
+        }
+      ]
+    },
+    {
+      "id": "139417",
+      "title": "三国演义",
+      "author": "[明]罗贯中",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/11/YueWen_139417/t6_YueWen_139417.jpg",
+      "versions": [
+        {
+          "id": "139417",
+          "title": "三国演义",
+          "progress": 28,
+          "markedFinished": true,
+          "updatedAt": "2026-04-27",
+          "url": "https://weread.qq.com/web/reader/a6632440522099a66297f67"
+        }
+      ]
+    },
+    {
+      "id": "316606",
+      "title": "红楼梦",
+      "author": "[清]曹雪芹",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/606/316606/t6_316606.jpg",
+      "versions": [
+        {
+          "id": "316606",
+          "title": "红楼梦",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-04-15",
+          "url": "https://weread.qq.com/web/reader/75032be054d4be750f9f834"
+        }
+      ]
+    },
+    {
+      "id": "822995",
+      "title": "明朝那些事儿（全集）",
+      "author": "当年明月",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/97/yuewen_822995/t6_yuewen_8229951695023669.jpg",
+      "versions": [
+        {
+          "id": "822995",
+          "title": "明朝那些事儿（全集）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-03-29",
+          "url": "https://weread.qq.com/web/reader/a57325c05c8ed3a57224187"
+        }
+      ]
+    },
+    {
+      "id": "914697",
+      "title": "了凡四训",
+      "author": "[明]袁了凡",
+      "category": "哲学宗教",
+      "cover": "https://cdn.weread.qq.com/weread/cover/28/YueWen_914697/t6_YueWen_914697.jpg",
+      "versions": [
+        {
+          "id": "914697",
+          "title": "了凡四训",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-03-15",
+          "url": "https://weread.qq.com/web/reader/39c32bc05df50939cb38080"
+        }
+      ]
+    },
+    {
+      "id": "3300089715",
+      "title": "金刚经",
+      "author": "[后秦]鸠摩罗什",
+      "category": "哲学宗教",
+      "cover": "https://cdn.weread.qq.com/weread/cover/99/cpplatform_mzs7cvsl2eqpxshtgtxqxp/t6_cpplatform_mzs7cvsl2eqpxshtgtxqxp1720765049.jpg",
+      "versions": [
+        {
+          "id": "3300089715",
+          "title": "金刚经",
+          "progress": 97,
+          "markedFinished": true,
+          "updatedAt": "2026-03-02",
+          "url": "https://weread.qq.com/web/reader/7f132310813ab898bg015efc"
+        }
+      ]
+    },
+    {
+      "id": "192214",
+      "title": "重来",
+      "author": "[美]贾森·弗里德 [丹]戴维·海涅迈尔·汉森",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/214/192214/t6_192214.jpg",
+      "versions": [
+        {
+          "id": "192214",
+          "title": "重来",
+          "progress": 4,
+          "markedFinished": false,
+          "updatedAt": "2026-02-25",
+          "url": "https://weread.qq.com/web/reader/b6f3259052eed6b6fe75d84"
+        }
+      ]
+    },
+    {
+      "id": "3300152619",
+      "title": "浮生六记",
+      "author": "[清]沈复 著 拾木文化 审校",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/93/cpplatform_xkbghfj6ie88m8e1ryfm2q/t6_cpplatform_xkbghfj6ie88m8e1ryfm2q1752220570.jpg",
+      "versions": [
+        {
+          "id": "3300152619",
+          "title": "浮生六记",
+          "progress": 3,
+          "markedFinished": false,
+          "updatedAt": "2026-02-13",
+          "url": "https://weread.qq.com/web/reader/cda325e0813aba21dg0192eb"
+        }
+      ]
+    },
+    {
+      "id": "3300101683",
+      "title": "失业程序员日记：我在魔都跑网约车",
+      "author": "马口铁",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/72/cpplatform_ae2qfyrv9y2ftt2fvpajgo/t6_cpplatform_ae2qfyrv9y2ftt2fvpajgo1717064559.jpg",
+      "versions": [
+        {
+          "id": "3300101683",
+          "title": "失业程序员日记：我在魔都跑网约车",
+          "progress": 30,
+          "markedFinished": true,
+          "updatedAt": "2026-02-12",
+          "url": "https://weread.qq.com/web/reader/80432950813ab8e38g013445"
+        }
+      ]
+    },
+    {
+      "id": "3300086026",
+      "title": "何以为父：影响彼此一生的父子关系",
+      "author": "[美]迈克尔·J.戴蒙德",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/40/cpplatform_4bgdqtermeu1ony9umg6mu/t6_cpplatform_4bgdqtermeu1ony9umg6mu1706866864.jpg",
+      "versions": [
+        {
+          "id": "3300086026",
+          "title": "何以为父：影响彼此一生的父子关系",
+          "progress": 96,
+          "markedFinished": true,
+          "updatedAt": "2026-02-09",
+          "url": "https://weread.qq.com/web/reader/b0c32a80813ab881ag0168fe"
+        }
+      ]
+    },
+    {
+      "id": "CB_8ec9qw9peCev6fJ6gWEbMBdG",
+      "title": "崔玉涛育儿百科",
+      "author": "作者未提供",
+      "category": "其他",
+      "cover": "",
+      "versions": [
+        {
+          "id": "CB_8ec9qw9peCev6fJ6gWEbMBdG",
+          "title": "崔玉涛育儿百科",
+          "progress": 10,
+          "markedFinished": false,
+          "updatedAt": "2026-02-06",
+          "url": "https://weread.qq.com/web/reader/681427e3643425f38656339717739706543657636664a36675745624d42644780d"
+        }
+      ]
+    },
+    {
+      "id": "25164497",
+      "title": "人生",
+      "author": "路遥",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/70/yuewen_25164497/t6_yuewen_251644971679989190.jpg",
+      "versions": [
+        {
+          "id": "25164497",
+          "title": "人生",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-01-31",
+          "url": "https://weread.qq.com/web/reader/4b432b80717ffad14b4fff8"
+        }
+      ]
+    },
+    {
+      "id": "3300019461",
+      "title": "财务自由第一课",
+      "author": "帅健翔",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/61/3300019461/t6_3300019461.jpg",
+      "versions": [
+        {
+          "id": "3300019461",
+          "title": "财务自由第一课",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2026-01-26",
+          "url": "https://weread.qq.com/web/reader/38332040813ab6e1ag011a0c"
+        }
+      ]
+    },
+    {
+      "id": "3300186469",
+      "title": "LangChain大模型开发实践",
+      "author": "姜春茂",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/47/cpplatform_whvvyvsvh68zhwushvqupt/t6_cpplatform_whvvyvsvh68zhwushvqupt1765875804.jpg",
+      "versions": [
+        {
+          "id": "3300186469",
+          "title": "LangChain大模型开发实践",
+          "progress": 2,
+          "markedFinished": false,
+          "updatedAt": "2026-01-16",
+          "url": "https://weread.qq.com/web/reader/60e32d10813abaf56g0196f5"
+        }
+      ]
+    },
+    {
+      "id": "3300147098",
+      "title": "MCP很好，但它不是万灵药（轻科技）",
+      "author": "腾讯科技",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/90/cpplatform_bfzxzammh6iwzwmdrrtfvr/t6_cpplatform_bfzxzammh6iwzwmdrrtfvr1749005333.jpg",
+      "versions": [
+        {
+          "id": "3300147098",
+          "title": "MCP很好，但它不是万灵药（轻科技）",
+          "progress": 94,
+          "markedFinished": true,
+          "updatedAt": "2026-01-13",
+          "url": "https://weread.qq.com/web/reader/f20323c0813ab9ff5g0181a8"
+        }
+      ]
+    },
+    {
+      "id": "3300070781",
+      "title": "易经的奥秘：完整版",
+      "author": "曾仕强",
+      "category": "哲学宗教",
+      "cover": "https://cdn.weread.qq.com/weread/cover/25/cpplatform_8zps7xz8lhe9r5tnhujujk/t6_cpplatform_8zps7xz8lhe9r5tnhujujk1694158816.jpg",
+      "versions": [
+        {
+          "id": "3300070781",
+          "title": "易经的奥秘：完整版",
+          "progress": 14,
+          "markedFinished": true,
+          "updatedAt": "2024-11-29",
+          "url": "https://weread.qq.com/web/reader/56732450813ab8226g011be9"
+        }
+      ]
+    },
+    {
+      "id": "523092",
+      "title": "李劼人说成都",
+      "author": "李劼人",
+      "category": "社会文化",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/92/523092/t6_523092.jpg",
+      "versions": [
+        {
+          "id": "523092",
+          "title": "李劼人说成都",
+          "progress": 2,
+          "markedFinished": false,
+          "updatedAt": "2024-10-29",
+          "url": "https://weread.qq.com/web/reader/cbf3251057fb54cbfdca33d"
+        }
+      ]
+    },
+    {
+      "id": "23368906",
+      "title": "跟老婆一起带孩子：写给新手爸爸的育儿指导书",
+      "author": "罗布·肯普",
+      "category": "医学健康",
+      "cover": "https://cdn.weread.qq.com/weread/cover/35/YueWen_23368906/t6_YueWen_23368906.jpg",
+      "versions": [
+        {
+          "id": "23368906",
+          "title": "跟老婆一起带孩子：写给新手爸爸的育儿指导书",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2024-09-30",
+          "url": "https://weread.qq.com/web/reader/ba432610716494caba4a26b"
+        }
+      ]
+    },
+    {
+      "id": "3300082454",
+      "title": "我不是废柴（都市剧《凡人歌》原著）",
+      "author": "纪静蓉",
+      "category": "精品小说",
+      "cover": "https://cdn.weread.qq.com/weread/cover/91/cpplatform_sx1mzvkyn2lhzykpm27nsh/t6_cpplatform_sx1mzvkyn2lhzykpm27nsh1725343654.jpg",
+      "versions": [
+        {
+          "id": "3300082454",
+          "title": "我不是废柴（都市剧《凡人歌》原著）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2024-09-27",
+          "url": "https://weread.qq.com/web/reader/47e32340813ab86b5g0149a7"
+        }
+      ]
+    },
+    {
+      "id": "33889243",
+      "title": "理想国",
+      "author": "[古希腊]柏拉图",
+      "category": "哲学宗教",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/243/33889243/t6_33889243.jpg",
+      "versions": [
+        {
+          "id": "33889243",
+          "title": "理想国（汉译世界学术名著丛书）",
+          "progress": 4,
+          "markedFinished": true,
+          "updatedAt": "2024-02-18",
+          "url": "https://weread.qq.com/web/reader/40a32b8072051bdb40a6b87"
+        },
+        {
+          "id": "921459",
+          "title": "理想国",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2022-04-08",
+          "url": "https://weread.qq.com/web/reader/810324b05e0f7381080a72e"
+        }
+      ]
+    },
+    {
+      "id": "23691237",
+      "title": "蒙台梭利家庭方案",
+      "author": "尹亚楠 吴永和",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_23691237/t6_YueWen_23691237.jpg",
+      "versions": [
+        {
+          "id": "23691237",
+          "title": "蒙台梭利家庭方案",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2023-12-12",
+          "url": "https://weread.qq.com/web/reader/3f1324b071697fe53f196d5"
+        }
+      ]
+    },
+    {
+      "id": "706059",
+      "title": "准爸爸读胎教故事",
+      "author": "汉竹",
+      "category": "教育学习",
+      "cover": "https://cdn.weread.qq.com/weread/cover/27/YueWen_706059/t6_YueWen_706059.jpg",
+      "versions": [
+        {
+          "id": "706059",
+          "title": "准爸爸读胎教故事",
+          "progress": 91,
+          "markedFinished": true,
+          "updatedAt": "2023-10-02",
+          "url": "https://weread.qq.com/web/reader/f83326b05ac60bf83435844"
+        }
+      ]
+    },
+    {
+      "id": "25574668",
+      "title": "精通区块链编程：加密货币原理、方法和应用开发（原书第2版）",
+      "author": "安德烈亚斯·M.安东波罗斯",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/668/25574668/t6_25574668.jpg",
+      "versions": [
+        {
+          "id": "25574668",
+          "title": "精通区块链编程：加密货币原理、方法和应用开发（原书第2版）",
+          "progress": 86,
+          "markedFinished": true,
+          "updatedAt": "2023-07-19",
+          "url": "https://weread.qq.com/web/reader/e0932c0071863d0ce099437"
+        }
+      ]
+    },
+    {
+      "id": "CB_4oJ90R92I2Ql6Yl6YE",
+      "title": "塞尔达传说 旷野之息 中文版完全攻略本官方超清矢量版",
+      "author": "作者未提供",
+      "category": "其他",
+      "cover": "",
+      "versions": [
+        {
+          "id": "CB_4oJ90R92I2Ql6Yl6YE",
+          "title": "塞尔达传说 旷野之息 中文版完全攻略本官方超清矢量版",
+          "progress": 99,
+          "markedFinished": false,
+          "updatedAt": "2022-08-22",
+          "url": "https://weread.qq.com/web/reader/422423f2a43425f346f4a39305239324932516c36596c365945813"
+        }
+      ]
+    },
+    {
+      "id": "27337556",
+      "title": "鲜活的数据：数据可视化指南",
+      "author": "Nathan Yau",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/92/YueWen_27337556/t6_YueWen_27337556.jpg",
+      "versions": [
+        {
+          "id": "27337556",
+          "title": "鲜活的数据：数据可视化指南",
+          "progress": 82,
+          "markedFinished": true,
+          "updatedAt": "2022-07-25",
+          "url": "https://weread.qq.com/web/reader/827320a071a12354827b696"
+        }
+      ]
+    },
+    {
+      "id": "26991860",
+      "title": "我心归处是敦煌：樊锦诗自述",
+      "author": "樊锦诗口述 顾春芳撰写",
+      "category": "人物传记",
+      "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_26991860/t6_YueWen_26991860.jpg",
+      "versions": [
+        {
+          "id": "26991860",
+          "title": "我心归处是敦煌：樊锦诗自述",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2022-06-12",
+          "url": "https://weread.qq.com/web/reader/57932e00719bdcf4579d9fe"
+        }
+      ]
+    },
+    {
+      "id": "CB_0Z591T92I2Ql6Yl6YE",
+      "title": "The Legend of Zelda Hyrule History",
+      "author": "作者未提供",
+      "category": "其他",
+      "cover": "",
+      "versions": [
+        {
+          "id": "CB_0Z591T92I2Ql6Yl6YE",
+          "title": "The Legend of Zelda Hyrule History",
+          "progress": 99,
+          "markedFinished": false,
+          "updatedAt": "2022-05-28",
+          "url": "https://weread.qq.com/web/reader/e2e424a2a43425f305a3539315439324932516c36596c365945d3d"
+        }
+      ]
+    },
+    {
+      "id": "915163",
+      "title": "巴菲特传",
+      "author": "李永宁",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/163/915163/t6_915163.jpg",
+      "versions": [
+        {
+          "id": "915163",
+          "title": "巴菲特传",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2022-05-10",
+          "url": "https://weread.qq.com/web/reader/b7b327d05df6dbb7bac95a2"
+        }
+      ]
+    },
+    {
+      "id": "693564",
+      "title": "人生的智慧",
+      "author": "叔本华",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/564/693564/t6_693564.jpg",
+      "versions": [
+        {
+          "id": "693564",
+          "title": "人生的智慧",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2022-04-18",
+          "url": "https://weread.qq.com/web/reader/71632d705a953c7162b85e8"
+        }
+      ]
+    },
+    {
+      "id": "40457732",
+      "title": "圆圈正义：作为自由前提的信念",
+      "author": "罗翔",
+      "category": "社会文化",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/732/40457732/t6_40457732.jpg",
+      "versions": [
+        {
+          "id": "40457732",
+          "title": "圆圈正义：作为自由前提的信念",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2022-04-05",
+          "url": "https://weread.qq.com/web/reader/739322a07269560473951d3"
+        }
+      ]
+    },
+    {
+      "id": "30914606",
+      "title": "半小时漫画股票实战法（从零开始学炒股，股票漫画相结合，实战扫盲利器）",
+      "author": "财经杂质",
+      "category": "漫画",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/606/30914606/t6_30914606.jpg",
+      "versions": [
+        {
+          "id": "30914606",
+          "title": "半小时漫画股票实战法（从零开始学炒股，股票漫画相结合，实战扫盲利器）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2022-03-16",
+          "url": "https://weread.qq.com/web/reader/d7c32f9071d7b82ed7c9b52"
+        }
+      ]
+    },
+    {
+      "id": "804058",
+      "title": "富爸爸股票投资从入门到精通",
+      "author": "安迪·塔纳",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/58/804058/t6_804058.jpg",
+      "versions": [
+        {
+          "id": "804058",
+          "title": "富爸爸股票投资从入门到精通",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2022-03-05",
+          "url": "https://weread.qq.com/web/reader/97f323105c44da97f90001f"
+        }
+      ]
+    },
+    {
+      "id": "814412",
+      "title": "人生有何意义",
+      "author": "胡适",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/412/814412/t6_814412.jpg",
+      "versions": [
+        {
+          "id": "814412",
+          "title": "人生有何意义",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2022-03-05",
+          "url": "https://weread.qq.com/web/reader/dc5324205c6d4cdc529f27f"
+        }
+      ]
+    },
+    {
+      "id": "26785834",
+      "title": "解读基金：我的投资观与实践（修订版）",
+      "author": "季凯帆",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/834/26785834/t6_26785834.jpg",
+      "versions": [
+        {
+          "id": "26785834",
+          "title": "解读基金：我的投资观与实践（修订版）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2022-02-27",
+          "url": "https://weread.qq.com/web/reader/213325907198b82a213eb72"
+        }
+      ]
+    },
+    {
+      "id": "40922170",
+      "title": "底层逻辑",
+      "author": "吕白",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/170/40922170/t6_40922170.jpg",
+      "versions": [
+        {
+          "id": "40922170",
+          "title": "底层逻辑",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2022-02-20",
+          "url": "https://weread.qq.com/web/reader/5183282072706c3a5185397"
+        }
+      ]
+    },
+    {
+      "id": "24981891",
+      "title": "手把手教你买基金",
+      "author": "书签客",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/12/YueWen_24981891/t6_YueWen_24981891.jpg",
+      "versions": [
+        {
+          "id": "24981891",
+          "title": "手把手教你买基金",
+          "progress": 99,
+          "markedFinished": true,
+          "updatedAt": "2022-02-19",
+          "url": "https://weread.qq.com/web/reader/f66328c0717d3183f66c7f4"
+        }
+      ]
+    },
+    {
+      "id": "522701",
+      "title": "九败一胜：美团创始人王兴创业十年",
+      "author": "李志刚",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/701/522701/t6_522701.jpg",
+      "versions": [
+        {
+          "id": "522701",
+          "title": "九败一胜：美团创始人王兴创业十年",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2021-08-15",
+          "url": "https://weread.qq.com/web/reader/86a32ac057f9cd86aed92aa"
+        }
+      ]
+    },
+    {
+      "id": "CB_7zjGaNGdQ9CX6P76Pw",
+      "title": "七堂思维成长课：精英群体的行为习惯",
+      "author": "卡罗琳·韦布",
+      "category": "其他",
+      "cover": "",
+      "versions": [
+        {
+          "id": "CB_7zjGaNGdQ9CX6P76Pw",
+          "title": "七堂思维成长课：精英群体的行为习惯",
+          "progress": 98,
+          "markedFinished": false,
+          "updatedAt": "2021-07-26",
+          "url": "https://weread.qq.com/web/reader/65d42802a43425f377a6a47614e4764513943583650373650771a6"
+        }
+      ]
+    },
+    {
+      "id": "926226",
+      "title": "10人以下小团队管理手册",
+      "author": "[日]堀之内克彦",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/226/926226/t6_926226.jpg",
+      "versions": [
+        {
+          "id": "926226",
+          "title": "10人以下小团队管理手册",
+          "progress": 0,
+          "markedFinished": true,
+          "updatedAt": "2021-07-11",
+          "url": "https://weread.qq.com/web/reader/24032b305e221224085d2cc"
+        }
+      ]
+    },
+    {
+      "id": "CB_3Pg9LA9N3EkU6QM6Pw",
+      "title": "重构：改善既有代码的设计（第2版）",
+      "author": "马丁·福勒(Martin Fowler)",
+      "category": "其他",
+      "cover": "",
+      "versions": [
+        {
+          "id": "CB_3Pg9LA9N3EkU6QM6Pw",
+          "title": "重构：改善既有代码的设计（第2版）",
+          "progress": 4,
+          "markedFinished": false,
+          "updatedAt": "2021-07-10",
+          "url": "https://weread.qq.com/web/reader/e7542372a43425f335067394c41394e33456b5536514d365077a80"
+        }
+      ]
+    },
+    {
+      "id": "26351259",
+      "title": "前端架构：从入门到微前端",
+      "author": "黄峰达",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/71/YueWen_26351259/t6_YueWen_26351259.jpg",
+      "versions": [
+        {
+          "id": "26351259",
+          "title": "前端架构：从入门到微前端",
+          "progress": 32,
+          "markedFinished": true,
+          "updatedAt": "2021-05-19",
+          "url": "https://weread.qq.com/web/reader/b9e32d007192169bb9e012d"
+        }
+      ]
+    },
+    {
+      "id": "855812",
+      "title": "人类简史：从动物到上帝",
+      "author": "尤瓦尔·赫拉利",
+      "category": "历史",
+      "cover": "https://cdn.weread.qq.com/weread/cover/37/YueWen_855812/t6_YueWen_855812.jpg",
+      "versions": [
+        {
+          "id": "855812",
+          "title": "人类简史：从动物到上帝",
+          "progress": 0,
+          "markedFinished": true,
+          "updatedAt": "2021-03-28",
+          "url": "https://weread.qq.com/web/reader/d4a322a05d0f04d4a01f0d6"
+        }
+      ]
+    },
+    {
+      "id": "27337473",
+      "title": "JavaScript设计模式与开发实践",
+      "author": "曾探",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/90/YueWen_27337473/t6_YueWen_27337473.jpg",
+      "versions": [
+        {
+          "id": "27337473",
+          "title": "JavaScript设计模式与开发实践",
+          "progress": 75,
+          "markedFinished": true,
+          "updatedAt": "2021-03-28",
+          "url": "https://weread.qq.com/web/reader/6bf3215071a123016bf0b74"
+        }
+      ]
+    },
+    {
+      "id": "654445",
+      "title": "把时间当作朋友",
+      "author": "李笑来",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/445/654445/t6_654445.jpg",
+      "versions": [
+        {
+          "id": "654445",
+          "title": "把时间当作朋友",
+          "progress": 23,
+          "markedFinished": true,
+          "updatedAt": "2021-03-06",
+          "url": "https://weread.qq.com/web/reader/679329c059fc6d679b900bb"
+        }
+      ]
+    },
+    {
+      "id": "22806967",
+      "title": "未来世界的幸存者",
+      "author": "阮一峰",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/967/22806967/t6_22806967.jpg",
+      "versions": [
+        {
+          "id": "22806967",
+          "title": "未来世界的幸存者",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2021-02-18",
+          "url": "https://weread.qq.com/web/reader/b7632c90715c01b7b766b2a"
+        }
+      ]
+    },
+    {
+      "id": "858204",
+      "title": "深入浅出React和Redux",
+      "author": "程墨",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/204/858204/t6_858204.jpg",
+      "versions": [
+        {
+          "id": "858204",
+          "title": "深入浅出React和Redux",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2020-05-11",
+          "url": "https://weread.qq.com/web/reader/a0b327005d185ca0b5a7803"
+        }
+      ]
+    },
+    {
+      "id": "22946457",
+      "title": "围城",
+      "author": "钱钟书",
+      "category": "精品小说",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/457/22946457/t6_22946457.jpg",
+      "versions": [
+        {
+          "id": "22946457",
+          "title": "围城",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2020-05-05",
+          "url": "https://weread.qq.com/web/reader/54c32520715e229954c8b8a"
+        }
+      ]
+    },
+    {
+      "id": "912417",
+      "title": "小岛经济学",
+      "author": "彼得·D.希夫 安德鲁·J.希夫",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/76/YueWen_912417/t6_YueWen_912417.jpg",
+      "versions": [
+        {
+          "id": "912417",
+          "title": "小岛经济学",
+          "progress": 25,
+          "markedFinished": true,
+          "updatedAt": "2020-04-30",
+          "url": "https://weread.qq.com/web/reader/a38326805dec21a389a21c8"
+        }
+      ]
+    },
+    {
+      "id": "854001",
+      "title": "菜根谭",
+      "author": "[明]洪应明",
+      "category": "哲学宗教",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/1/854001/t6_854001.jpg",
+      "versions": [
+        {
+          "id": "854001",
+          "title": "菜根谭",
+          "progress": 13,
+          "markedFinished": true,
+          "updatedAt": "2020-04-28",
+          "url": "https://weread.qq.com/web/reader/b1a32fe05d07f1b1af232bf"
+        }
+      ]
+    },
+    {
+      "id": "923328",
+      "title": "家居室内设计",
+      "author": "朱淳 王纯 王一先",
+      "category": "生活百科",
+      "cover": "https://cdn.weread.qq.com/weread/cover/59/YueWen_923328/t6_YueWen_923328.jpg",
+      "versions": [
+        {
+          "id": "923328",
+          "title": "家居室内设计",
+          "progress": 12,
+          "markedFinished": true,
+          "updatedAt": "2020-04-25",
+          "url": "https://weread.qq.com/web/reader/4d5323205e16c04d57351b0"
+        }
+      ]
+    },
+    {
+      "id": "860956",
+      "title": "中央帝国的财政密码",
+      "author": "郭建龙",
+      "category": "历史",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/956/860956/t6_860956.jpg",
+      "versions": [
+        {
+          "id": "860956",
+          "title": "中央帝国的财政密码",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2020-04-25",
+          "url": "https://weread.qq.com/web/reader/58a328305d231c58a967b4f"
+        }
+      ]
+    },
+    {
+      "id": "23364842",
+      "title": "认识商业",
+      "author": "威廉·尼克尔斯 吉姆·麦克修 苏珊·麦克修",
+      "category": "其他",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/842/23364842/t6_23364842.jpg",
+      "versions": [
+        {
+          "id": "23364842",
+          "title": "认识商业",
+          "progress": 1,
+          "markedFinished": true,
+          "updatedAt": "2019-08-11",
+          "url": "https://weread.qq.com/web/reader/f2632080716484eaf26ce3a"
+        }
+      ]
+    },
+    {
+      "id": "25066071",
+      "title": "断舍离",
+      "author": "山下英子",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/53/yuewen_25066071/t6_yuewen_250660711719306927.jpg",
+      "versions": [
+        {
+          "id": "25066071",
+          "title": "断舍离",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-07-22",
+          "url": "https://weread.qq.com/web/reader/f9932900717e7a57f99c027"
+        }
+      ]
+    },
+    {
+      "id": "804046",
+      "title": "富爸爸成功创业的10堂必修课",
+      "author": "罗伯特·清崎 莎伦·莱希特",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/98/YueWen_804046/t6_YueWen_804046.jpg",
+      "versions": [
+        {
+          "id": "804046",
+          "title": "富爸爸成功创业的10堂必修课",
+          "progress": 18,
+          "markedFinished": false,
+          "updatedAt": "2019-07-08",
+          "url": "https://weread.qq.com/web/reader/7ff327605c44ce7fff859bb"
+        }
+      ]
+    },
+    {
+      "id": "22853116",
+      "title": "停止忧虑，你的人生可以改变",
+      "author": "卡耐基",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/116/22853116/t6_22853116.jpg",
+      "versions": [
+        {
+          "id": "22853116",
+          "title": "停止忧虑，你的人生可以改变",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-27",
+          "url": "https://weread.qq.com/web/reader/be532140715cb5fcbe52127"
+        }
+      ]
+    },
+    {
+      "id": "859624",
+      "title": "白垩纪往事",
+      "author": "刘慈欣",
+      "category": "科学技术",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/624/859624/t6_859624.jpg",
+      "versions": [
+        {
+          "id": "859624",
+          "title": "白垩纪往事",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/7a5327805d1de87a5592029"
+        }
+      ]
+    },
+    {
+      "id": "913377",
+      "title": "北方的空地（珍藏版）",
+      "author": "杨柳松",
+      "category": "文学",
+      "cover": "https://cdn.weread.qq.com/weread/cover/92/YueWen_913377/t6_YueWen_913377.jpg",
+      "versions": [
+        {
+          "id": "913377",
+          "title": "北方的空地（珍藏版）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/603320205defe1603bc0c28"
+        }
+      ]
+    },
+    {
+      "id": "664399",
+      "title": "创京东（刘强东亲述创业之路）",
+      "author": "李志刚",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/79/yuewen_664399/t6_yuewen_6643991766568000.jpg",
+      "versions": [
+        {
+          "id": "664399",
+          "title": "创京东（刘强东亲述创业之路）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/ee8323005a234fee83bef12"
+        }
+      ]
+    },
+    {
+      "id": "629864",
+      "title": "创业维艰：如何完成比难更难的事",
+      "author": "本·霍洛维茨",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/69/YueWen_629864/t6_YueWen_629864.jpg",
+      "versions": [
+        {
+          "id": "629864",
+          "title": "创业维艰：如何完成比难更难的事",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/74132530599c68741363189"
+        }
+      ]
+    },
+    {
+      "id": "918310",
+      "title": "颠覆者：周鸿祎自传",
+      "author": "周鸿祎 范海涛",
+      "category": "人物传记",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/310/918310/t6_918310.jpg",
+      "versions": [
+        {
+          "id": "918310",
+          "title": "颠覆者：周鸿祎自传",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/41532d205e0326415bf4719"
+        }
+      ]
+    },
+    {
+      "id": "642461",
+      "title": "过得刚好",
+      "author": "郭德纲",
+      "category": "人物传记",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/461/642461/t6_642461.jpg",
+      "versions": [
+        {
+          "id": "642461",
+          "title": "过得刚好",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/c0c328b059cd9dc0cc249c7"
+        }
+      ]
+    },
+    {
+      "id": "907771",
+      "title": "黑客与画家（10万册纪念版）",
+      "author": "保罗·格雷厄姆",
+      "category": "文学",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/771/907771/t6_907771.jpg",
+      "versions": [
+        {
+          "id": "907771",
+          "title": "黑客与画家（10万册纪念版）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/5b9328f05dd9fb5b922d1eb"
+        }
+      ]
+    },
+    {
+      "id": "907760",
+      "title": "计算机是怎样跑起来的",
+      "author": "矢泽久雄",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/41/YueWen_907760/t6_YueWen_907760.jpg",
+      "versions": [
+        {
+          "id": "907760",
+          "title": "计算机是怎样跑起来的",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/b9b324005dd9f0b9b9e6f17"
+        }
+      ]
+    },
+    {
+      "id": "825435",
+      "title": "精进：如何成为一个很厉害的人",
+      "author": "采铜",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_825435/t6_YueWen_825435.jpg",
+      "versions": [
+        {
+          "id": "825435",
+          "title": "精进：如何成为一个很厉害的人",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/72732ac05c985b72766ea4e"
+        }
+      ]
+    },
+    {
+      "id": "597615",
+      "title": "鲸歌",
+      "author": "刘慈欣",
+      "category": "精品小说",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/615/597615/t6_597615.jpg",
+      "versions": [
+        {
+          "id": "597615",
+          "title": "鲸歌",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/96f323d0591e6f96fbeccdb"
+        }
+      ]
+    },
+    {
+      "id": "924813",
+      "title": "蚂蚁金服：从支付宝到新金融生态圈",
+      "author": "廉薇 边慧 苏向辉 曹鹏程",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/19/YueWen_924813/t6_YueWen_924813.jpg",
+      "versions": [
+        {
+          "id": "924813",
+          "title": "蚂蚁金服：从支付宝到新金融生态圈",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/455326805e1c8d45569fbc5"
+        }
+      ]
+    },
+    {
+      "id": "915258",
+      "title": "每个女孩都是生活家：好感生活的32个提案",
+      "author": "蜜思",
+      "category": "个人成长",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/258/915258/t6_915258.jpg",
+      "versions": [
+        {
+          "id": "915258",
+          "title": "每个女孩都是生活家：好感生活的32个提案",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/e7d320205df73ae7ddf07c9"
+        }
+      ]
+    },
+    {
+      "id": "22806969",
+      "title": "前方的路",
+      "author": "阮一峰",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/10/YueWen_22806969/t6_YueWen_22806969.jpg",
+      "versions": [
+        {
+          "id": "22806969",
+          "title": "前方的路",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/b6432750715c01b9b64c956"
+        }
+      ]
+    },
+    {
+      "id": "908306",
+      "title": "如何成为一个有趣的人",
+      "author": "王小圈",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/44/yuewen_908306/t6_yuewen_9083061721797710.jpg",
+      "versions": [
+        {
+          "id": "908306",
+          "title": "如何成为一个有趣的人",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/d9f327b05ddc12d9f708421"
+        }
+      ]
+    },
+    {
+      "id": "815574",
+      "title": "商业的本质",
+      "author": "杰克·韦尔奇 苏茜·韦尔奇",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/574/815574/t6_815574.jpg",
+      "versions": [
+        {
+          "id": "815574",
+          "title": "商业的本质",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/4a232bb05c71d64a2ea0506"
+        }
+      ]
+    },
+    {
+      "id": "803730",
+      "title": "商业模式全史",
+      "author": "三谷宏治",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/97/YueWen_803730/t6_YueWen_803730.jpg",
+      "versions": [
+        {
+          "id": "803730",
+          "title": "商业模式全史",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/23532fd05c4392235b29058"
+        }
+      ]
+    },
+    {
+      "id": "829464",
+      "title": "顺势而为：雷军传",
+      "author": "采文",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/464/829464/t6_829464.jpg",
+      "versions": [
+        {
+          "id": "829464",
+          "title": "顺势而为：雷军传",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/20732f705ca818207705ab2"
+        }
+      ]
+    },
+    {
+      "id": "142105",
+      "title": "随遇而安",
+      "author": "孟非",
+      "category": "人物传记",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/105/142105/t6_142105.jpg",
+      "versions": [
+        {
+          "id": "142105",
+          "title": "随遇而安",
+          "progress": 16,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/5ad327a0522b195ad6485af"
+        }
+      ]
+    },
+    {
+      "id": "635718",
+      "title": "特斯拉之父：埃隆·马斯克传",
+      "author": "竹内一正",
+      "category": "人物传记",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/718/635718/t6_635718.jpg",
+      "versions": [
+        {
+          "id": "635718",
+          "title": "特斯拉之父：埃隆·马斯克传",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/67432c3059b3466742d11a8"
+        }
+      ]
+    },
+    {
+      "id": "432471",
+      "title": "腾讯传1998-2016：中国互联网公司进化论",
+      "author": "吴晓波",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/63/YueWen_432471/t6_YueWen_432471.jpg",
+      "versions": [
+        {
+          "id": "432471",
+          "title": "腾讯传1998-2016：中国互联网公司进化论",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/51732ec05699575171090a9"
+        }
+      ]
+    },
+    {
+      "id": "567659",
+      "title": "习惯的力量",
+      "author": "屈平",
+      "category": "个人成长",
+      "cover": "https://cdn.weread.qq.com/weread/cover/88/YueWen_567659/t6_YueWen_567659.jpg",
+      "versions": [
+        {
+          "id": "567659",
+          "title": "习惯的力量",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/2fb3251058a96b2fb7e9999"
+        }
+      ]
+    },
+    {
+      "id": "714757",
+      "title": "小白股票入门（简七理财013）",
+      "author": "简七理财",
+      "category": "经济理财",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/757/714757/t6_714757.jpg",
+      "versions": [
+        {
+          "id": "714757",
+          "title": "小白股票入门（简七理财013）",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/71832f705ae8057185c707c"
+        }
+      ]
+    },
+    {
+      "id": "620384",
+      "title": "一本书读懂24种互联网思维",
+      "author": "安杰",
+      "category": "计算机",
+      "cover": "https://cdn.weread.qq.com/weread/cover/7/YueWen_620384/t6_YueWen_620384.jpg",
+      "versions": [
+        {
+          "id": "620384",
+          "title": "一本书读懂24种互联网思维",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/7e632bb05977607e6f79def"
+        }
+      ]
+    },
+    {
+      "id": "602265",
+      "title": "周鸿祎自述：我的互联网方法论",
+      "author": "周鸿祎",
+      "category": "经济理财",
+      "cover": "https://cdn.weread.qq.com/weread/cover/25/YueWen_602265/t6_YueWen_602265.jpg",
+      "versions": [
+        {
+          "id": "602265",
+          "title": "周鸿祎自述：我的互联网方法论",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/54d3290059309954d29c5c5"
+        }
+      ]
+    },
+    {
+      "id": "856863",
+      "title": "iPhone 就该这样用",
+      "author": "AppSo",
+      "category": "计算机",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/863/856863/t6_856863.jpg",
+      "versions": [
+        {
+          "id": "856863",
+          "title": "iPhone 就该这样用",
+          "progress": 100,
+          "markedFinished": true,
+          "updatedAt": "2019-06-08",
+          "url": "https://weread.qq.com/web/reader/65f323905d131f65fec4b69"
+        }
+      ]
+    },
+    {
+      "id": "850595",
+      "title": "Three.js开发指南",
+      "author": "德克森",
+      "category": "其他",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/595/850595/t6_850595.jpg",
+      "versions": [
+        {
+          "id": "850595",
+          "title": "Three.js开发指南",
+          "progress": 18,
+          "markedFinished": false,
+          "updatedAt": "2019-05-05",
+          "url": "https://weread.qq.com/web/reader/6a4325005cfaa36a45ebcd8"
+        }
+      ]
+    },
+    {
+      "id": "921759",
+      "title": "遇见未知的自己",
+      "author": "张德芬",
+      "category": "其他",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/759/921759/t6_921759.jpg",
+      "versions": [
+        {
+          "id": "921759",
+          "title": "遇见未知的自己",
+          "progress": 18,
+          "markedFinished": false,
+          "updatedAt": "2019-01-22",
+          "url": "https://weread.qq.com/web/reader/127322805e109f127c86355"
+        }
+      ]
+    },
+    {
+      "id": "927207",
+      "title": "男人来自火星，女人来自金星：修炼亲密关系的方法",
+      "author": "[美]约翰·格雷",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/99/YueWen_927207/t6_YueWen_927207.jpg",
+      "versions": [
+        {
+          "id": "927207",
+          "title": "男人来自火星，女人来自金星：修炼亲密关系的方法",
+          "progress": 6,
+          "markedFinished": false,
+          "updatedAt": "2018-12-20",
+          "url": "https://weread.qq.com/web/reader/c4732b405e25e7c47f753bc"
+        }
+      ]
+    },
+    {
+      "id": "854952",
+      "title": "为何爱会伤人（珍藏版）",
+      "author": "武志红",
+      "category": "其他",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/952/854952/t6_854952.jpg",
+      "versions": [
+        {
+          "id": "854952",
+          "title": "为何爱会伤人（珍藏版）",
+          "progress": 4,
+          "markedFinished": false,
+          "updatedAt": "2018-12-05",
+          "url": "https://weread.qq.com/web/reader/f77321305d0ba8f77712a84"
+        }
+      ]
+    },
+    {
+      "id": "907767",
+      "title": "汽车是怎样跑起来的",
+      "author": "御堀直嗣",
+      "category": "其他",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/767/907767/t6_907767.jpg",
+      "versions": [
+        {
+          "id": "907767",
+          "title": "汽车是怎样跑起来的",
+          "progress": 20,
+          "markedFinished": false,
+          "updatedAt": "2018-11-26",
+          "url": "https://weread.qq.com/web/reader/234326c05dd9f7234cd7b49"
+        }
+      ]
+    },
+    {
+      "id": "703157",
+      "title": "苏菲的世界",
+      "author": "乔斯坦·贾德",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/13/YueWen_703157/t6_YueWen_703157.jpg",
+      "versions": [
+        {
+          "id": "703157",
+          "title": "苏菲的世界",
+          "progress": 29,
+          "markedFinished": false,
+          "updatedAt": "2018-07-15",
+          "url": "https://weread.qq.com/web/reader/9ef32b805abab59ef601a6c"
+        }
+      ]
+    },
+    {
+      "id": "510672",
+      "title": "拆掉思维里的墙：原来我还可以这样活",
+      "author": "古典",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/49/YueWen_510672/t6_YueWen_510672.jpg",
+      "versions": [
+        {
+          "id": "510672",
+          "title": "拆掉思维里的墙：原来我还可以这样活",
+          "progress": 14,
+          "markedFinished": false,
+          "updatedAt": "2018-06-22",
+          "url": "https://weread.qq.com/web/reader/a563285057cad0a565ce031"
+        }
+      ]
+    },
+    {
+      "id": "713995",
+      "title": "毛泽东传",
+      "author": "[英]迪克·威尔逊",
+      "category": "其他",
+      "cover": "https://cdn.weread.qq.com/weread/cover/44/YueWen_713995/t6_YueWen_713995.jpg",
+      "versions": [
+        {
+          "id": "713995",
+          "title": "毛泽东传",
+          "progress": 19,
+          "markedFinished": false,
+          "updatedAt": "2018-05-09",
+          "url": "https://weread.qq.com/web/reader/e0a32b005ae50be0ac504c1"
+        }
+      ]
+    }
+  ]
+}

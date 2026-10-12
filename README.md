@@ -69,3 +69,9 @@ This version focuses on the local experience. Donations and promotions, automate
 Set `SITE_URL=https://your-domain.example` when building. For deployment under a subdirectory, also set `BASE_PATH=/repository-name/`. The default site URL points to the local preview and must not be used as the production canonical URL. The `dist/` directory contains the complete static output: replace the previous deployment instead of merging it with old files. Before launch, replace sample content, configure the domain, and verify root-path or subdirectory routing and the hosting provider’s 404 behavior.
 
 Do not put private draft images in `public/`; every file in that directory is copied directly into the build output. Private drafts should not be committed to a public repository.
+
+## Reading data on GitHub Pages
+
+The `Deploy blog to GitHub Pages` workflow (`.github/workflows/deploy-pages.yml`) refreshes WeRead data before every build triggered by a push to `main` or `workflow_dispatch`. Enable **Settings → Pages → Source → GitHub Actions** and add the repository Actions secret **WEREAD_API_KEY**. The workflow derives the site origin/base path from Pages settings.
+
+Sync errors stop publication, preserving the last deployed site. The fresh JSON is used in the build without committing it back. Sync, build, and deployment share one job, so re-running it also refreshes the data. Local builds remain offline; use `npm run sync:reading` with the key in your environment or ignored `.env` to refresh locally. See [the Chinese guide](README-ZH.md#读书栏目与部署时同步) for data rules and setup details.

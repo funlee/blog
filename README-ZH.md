@@ -32,6 +32,7 @@ npm run preview # 预览现有 dist
 - 动态：`src/content/moments/*.md`
 - 关于：`src/content/pages/about.md`
 - 推荐资源/友链：`src/data/friends.json`
+- 阅读数据快照：`src/data/reading.json`（说明见下文）
 - 配色和布局：`src/styles/global.css`
 - 本地示例插画：`public/images/`
 
@@ -70,3 +71,51 @@ npm run new -- moment a-small-moment "今天的一点记录"
 构建时设置 `SITE_URL=https://你的域名`，子目录部署时另设 `BASE_PATH=/仓库名/`。默认站点地址为本机预览地址，不能直接当成正式 canonical 发布。`dist/` 是完整静态产物，替换部署，不叠加旧文件。正式发布前替换示例内容、设置域名并验证根路径/子路径及托管 404。
 
 不要将私密草稿图片放进 `public/`；该目录内全部文件会直接复制到产物。正式私密草稿不应提交到公开仓库。
+
+## 读书栏目与部署时同步
+
+顶部导航的「读书」进入 `/reading/`，展示阅读概览、月度趋势、最近在读和完整书单。支持书名/作者搜索、读完标记筛选、排序和每页18本的分页；关闭 JavaScript 时显示全部书籍。
+
+### 每次部署更新
+
+`.github/workflows/deploy-pages.yml` 在推送到 `main` 或手动运行时执行：
+
+1. 安装依赖。
+2. 使用 `WEREAD_API_KEY` 获取阅读统计、完整分页笔记书目、书架和逐本阅读进度。
+3. 合并版本并校验数据，成功后原子替换 `src/data/reading.json`。
+4. 类型检查、测试、构建、生成搜索索引并检查站内链接。
+5. 上传 `dist/`，发布到 GitHub Pages。
+
+密钥只注入同步步骤。没有定时任务；每次完整部署都会同步。任一查询失败、分页不完整、密钥缺失/失效、接口要求升级或构建检查失败，都会停止部署，已发布的网站继续保留。临时网络错误、HTTP 429和5xx最多请求3次。
+
+### 首次启用 GitHub Pages
+
+1. 在 GitHub 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+2. 在 **Settings → Secrets and variables → Actions → New repository secret** 中添加 `WEREAD_API_KEY`，填入微信读书密钥。不要把密钥写入代码或工作流。
+3. 将代码推送至 `main`；或在 **Actions → Deploy blog to GitHub Pages → Run workflow** 手动运行。
+
+工作流从 `actions/configure-pages` 读取域名和子路径，适配 `https://funlee.github.io/blog/`、用户主页仓库和已在 Pages 设置的自定义域名。Astro 的 `SITE_URL` 和 `BASE_PATH` 由该步骤提供。
+
+需要再次刷新数据时，使用 Run workflow 或重新运行工作流。同步、构建和发布放在同一个 job，失败后重新运行也会先同步，避免复用旧产物。首次配置 GitHub Pages 及 secret 后，才具备线上发布条件。
+
+### 本地更新与数据维护
+
+本地 `npm run build` 使用现有快照，不要求密钥。要同步本地数据，可在已忽略的 `.env` 中配置 `WEREAD_API_KEY`，或通过环境变量提供，然后执行：
+
+```bash
+npm run sync:reading
+npm run check
+npm test
+npm run build
+```
+
+- CI 更新的 JSON 只存在于本次构建目录，不自动提交回仓库。线上数据可以比仓库中的快照新；需要保存最新本地快照时手动同步并提交。
+- `src/data/reading.json` 只保留公开展示字段，没有 API Key、设备信息、私密标记或笔记正文。封面来自微信读书返回的远程图片地址。
+- 原始书单经过审核，合并后为254部作品、261个版本；同步后数量可增长。排除公众号以及没有阅读或笔记记录的条目；套装按一本计。同步会重新查询仓库快照里已知的历史书籍，防止仅因移出书架而丢失；从未保存且已移出书架、无笔记的历史书目仍可能缺失。
+- `src/data/reading-editions.json` 保存已确认的版本 ID 分组。新版本还会按书名与作者匹配，去掉末尾“修订版”等明确版本标签；不合并上下卷、不同作者或仅主题相似的书籍。无法明确匹配的新版本需在分组文件中人工确认。
+- `versions[].progress` 是0—100的百分数，`markedFinished` 独立于进度。作品显示最高版本进度；任一版本标记读完时显示「已标记读完」。展开可查看各版本。
+- `summary` 的时长、天数和笔记采用微信读书原始总量，范围不限于当前书单；所有时长以秒保存。月度分桶只用于趋势，不反算年度总量。
+- 页面更新时间、年份、月度截止日期和最近在读会随快照自动变化。最近在读选择最近更新、未标记读完且进度介于1%和99%之间的版本；没有符合条件的书时隐藏该区块。
+- 接口的 `skill_version` 当前为1.0.5。如果服务器要求升级，脚本会中止；核对官方技能新文档并更新实现、版本号与测试后再部署，不会在 CI 中执行远程升级指令。
+
+部署参考：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[Astro GitHub Pages 指南](https://docs.astro.build/en/guides/deploy/github/)。
