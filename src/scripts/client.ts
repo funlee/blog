@@ -1,3 +1,4 @@
+import { setupTypewriter } from "./typewriter";
 type SearchHit = {
   data: () => Promise<{
     url: string;
@@ -14,6 +15,7 @@ function setup() {
   initializedBody = document.body;
   const controller = new AbortController();
   const signal = controller.signal;
+  const stopTypewriter = setupTypewriter();
   const on = (el: EventTarget | null, event: string, fn: EventListener) =>
     el?.addEventListener(event, fn, { signal });
   const query = <T extends Element>(s: string) => document.querySelector<T>(s)!;
@@ -345,6 +347,7 @@ function setup() {
     .forEach((h) => observer.observe(h));
   cleanup = () => {
     initializedBody = null;
+    stopTypewriter();
     controller.abort();
     observer.disconnect();
     clearTimeout(timer);

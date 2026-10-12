@@ -1,0 +1,15 @@
+---
+import { site } from '../config/site';
+import { url } from '../lib/content';
+const { banner } = site;
+const quotes = banner.quotes.map((quote) => quote.trim()).filter(Boolean);
+const firstQuote = quotes[0] || site.description;
+---
+<section class="home-banner" aria-label="首页寄语"
+  style={`--banner-position:${banner.position};--banner-mobile-position:${banner.mobilePosition}`}>
+  <img class="banner-image" src={url(banner.image)} alt="" fetchpriority="high" decoding="async" />
+  <h1 class="banner-quote" data-typewriter data-quotes={JSON.stringify(quotes.length ? quotes : [firstQuote])}
+    data-options={JSON.stringify(banner.typewriter)} aria-label={firstQuote}>
+    <span data-typewriter-text aria-hidden="true">{firstQuote}</span><span class="typewriter-cursor" aria-hidden="true">|</span>
+  </h1>
+</section>
