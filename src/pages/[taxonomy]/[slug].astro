@@ -1,0 +1,4 @@
+---
+import Base from '../../layouts/Base.astro';import Timeline from '../../components/Timeline.astro';import {categories,tags} from '../../config/site';import {posts,url} from '../../lib/content';export async function getStaticPaths(){const all=await posts();return ['categories','tags'].flatMap(taxonomy=>(taxonomy==='categories'?categories:tags).map(t=>({params:{taxonomy,slug:t.id},props:{taxonomy,item:t,items:all.filter(p=>taxonomy==='categories'?p.data.category===t.id:p.data.tags.includes(t.id))}})).filter(t=>t.props.items.length));}const {taxonomy,item,items}=Astro.props;
+---
+<Base title={item.name} description={`共 ${items.length} 篇记录，慢慢读。`}><div class="section-heading"><h2>{taxonomy==='tags'?'# ':''}{item.name}</h2><a href={url(`${taxonomy}/`)}>查看全部{taxonomy==='tags'?'标签':'分类'} ↗</a></div><Timeline items={items}/></Base>

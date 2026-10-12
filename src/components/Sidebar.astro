@@ -1,0 +1,12 @@
+---
+import {site,categories,tags} from '../config/site';import {posts,url} from '../lib/content';import Icon from './Icon.astro';
+const all=await posts();const cats=categories.map(c=>({...c,count:all.filter(p=>p.data.category===c.id).length})).filter(c=>c.count);const usedTags=tags.filter(t=>all.some(p=>p.data.tags.includes(t.id)));
+---
+<aside class="sidebar" aria-label="作者与内容导航">
+<section class="panel profile"><img class="avatar" src={url('images/avatar.svg')} width="80" height="80" alt="李逸辰的示例插画头像"/><h2>{site.author}<span class="online" title="持续记录中"></span></h2><p>记录 · 探索 · 慢慢生长</p><div class="profile-stats"><a href={url('archives/')}><b>{all.length}</b><span>文章</span></a><a href={url('categories/')}><b>{cats.length}</b><span>分类</span></a><a href={url('tags/')}><b>{usedTags.length}</b><span>标签</span></a></div><a class="profile-link" href={url('about/')}>认识一下 <Icon name="arrow" size={16}/></a></section>
+<section class="panel side-extra"><h3><span>◉</span> 小站公告</h3><p class="muted side-copy">{site.announcement}</p><span class="tiny">2026.10.12 · 新的开始</span></section>
+<section class="panel side-extra"><h3><span>▤</span> 文章分类</h3><div class="category-list">{cats.map(c=><a href={url(`categories/${c.id}/`)}>{c.name}<span>{c.count.toString().padStart(2,'0')}</span></a>)}</div></section>
+<section class="panel side-extra"><h3><span>＃</span> 随意探索</h3><div class="tag-list">{usedTags.map(t=><a href={url(`tags/${t.id}/`)}>{t.name}</a>)}</div></section>
+<section class="panel side-extra"><h3><Icon name="book" size={17}/> 推荐阅读</h3><div class="recommend">{all.slice(0,4).map((p,i)=><a href={url(`posts/${p.data.slug}/`)}><span>0{i+1}</span>{p.data.title}</a>)}</div></section>
+<div class="sidebar-note side-extra"><Icon name="leaf"/><span>把日子过成喜欢的模样。</span></div>
+</aside>

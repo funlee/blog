@@ -1,0 +1,4 @@
+---
+import Moments from '../../../components/Moments.astro';import {moments} from '../../../lib/content';import {site} from '../../../config/site';export async function getStaticPaths(){return Array.from({length:Math.max(0,Math.ceil((await moments()).length/site.momentPageSize)-1)},(_,i)=>({params:{page:String(i+2)},props:{page:i+2}}));}const {page}=Astro.props;
+---
+<Moments page={page}/>

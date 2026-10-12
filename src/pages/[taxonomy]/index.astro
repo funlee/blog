@@ -1,0 +1,4 @@
+---
+import Base from '../../layouts/Base.astro';import {categories,tags} from '../../config/site';import {posts,url} from '../../lib/content';export function getStaticPaths(){return ['categories','tags'].map(taxonomy=>({params:{taxonomy},props:{taxonomy}}));}const {taxonomy}=Astro.props;const isCat=taxonomy==='categories';const all=await posts();const entries=(isCat?categories:tags).map(t=>({...t,count:all.filter(p=>isCat?p.data.category===t.id:p.data.tags.includes(t.id)).length})).filter(t=>t.count).sort((a,b)=>b.count-a.count||a.name.localeCompare(b.name));
+---
+<Base title={isCat?'分类':'标签'} description="换一个角度，发现感兴趣的内容。"><div class="taxonomy-grid">{entries.map((t,i)=><a class="panel taxonomy-card" href={url(`${taxonomy}/${t.id}/`)}><span>0{i+1}</span><h2>{isCat?'':'# '}{t.name}</h2><p>{t.count} 篇文章 <span>↗</span></p></a>)}</div></Base>

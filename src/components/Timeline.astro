@@ -1,0 +1,4 @@
+---
+import type {CollectionEntry} from 'astro:content';import {url,date} from '../lib/content';import {categoryName} from '../config/site';interface Props{items:CollectionEntry<'posts'>[]};const {items}=Astro.props;const years=[...new Set(items.map(p=>date(p.data.publishedAt).slice(0,4)))];
+---
+<div class="panel timeline">{years.map(year=><section><h2>{year}<span>{items.filter(p=>date(p.data.publishedAt).startsWith(year)).length} 篇记录</span></h2>{items.filter(p=>date(p.data.publishedAt).startsWith(year)).map(p=><a class="timeline-row" href={url(`posts/${p.data.slug}/`)}><time>{date(p.data.publishedAt).slice(5)}</time><b>{p.data.title}</b><span>{categoryName(p.data.category)}</span><i>↗</i></a>)}</section>)}</div>

@@ -1,0 +1,4 @@
+---
+import Base from '../layouts/Base.astro';import Timeline from '../components/Timeline.astro';import {posts} from '../lib/content';const all=await posts();
+---
+<Base title="归档" description={`时间会走远，文字会留下。共 ${all.length} 篇记录。`}><div class="section-heading"><h2>文字的时间线</h2><span class="muted">ARCHIVE</span></div><Timeline items={all}/></Base>
