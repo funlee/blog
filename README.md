@@ -1,10 +1,12 @@
-# 李逸辰的部落格
+# Li Yichen’s Blog
 
-基于 Astro 的纯静态个人博客，本地预览首版。无数据库、评论或访问统计。
+English | [简体中文](README-ZH.md)
 
-## 本地运行
+A fully static personal blog built with Astro. This initial version is designed for local preview, with no database, comments, or visitor analytics.
 
-需要 Node.js 22.19+（`.nvmrc` 固定为 22.23.3）。本项目使用 npm 和 package-lock.json 锁定依赖。
+## Run locally
+
+Requires Node.js 22.19 or later (`.nvmrc` pins version 22.23.3). The project uses npm and `package-lock.json` to lock dependencies.
 
 ```bash
 nvm use
@@ -12,59 +14,58 @@ npm install
 npm start
 ```
 
-访问终端输出的地址，默认 http://localhost:4321 。`npm start` 先构建全文搜索索引，再启动完整预览。
+Open the URL printed in the terminal, usually http://localhost:4321. `npm start` builds the site and full-text search index before starting the complete preview.
 
-修改页面样式时可用 `npm run dev` 实时刷新；开发服务器未生成搜索索引时会显示提示。文章修改后需要重新执行 `npm start` 更新完整预览。
-
-```bash
-npm run check    # Astro / TypeScript 检查
-npm test         # 内容筛选、分页、排序校验
-npm run build    # 静态产物和 Pagefind 中文索引
-npm run preview # 预览现有 dist
-```
-
-## 修改内容
-
-- 站名、作者介绍、分类、标签：`src/config/site.ts`
-- 文章：`src/content/posts/*.md`
-- 动态：`src/content/moments/*.md`
-- 关于：`src/content/pages/about.md`
-- 推荐资源/友链：`src/data/friends.json`
-- 配色和布局：`src/styles/global.css`
-- 本地示例插画：`public/images/`
+Use `npm run dev` for live updates while editing styles and pages. The development server displays a notice if the search index has not been generated. After editing articles, run `npm start` again to update the complete preview.
 
 ```bash
-npm run new -- post my-new-post "我的新文章"
-npm run new -- moment a-small-moment "今天的一点记录"
+npm run check   # Astro / TypeScript checks
+npm test        # Content filtering, pagination, and sorting checks
+npm run build   # Static output and Pagefind Chinese search index
+npm run preview # Preview the existing dist directory
 ```
 
-新内容默认草稿。检查后将 `draft` 改为 `false`，发布日期不晚于构建时间才会公开。分类、标签必须引用配置里已有的 id；slug 必须唯一。所有示例文章、动态、头像和个人介绍都是体验素材，正式发布前应替换。
+## Edit content
 
-## 首页横幅与打字机
+- Site name, author details, categories, and tags: `src/config/site.ts`
+- Posts: `src/content/posts/*.md`
+- Moments (short updates): `src/content/moments/*.md`
+- About page: `src/content/pages/about.md`
+- Recommended resources and links: `src/data/friends.json`
+- Colors and layout: `src/styles/global.css`
+- Local sample illustrations: `public/images/`
 
-修改 `src/config/site.ts` 中的 `site.banner`：
+```bash
+npm run new -- post my-new-post "My new post"
+npm run new -- moment a-small-moment "A note from today"
+```
 
-- `quotes`：按顺序循环展示的句子数组，逐字输入、停留、逐字删除后切换。
-- `typewriter.typeSpeed`、`deleteSpeed`：每字输入、删除的间隔（毫秒）。
-- `holdTime`、`startDelay`、`nextDelay`：完整句子停留、首次开始及句间等待时长（毫秒），位于 `typewriter` 中。
-- `typewriter.enabled`：设为 `false` 时静态显示第一句；空列表使用站点简介。
-- `image`：相对于 `public/` 的图片路径；`position`、`mobilePosition` 分别调整桌面和手机的取景位置。
+New content starts as a draft. After reviewing it, set `draft` to `false`. Content is published only if its publication date is no later than the build time. Categories and tags must reference IDs defined in the configuration, and slugs must be unique. All sample posts, moments, avatars, and biographical details are preview material and should be replaced before launch.
 
-关闭 JavaScript 或系统开启“减少动态效果”时仍会显示完整文案。切换页面时销毁动画定时器，后台标签页暂停动画。完整预览需重新运行 `npm start` 才能加载配置修改。
+## Home banner and typewriter effect
 
-壁纸为本地文件 `public/images/seaside-banner.png`，使用内置 image_gen 工具生成。生成提示词：
+Edit `site.banner` in `src/config/site.ts`:
 
-> 生成一张写实摄影风格的海边风景博客横幅壁纸：开阔的蔚蓝海面、柔和的白色浪花、浅色沙滩与远处海岸，晴朗天空，蓝灰色调，自然光，清爽安静。超宽横向构图，重要景物集中在画面中间横向带状区域，适合裁切为约 4:1 网站横幅；中央海面留出干净空间供网页叠加白色文字。不要文字、水印、人物或汽车。
+- `quotes`: An array of sentences displayed in order. Each sentence is typed character by character, held on screen, and then deleted before the next one begins. The sequence repeats.
+- `typewriter.typeSpeed` and `typewriter.deleteSpeed`: The interval between typed or deleted characters, in milliseconds.
+- `typewriter.holdTime`, `typewriter.startDelay`, and `typewriter.nextDelay`: The time to hold a completed sentence, the initial delay, and the pause between sentences, in milliseconds.
+- `typewriter.enabled`: Set to `false` to display the first sentence without animation. An empty quote list falls back to the site description.
+- `image`: The image path relative to `public/`. `position` and `mobilePosition` control the framing on desktop and mobile.
 
+A complete sentence remains visible when JavaScript is disabled or the system’s reduced-motion preference is enabled. Animation timers are cleaned up during page navigation, and the animation pauses in background tabs. Run `npm start` again to load configuration changes in the complete preview.
 
-## 当前范围
+The wallpaper is stored locally at `public/images/seaside-banner.png` and was generated with the built-in `image_gen` tool. English translation of the generation prompt:
 
-已实现首页/动态分页、文章详情、代码复制、目录、图片灯箱、归档、分类标签、友链、关于、404、三种主题、移动导航、Pagefind 搜索、RSS 和站点地图。首页横幅使用本地生成的海边风景壁纸，其余示例插画为原创 SVG，不依赖外部图片服务。
+> Generate a photorealistic seaside wallpaper for a blog banner: an open blue sea, gentle white waves, pale sand, and a distant coastline beneath a clear sky. Use blue-gray tones and natural lighting for a fresh, peaceful atmosphere. Use an ultrawide horizontal composition, keeping the important scenery within the central horizontal band so it can be cropped into an approximately 4:1 website banner. Leave uncluttered water in the center for white text overlaid by the webpage. Do not include text, watermarks, people, or cars.
 
-本轮面向本地体验。赞赏/推广、自动部署、真实资料和照片的优化流程留待视觉确认后补齐；尚未完成全浏览器及 Lighthouse 正式验收。当前友链为推荐技术资源，没有虚构站长关系。没有配置个人社交账号或申请邮箱。
+## Current scope
 
-## 将来部署
+Implemented features include pagination for posts and moments, article pages, code copying, a table of contents, an image lightbox, archives, categories and tags, recommended links, an About page, a 404 page, three theme modes, mobile navigation, Pagefind search, RSS, and a sitemap. The home banner uses a locally generated seaside wallpaper; the other sample illustrations are original SVGs. Images do not depend on external image services.
 
-构建时设置 `SITE_URL=https://你的域名`，子目录部署时另设 `BASE_PATH=/仓库名/`。默认站点地址为本机预览地址，不能直接当成正式 canonical 发布。`dist/` 是完整静态产物，替换部署，不叠加旧文件。正式发布前替换示例内容、设置域名并验证根路径/子路径及托管 404。
+This version focuses on the local experience. Donations and promotions, automated deployment, real personal content, and a photo optimization workflow are deferred until the visual design is confirmed. Full cross-browser and Lighthouse acceptance testing has not been completed. The links page currently lists recommended technical resources, without implying relationships with their owners. Personal social accounts and a link-request email address have not been configured.
 
-不要将私密草稿图片放进 `public/`；该目录内全部文件会直接复制到产物。正式私密草稿不应提交到公开仓库。
+## Future deployment
+
+Set `SITE_URL=https://your-domain.example` when building. For deployment under a subdirectory, also set `BASE_PATH=/repository-name/`. The default site URL points to the local preview and must not be used as the production canonical URL. The `dist/` directory contains the complete static output: replace the previous deployment instead of merging it with old files. Before launch, replace sample content, configure the domain, and verify root-path or subdirectory routing and the hosting provider’s 404 behavior.
+
+Do not put private draft images in `public/`; every file in that directory is copied directly into the build output. Private drafts should not be committed to a public repository.
