@@ -1,4 +1,4 @@
 ---
 import Base from '../layouts/Base.astro';import {getEntry,render} from 'astro:content';import {url} from '../lib/content';const page=await getEntry('pages','about');if(!page)throw new Error('Missing about');const {Content}=await render(page);
 ---
-<Base title="关于" description="一个小小的自我介绍，也是这个空间的起点。"><article class="panel about"><div class="about-intro"><img src={url('images/avatar.svg')} width="100" height="100" alt="示例头像"/><div><span class="eyebrow">HELLO, NICE TO MEET YOU</span><h1>保持好奇，慢慢生长。</h1></div></div><div class="prose"><Content/></div></article></Base>
+<Base title="关于" description="读书、尝试、记录。这是我的日常，也是这个小站的来处。"><article class="panel about"><div class="about-intro"><img src={url('images/avatar.svg')} width="100" height="100" alt="示例头像"/><div><span class="eyebrow">HELLO, NICE TO MEET YOU</span><h1>读一点，做一点，记一点。</h1></div></div><div class="prose"><Content/></div></article></Base>

@@ -17,7 +17,7 @@ const stats = [
   {label: '留下的笔记', value: data.summary.overall.notes, unit: '条', note: '划线、书签与想法'},
 ];
 ---
-<Base title="读书" description="在别人的故事里，遇见更辽阔的世界。这里记录我读过的书，以及阅读留下的痕迹。">
+<Base title="读书" description="当你爱上图书，独处就成为一个人的狂欢。">
   <div class="reading-page" data-reading-page>
     <div class="section-heading reading-heading"><h2>我的阅读足迹</h2><span class="muted">更新于 <time datetime={data.updatedAt}>{data.updatedAt}</time></span></div>
     <div class="reading-stats">
@@ -40,8 +40,7 @@ const stats = [
     </section>}
 
     <section class="reading-library" aria-labelledby="library-title">
-      <div class="section-heading"><h2 id="library-title">读过的书<span>{books.length} 本，收藏一路的好奇心</span></h2><span class="eyebrow">MY BOOKSHELF</span></div>
-      <details class="reading-method"><summary>关于这份书单</summary><p>书单来自可查询的书架与笔记记录，合并同一作品的不同版本，排除公众号和没有阅读或笔记标记的条目；套装按一本计。已移出书架且无笔记的书可能未收录。</p><p>“已标记读完”与阅读进度独立记录。多版本作品显示各版本中的最高进度，展开可查看每个版本。累计时长、天数和笔记采用微信读书的全部历史统计，不仅限于这份书单。数据截至 {data.updatedAt}，每次部署时更新。</p></details>
+      <div class="section-heading"><h2 id="library-title">读过的书<span>{books.length} 本，收藏一路的好奇心</span></h2><Icon name="book-closed"/></div>
       <div class="reading-tools" data-reading-controls hidden>
         <label class="book-search"><Icon name="search" size={18}/><span class="sr-only">搜索书名或作者</span><input type="search" placeholder="搜索书名、作者…" data-book-search autocomplete="off"/></label>
         <label class="book-sort"><span class="sr-only">书单排序</span><select data-book-sort><option value="recent">最近更新</option><option value="progress">阅读进度</option><option value="title">书名排序</option></select></label>
@@ -53,7 +52,7 @@ const stats = [
       </div>
       <p class="book-result-count muted" data-book-count role="status" aria-live="polite">共 {books.length} 本</p>
       <div class="book-grid" data-book-list>
-        {books.map((book, index) => <article class="panel reading-book" data-book data-title={book.title} data-search={[book.title,book.author,...book.versions.map(v => v.title)].join(' ').toLocaleLowerCase()} data-marked={markedFinished(book) ? 'finished' : 'unfinished'} data-progress={readingProgress(book)} data-updated={latestReading(book)}>
+        {books.map((book, index) => <article class="panel reading-book" data-book data-title={book.title} data-book-index={[book.title,book.author,...book.versions.map(v => v.title)].join(' ').toLocaleLowerCase()} data-marked={markedFinished(book) ? 'finished' : 'unfinished'} data-progress={readingProgress(book)} data-updated={latestReading(book)}>
           <div class="book-card-head"><span class="book-number">{String(index+1).padStart(3,'0')}</span><span class="book-category">{book.category}</span></div>
           <h3>{book.title}</h3><p class="book-author">{book.author}</p>
           <div class="book-card-bottom"><div class="book-progress-label"><span>{book.versions.length > 1 ? '最高进度' : '阅读进度'}</span><strong>{readingProgress(book)}%</strong></div><progress value={readingProgress(book)} max="100" aria-label={`${book.title}阅读进度`}/><div class="book-status-row"><span class:list={['book-status', {finished:markedFinished(book)}]}>{markedFinished(book) ? '已标记读完' : '未标记读完'}</span><span class="book-date">{latestReading(book) || '日期未记录'}</span></div>

@@ -18,7 +18,7 @@ function setupReading() {
     const term = normalize(search.value);
     const matches = cards.filter(card =>
       (filter === 'all' || card.dataset.marked === filter) &&
-      normalize(card.dataset.search || '').includes(term));
+      normalize(card.dataset.bookIndex || '').includes(term));
     matches.sort((a, b) => {
       if (sort.value === 'title') return (a.dataset.title || '').localeCompare(b.dataset.title || '', 'zh-CN');
       if (sort.value === 'progress') {
