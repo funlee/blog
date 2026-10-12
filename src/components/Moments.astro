@@ -1,4 +1,26 @@
 ---
-import Base from '../layouts/Base.astro';import Pagination from './Pagination.astro';import {moments,url,date} from '../lib/content';import {render} from 'astro:content';import {site} from '../config/site';import {paginate} from '../lib/core.mjs';const {page=1}=Astro.props;const pages=paginate(await moments(),site.momentPageSize);const items=await Promise.all(pages[page-1].map(async(m:any)=>({...m,...await render(m)})));
+import Base from '../layouts/Base.astro';import Pagination from './Pagination.astro';import {moments,url,date} from '../lib/content';import {render} from 'astro:content';import {site} from '../config/site';import {paginate} from '../lib/core.mjs';import {momentYears} from '../lib/moments.mjs';
+interface Props { page?: number; year?: string }
+const {page=1,year}=Astro.props;
+const all=await moments();
+const years=momentYears(all);
+const filtered=year ? years.find(([value])=>value===year)?.[1] ?? [] : all;
+const pages=paginate(filtered,site.momentPageSize);
+const items=await Promise.all(pages[page-1].map(async(m:any)=>({...m,...await render(m)})));
+const prefix=year ? `moments/year/${year}/` : 'moments/';
 ---
-<Base title="动态" description="不必长篇大论，片刻也值得记录。"><div class="section-heading"><h2>此时，此刻<span>碎片日常</span></h2><span class="muted">LIFE LATELY</span></div><div class="moments">{items.map(({data,Content}:any)=><article class="panel moment"><img class="small-avatar" src={url('images/avatar.svg')} width="42" height="42" alt=""/><div class="moment-body"><header><b>{site.author}</b><time datetime={data.publishedAt}>{date(data.publishedAt)}</time></header><div class="prose"><Content/></div>{data.images.length>0&&<div class="moment-images">{data.images.map((im:any)=><button class="image-button" aria-label={`放大：${im.alt}`}><img src={url(im.src)} alt={im.alt} width="500" height="300" loading="lazy" data-zoom/></button>)}</div>}<span class="moment-foot">☘ 记录一个小瞬间</span></div></article>)}</div><Pagination current={page} total={pages.length} prefix="moments/"/></Base>
+<Base title={year ? `${year} 年的碎碎念` : "碎碎念"} description="随手记下此刻的心情、闪过的灵感，还有生活里的所思所想。"><div class="section-heading"><h2>此时，此刻<span>想到什么，就记下来</span></h2><span class="muted">LIFE LATELY</span></div><nav class="filter-tabs moment-years" aria-label="按年份筛选碎碎念">
+<a href={url('moments/')} class:list={{active:!year}} aria-current={!year?'page':undefined}>全部 <span>{all.length}</span></a>
+{years.map(([value,entries])=><a href={url(`moments/year/${value}/`)} class:list={{active:year===value}} aria-current={year===value?'page':undefined}>{value} <span>{entries.length}</span></a>)}
+</nav>
+<p class="moment-count">{year ? `${year} 年 · ` : ''}共 {filtered.length} 条{pages.length>1 && ` · 第 ${page} / ${pages.length} 页`}</p>
+<div class="moments">{items.map(({data,Content}:any)=><article class="panel moment"><img class="small-avatar" src={url('images/avatar.svg')} width="42" height="42" alt=""/><div class="moment-body"><header><b>{site.author}</b><time datetime={data.updatedAt || data.publishedAt}>{data.source === "yuque" && data.dateBasis !== "entry" && "更新于 "}{data.dateLabel || date(data.updatedAt || data.publishedAt)}</time></header><div class="prose"><Content/></div>{data.images.length>0&&<div class:list={["moment-images", {"cover-images":data.images.every((im:any)=>im.kind === "cover")}]}>{data.images.map((im:any)=><button class:list={["image-button", {"cover-image":im.kind === "cover"}]} aria-label={`放大：${im.alt}`}><img src={url(im.src)} alt={im.alt} width={im.width || 500} height={im.height || 300} loading="lazy" data-zoom/></button>)}</div>}<span class="moment-foot">☘ 记录一个小瞬间</span></div></article>)}</div><Pagination current={page} total={pages.length} prefix={prefix}/></Base>
+
+<style>
+.moment-years { flex-wrap: wrap; }
+.moment-years span { margin-left: 5px; font-size: .85em; opacity: .8; }
+.moment-count { margin: 0 0 20px; color: var(--muted); font-size: 12px; }
+.moment-images.cover-images { grid-template-columns: repeat(auto-fill, 135px); }
+.cover-image { align-self: start; }
+.cover-image img { width: 135px; height: auto; object-fit: contain; display: block; }
+</style>

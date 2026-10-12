@@ -29,7 +29,7 @@ npm run preview # 预览现有 dist
 
 - 站名、作者介绍、分类、标签：`src/config/site.ts`
 - 文章：`src/content/posts/*.md`
-- 动态：`src/content/moments/*.md`
+- 碎碎念：`src/content/moments/*.md`
 - 关于：`src/content/pages/about.md`
 - 推荐资源/友链：`src/data/friends.json`
 - 阅读数据快照：`src/data/reading.json`（说明见下文）
@@ -62,7 +62,7 @@ npm run new -- moment a-small-moment "今天的一点记录"
 
 ## 当前范围
 
-已实现首页/动态分页、文章详情、代码复制、目录、图片灯箱、归档、分类标签、友链、关于、404、三种主题、移动导航、Pagefind 搜索、RSS 和站点地图。首页横幅使用本地生成的海边风景壁纸，其余示例插画为原创 SVG，不依赖外部图片服务。
+已实现首页/碎碎念分页、文章详情、代码复制、目录、图片灯箱、归档、分类标签、友链、关于、404、三种主题、移动导航、Pagefind 搜索、RSS 和站点地图。首页横幅使用本地生成的海边风景壁纸，其余示例插画为原创 SVG，不依赖外部图片服务。
 
 本轮面向本地体验。赞赏/推广、自动部署、真实资料和照片的优化流程留待视觉确认后补齐；尚未完成全浏览器及 Lighthouse 正式验收。当前友链为推荐技术资源，没有虚构站长关系。没有配置个人社交账号或申请邮箱。
 

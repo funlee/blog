@@ -14,6 +14,16 @@ export function paginate(items, size) {
     (_, i) => items.slice(i * size, (i + 1) * size),
   );
 }
+export function paginationWindow(current, total) {
+  const visible = Array.from({ length: total }, (_, i) => i + 1).filter(
+    (page) => total <= 7 || page === 1 || page === total || Math.abs(page - current) <= 1,
+  );
+  return visible.flatMap((page, i) => {
+    const previous = visible[i - 1];
+    if (i && page - previous === 2) return [previous + 1, page];
+    return i && page - previous > 2 ? [null, page] : [page];
+  });
+}
 export function homeOrder(items) {
   return [...items].sort(
     (a, b) =>

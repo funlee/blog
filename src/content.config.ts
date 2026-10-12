@@ -7,6 +7,10 @@ const common = {
   publishedAt: date,
   updatedAt: date.optional(),
   draft: z.boolean().default(false),
+  source: z.enum(["yuque", "douban"]).optional(),
+  sourceId: z.string().optional(),
+  sourceTitle: z.string().optional(),
+  sourceUrl: z.url().optional(),
 };
 const posts = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
@@ -39,7 +43,15 @@ const moments = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/moments" }),
   schema: z.object({
     ...common,
-    images: z.array(z.object({ src: z.string(), alt: z.string() })).default([]),
+    dateBasis: z.enum(["entry", "source-updated", "source-published"]).optional(),
+    dateLabel: z.string().optional(),
+    images: z.array(z.object({
+      src: z.string(),
+      alt: z.string(),
+      kind: z.enum(["photo", "cover"]).optional(),
+      width: z.number().positive().optional(),
+      height: z.number().positive().optional(),
+    })).default([]),
   }),
 });
 const pages = defineCollection({

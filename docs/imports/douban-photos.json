@@ -1,0 +1,8 @@
+{
+  "policy": "豆瓣迁移动态仅保留书籍、电影的作品封面，普通配图及音乐、游戏图片已移除。",
+  "imageUpgradeStatus": "cancelled",
+  "momentsChanged": 400,
+  "imageReferencesRemoved": 825,
+  "retainedCoverReferences": 128,
+  "unreferencedAssetFilesRemoved": 951
+}
