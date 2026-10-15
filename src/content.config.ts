@@ -45,6 +45,7 @@ const moments = defineCollection({
     ...common,
     dateBasis: z.enum(["entry", "source-updated", "source-published"]).optional(),
     dateLabel: z.string().optional(),
+    celebration: z.enum(["birthday"]).optional(),
     images: z.array(z.object({
       src: z.string(),
       alt: z.string(),

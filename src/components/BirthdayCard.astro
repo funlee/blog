@@ -1,0 +1,87 @@
+---
+interface Props { publishedAt: string }
+const { publishedAt } = Astro.props;
+const stamp = new Intl.DateTimeFormat('en-GB', { month: '2-digit', day: '2-digit', timeZone: 'Asia/Shanghai' }).format(new Date(publishedAt)).split('/').reverse().join(' / ');
+---
+<birthday-card class="birthday-card">
+  <div class="space-art" aria-hidden="true">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="planet"></div><span class="satellite">✦</span>
+    {Array.from({ length: 18 }, (_, i) => <i class="star" style={`left:${(i * 37 + 7) % 100}%;top:${(i * 23 + 11) % 100}%;opacity:${.25 + (i % 4) * .18}`}/>)}
+  </div>
+  <div class="birthday-copy">
+    <div class="eyebrow"><span>ANOTHER TRIP AROUND THE SUN</span><span>{stamp}</span></div>
+    <h3>又绕太阳，<br/>走了一圈<span class="title-star" aria-hidden="true">✦</span></h3>
+    <p>今天，给自己一句生日快乐。</p>
+    <button type="button" class="celebrate" hidden>给今天撒点彩纸 <span aria-hidden="true">↗</span></button>
+    <span class="birthday-status" role="status"></span>
+  </div>
+  <span class="birthday-edition" aria-hidden="true">BIRTHDAY · A LITTLE CELEBRATION OF LIFE</span>
+</birthday-card>
+
+<style>
+  .birthday-card { display:block; position:relative; isolation:isolate; overflow:hidden; margin:20px 0; padding:28px 30px 35px; border:1px solid #515178; border-radius:16px; color:#f9f4ff; background:radial-gradient(ellipse at 85% 70%,#434176 0,transparent 53%),linear-gradient(125deg,#131b30,#24223f); }
+  .birthday-copy { position:relative; z-index:1; }
+  .eyebrow { display:flex; justify-content:space-between; gap:16px; color:#cec9e8; font-size:9px; letter-spacing:1.7px; }
+  h3 { font-size:clamp(28px,4vw,44px); font-weight:600; line-height:1.35; letter-spacing:2px; margin:29px 0 12px; color:#fff5e8; }
+  .title-star { display:inline-block; color:#f7cf99; margin-left:12px; font-size:.65em; }
+  p { margin:0 0 24px; font-size:12px; color:#d2cce6; }
+  .celebrate { border:1px solid #b7a4d3; border-radius:24px; padding:10px 17px; background:#ffffff0c; color:#fff2e5; font:inherit; font-size:12px; cursor:pointer; }
+  .celebrate:hover { background:#ffffff20; }
+  .celebrate:focus-visible { outline:2px solid #ffda9e; outline-offset:4px; }
+  .celebrate span { margin-left:15px; }
+  .birthday-status { display:block; min-height:18px; margin-top:10px; font-size:11px; color:#ffda9e; }
+  .birthday-edition { position:absolute; bottom:13px; left:30px; font-size:8px; letter-spacing:1.5px; color:#b9b3d2; }
+  .space-art { position:absolute; inset:0; z-index:0; pointer-events:none; }
+  .planet { position:absolute; width:130px; height:130px; border-radius:50%; right:7%; top:31%; background:radial-gradient(circle at 28% 24%,#fff0c5,#e7b2bb 28%,#9981c1 56%,#3c365e 82%); box-shadow:0 0 55px #c2a5e533,inset -12px -15px 30px #201b45; }
+  .orbit { position:absolute; width:285px; height:115px; right:-6%; top:34%; border:1px solid #d3c1e95c; border-radius:50%; transform:rotate(-35deg); }
+  .orbit-two { width:340px; height:170px; right:-11%; top:26%; border-color:#d3c1e923; }
+  .satellite { position:absolute; right:32%; top:64%; font-size:22px; color:#ffe3af; animation:float 4s ease-in-out 2; }
+  .star { position:absolute; width:2px; height:2px; border-radius:50%; background:#fff4dc; }
+  @keyframes float { 50% { transform:translateY(-8px); } }
+  @media(max-width:600px) {
+    .birthday-card { padding:22px 20px 34px; }
+    .eyebrow { font-size:8px; letter-spacing:1px; }
+    .eyebrow span:first-child { max-width:145px; }
+    h3 { font-size:30px; }
+    .planet { width:88px; height:88px; right:-12px; top:35%; opacity:.65; }
+    .orbit { right:-180px; }
+    .orbit-two { right:-200px; }
+    .satellite { right:12%; top:70%; }
+    .birthday-edition { left:20px; font-size:7px; letter-spacing:1px; }
+  }
+  @media(prefers-reduced-motion:reduce) { .satellite { animation:none; } }
+</style>
+
+<script>
+  class BirthdayCard extends HTMLElement {
+    connectedCallback() {
+      const button = this.querySelector<HTMLButtonElement>('button');
+      const status = this.querySelector<HTMLElement>('[role="status"]');
+      if (!button || !status || button.dataset.ready) return;
+      button.dataset.ready = 'true';
+      button.hidden = false;
+      button.addEventListener('click', () => {
+        status.textContent = '生日快乐，愿新的一岁有更多开心的瞬间 ✨';
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        button.disabled = true;
+        const colors = ['#f9cf90', '#c7b7f2', '#f3b8c6', '#a8dacf'];
+        const animations = Array.from({ length: 36 }, (_, i) => {
+          const piece = document.createElement('span');
+          piece.setAttribute('aria-hidden', 'true');
+          piece.style.cssText = `position:absolute;pointer-events:none;z-index:2;left:50%;top:60%;width:6px;height:10px;background:${colors[i % colors.length]};border-radius:2px`;
+          this.append(piece);
+          const x = (Math.random() - .5) * this.clientWidth * 1.8;
+          const animation = piece.animate([
+            { transform:'translate(0,0) rotate(0deg)', opacity:1 },
+            { transform:`translate(${x * .6}px,-150px) rotate(${i * 29}deg)`, opacity:1, offset:.45 },
+            { transform:`translate(${x}px,180px) rotate(${i * 61}deg)`, opacity:0 },
+          ], { duration:1400 + Math.random() * 500, easing:'ease-out' });
+          return animation.finished.finally(() => piece.remove());
+        });
+        Promise.allSettled(animations).then(() => { button.disabled = false; });
+      });
+    }
+  }
+  if (!customElements.get('birthday-card')) customElements.define('birthday-card', BirthdayCard);
+</script>

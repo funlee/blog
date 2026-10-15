@@ -1,4 +1,5 @@
 ---
+import BirthdayCard from './BirthdayCard.astro';
 import Base from '../layouts/Base.astro';import Pagination from './Pagination.astro';import {moments,url,date} from '../lib/content';import {render} from 'astro:content';import {site} from '../config/site';import {paginate} from '../lib/core.mjs';import {momentYears} from '../lib/moments.mjs';
 interface Props { page?: number; year?: string }
 const {page=1,year}=Astro.props;
@@ -14,7 +15,20 @@ const prefix=year ? `moments/year/${year}/` : 'moments/';
 {years.map(([value,entries])=><a href={url(`moments/year/${value}/`)} class:list={{active:year===value}} aria-current={year===value?'page':undefined}>{value} <span>{entries.length}</span></a>)}
 </nav>
 <p class="moment-count">{year ? `${year} 年 · ` : ''}共 {filtered.length} 条{pages.length>1 && ` · 第 ${page} / ${pages.length} 页`}</p>
-<div class="moments">{items.map(({data,Content}:any)=><article class="panel moment"><img class="small-avatar" src={url('images/avatar.svg')} width="42" height="42" alt=""/><div class="moment-body"><header><b>{site.author}</b><time datetime={data.updatedAt || data.publishedAt}>{data.source === "yuque" && data.dateBasis !== "entry" && "更新于 "}{data.dateLabel || date(data.updatedAt || data.publishedAt)}</time></header><div class="prose"><Content/></div>{data.images.length>0&&<div class:list={["moment-images", {"cover-images":data.images.every((im:any)=>im.kind === "cover")}]}>{data.images.map((im:any)=><button class:list={["image-button", {"cover-image":im.kind === "cover"}]} aria-label={`放大：${im.alt}`}><img src={url(im.src)} alt={im.alt} width={im.width || 500} height={im.height || 300} loading="lazy" data-zoom/></button>)}</div>}<span class="moment-foot">☘ 记录一个小瞬间</span></div></article>)}</div><Pagination current={page} total={pages.length} prefix={prefix}/></Base>
+<div class="moments">{items.map(({data,Content}:any)=><article class="panel moment"><img class="small-avatar" src={url('images/avatar.svg')} width="42" height="42" alt=""/><div class="moment-body"><header><b>{site.author}</b><time datetime={data.updatedAt || data.publishedAt}>{data.source === "yuque" && data.dateBasis !== "entry" && "更新于 "}{data.dateLabel || date(data.updatedAt || data.publishedAt)}</time></header><div class="prose"><Content/></div>{data.celebration === "birthday" && <BirthdayCard publishedAt={data.publishedAt}/>}{data.images.length>0&&<div class:list={["moment-images", {"cover-images":data.images.every((im:any)=>im.kind === "cover")}]}>{data.images.map((im:any)=><button class:list={["image-button", {"cover-image":im.kind === "cover"}]} aria-label={`放大：${im.alt}`}><img src={url(im.src)} alt={im.alt} width={im.width || 500} height={im.height || 300} loading="lazy" data-zoom/></button>)}</div>}<span class="moment-foot">☘ 记录一个小瞬间</span></div></article>)}</div><Pagination current={page} total={pages.length} prefix={prefix}/></Base>
+
+<script>
+  const captions = [
+    '记录一个小瞬间',
+    '留住此刻的心情',
+    '收集生活的点滴',
+    '写下今天的片段',
+    '珍藏日常的微光',
+  ];
+  document.querySelectorAll<HTMLElement>('.moment-foot').forEach((footer) => {
+    footer.textContent = `☘ ${captions[Math.floor(Math.random() * captions.length)]}`;
+  });
+</script>
 
 <style>
 .moment-years { flex-wrap: wrap; }
