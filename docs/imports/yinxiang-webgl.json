@@ -1,0 +1,93 @@
+{
+  "migratedAt": "2026-10-15",
+  "timeZone": "Asia/Shanghai",
+  "notes": [
+    {
+      "sourceId": "e0d70c91-882b-49e5-8d52-86913174ac24",
+      "slug": "webgl-guide-02-getting-started",
+      "createdAt": "2019-09-19T14:19:00+08:00",
+      "dateEvidence": "笔记信息面板：2019 年 9 月 19 日 14:19；原更新时间因删除恢复已不可靠。",
+      "sourceUpdatedAtUsed": false,
+      "sourceUrl": "https://web.yinxiang.com/#?b=4f7e64f7-2736-44ba-b77b-b252036fbba5&n=e0d70c91-882b-49e5-8d52-86913174ac24&s=s56&",
+      "file": "src/content/posts/webgl-guide-02-getting-started.md",
+      "changes": [
+        "修正 POINT、conosle 笔误",
+        "澄清 clear 参数、齐次坐标和属性传递",
+        "鼠标坐标换算采用画布 CSS 尺寸"
+      ]
+    },
+    {
+      "sourceId": "af79b45a-89d6-4c4e-b62a-7969d6b57590",
+      "slug": "webgl-guide-05-colors-textures",
+      "createdAt": "2019-09-24T08:47:00+08:00",
+      "dateEvidence": "笔记信息\n标题\nWebGL 编程指南(五)：颜色与纹理\n创建时间\n星期二, 九月 24 2019, 8:47 早上\n更新时间\n星期二, 九月 24 2019, 4:02 下午",
+      "sourceUpdatedAtUsed": false,
+      "sourceUrl": "https://web.yinxiang.com/#?b=4f7e64f7-2736-44ba-b77b-b252036fbba5&n=af79b45a-89d6-4c4e-b62a-7969d6b57590&s=s56&",
+      "file": "src/content/posts/webgl-guide-05-colors-textures.md",
+      "changes": [
+        "补充交错属性字节布局、颜色插值与光栅化",
+        "纹理使用 CLAMP_TO_EDGE 兼容 NPOT，增加加载失败反馈"
+      ]
+    },
+    {
+      "sourceId": "d244b20e-170b-46c1-84f2-cbce6a19b817",
+      "slug": "webgl-guide-01-overview",
+      "createdAt": "2019-09-19T11:04:00+08:00",
+      "dateEvidence": "笔记信息\n标题\nWebGL 编程指南(一)：WebGL 概述\n创建时间\n星期四, 九月 19 2019, 11:04 上午\n更新时间\n星期二, 九月 24 2019, 8:47 早上",
+      "sourceUpdatedAtUsed": false,
+      "sourceUrl": "https://web.yinxiang.com/#?b=4f7e64f7-2736-44ba-b77b-b252036fbba5&n=d244b20e-170b-46c1-84f2-cbce6a19b817&s=s56&",
+      "file": "src/content/posts/webgl-guide-01-overview.md",
+      "changes": [
+        "扩写语言职责、渲染流程和学习路线；将原文空章节整理为后续学习方向"
+      ]
+    },
+    {
+      "sourceId": "715a71a0-74bf-41af-a7e3-56f017803fb6",
+      "slug": "webgl-guide-07-3d-world",
+      "createdAt": "2019-09-24T16:05:00+08:00",
+      "dateEvidence": "笔记信息\n标题\nWebGL编程指南(七)：进入三维世界\n创建时间\n星期二, 九月 24 2019, 4:05 下午\n更新时间\n星期六, 九月 28 2019, 10:46 上午",
+      "sourceUpdatedAtUsed": false,
+      "sourceUrl": "https://web.yinxiang.com/#?b=4f7e64f7-2736-44ba-b77b-b252036fbba5&n=715a71a0-74bf-41af-a7e3-56f017803fb6&s=s56&",
+      "file": "src/content/posts/webgl-guide-07-3d-world.md",
+      "changes": [
+        "修正上方向的正负号和默认相机描述",
+        "补充模型/视图/投影职责与深度测试"
+      ]
+    },
+    {
+      "sourceId": "a21615ce-5fb3-4242-b081-d8b0fadf2472",
+      "slug": "webgl-guide-03-triangles-transforms",
+      "createdAt": "2019-09-23T00:00:00+08:00",
+      "dateEvidence": "笔记信息\n标题\nWebGL编程指南(三)：绘制和变换三角形\n创建时间\n星期一, 九月 23 2019, 12:00 凌晨\n更新时间\n星期一, 九月 23 2019, 8:52 晚上",
+      "sourceUpdatedAtUsed": false,
+      "sourceUrl": "https://web.yinxiang.com/#?b=4f7e64f7-2736-44ba-b77b-b252036fbba5&n=a21615ce-5fb3-4242-b081-d8b0fadf2472&s=s56&",
+      "file": "src/content/posts/webgl-guide-03-triangles-transforms.md",
+      "changes": [
+        "补充缓冲区数据布局、图元类型与矩阵列存储解释",
+        "修正 LINE_LOOP 说明，变换例子复用缓冲区"
+      ]
+    },
+    {
+      "sourceId": "bed85d2d-fd8a-4a40-a908-853c3ee3f013",
+      "slug": "webgl-guide-04-animation",
+      "createdAt": "2019-09-23T20:54:00+08:00",
+      "dateEvidence": "笔记信息\n标题\nWebGL编程指南(四)：高级变换与动画基础\n创建时间\n星期一, 九月 23 2019, 8:54 晚上\n更新时间\n星期二, 九月 24 2019, 8:46 早上",
+      "sourceUpdatedAtUsed": false,
+      "sourceUrl": "https://web.yinxiang.com/#?b=4f7e64f7-2736-44ba-b77b-b252036fbba5&n=bed85d2d-fd8a-4a40-a908-853c3ee3f013&s=s56&",
+      "file": "src/content/posts/webgl-guide-04-animation.md",
+      "changes": [
+        "补充矩阵乘法顺序",
+        "将首帧计时初始化移到 tick 前，去除掩盖 NaN 的回退"
+      ]
+    }
+  ],
+  "editorialPolicy": "保留原创建时间和章节编号；迁移时扩写说明、修正示例；updatedAt 为迁移修订时间，不代表原笔记最后编辑时间。",
+  "validation": {
+    "astroCheck": "0 errors; 0 warnings; existing BirthdayCard async hint",
+    "javascriptSyntaxBlocks": 26,
+    "browserRunnableSamples": 20,
+    "browserMethod": "使用作者配套库，在独立 iframe 中依次运行完整示例；触发一次画布点击，检查 JS 错误和绘制/清除后的 GL 错误。",
+    "limitations": "未逐个像素比较渲染结果；未覆盖所有设备和 GPU。",
+    "build": "通过；239 个页面，14538 个本地链接与资源检查通过。"
+  }
+}

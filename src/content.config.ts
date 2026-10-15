@@ -7,9 +7,10 @@ const common = {
   publishedAt: date,
   updatedAt: date.optional(),
   draft: z.boolean().default(false),
-  source: z.enum(["yuque", "douban", "juejin", "zhihu"]).optional(),
+  source: z.enum(["yuque", "douban", "juejin", "zhihu", "yinxiang"]).optional(),
   sourceId: z.string().optional(),
   sourceTitle: z.string().optional(),
+  sourceCreatedAt: date.optional(),
   sourceUrl: z.url().optional(),
 };
 const posts = defineCollection({
