@@ -31,8 +31,9 @@ test('修正后的链表支持首尾操作并拒绝非法位置', () => {
 });
 test('节流连续触发和尾调用保持间隔，保留 this 与最后参数', () => {
   let now=0,id=0;const timers=new Map(),calls=[];
-  const ctx=vm.createContext({ Date:{now:()=>now},setTimeout:(fn,delay)=>{timers.set(++id,{fn,at:now+delay});return id;},clearTimeout:i=>timers.delete(i),record:function(value){calls.push([now,this.name,value]);} });
-  const code=blocks(post('6844903837975724039'))[0].split('// 持续触发时')[0];
+  const ctx=vm.createContext({ performance:{now:()=>now},setTimeout:(fn,delay)=>{timers.set(++id,{fn,at:now+delay});return id;},clearTimeout:i=>timers.delete(i),record:function(value){calls.push([now,this.name,value]);} });
+  const code=blocks(post('6844903837975724039')).find(block => /^function throttle\(/m.test(block));
+  assert.ok(code, '文章应包含 throttle 函数的完整代码块');
   vm.runInContext(code+'\nvar wrapped=throttle(record,1000);',ctx);
   function call(t,value){now=t;ctx.value=value;vm.runInContext('wrapped.call({name:"context"},value)',ctx);}
   function tick(t){now=t;for(const [i,timer] of timers){if(timer.at<=t){timers.delete(i);timer.fn();}}}
