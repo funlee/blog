@@ -6,6 +6,25 @@ export function setupTypewriter() {
   const quotes: string[] = JSON.parse(banner.dataset.quotes || "[]");
   const options = JSON.parse(banner.dataset.options || "{}");
   if (!quotes.length || !options.enabled) return () => {};
+  // Shuffle on each visit, rather than during the static site build.
+  for (let i = quotes.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [quotes[i], quotes[j]] = [quotes[j], quotes[i]];
+  }
+  try {
+    const key = "blog:typewriter:last-first-quote";
+    const previous = sessionStorage.getItem(key);
+    if (quotes[0] === previous) {
+      const candidates = quotes.flatMap((quote, index) => quote !== previous ? [index] : []);
+      if (candidates.length) {
+        const next = candidates[Math.floor(Math.random() * candidates.length)];
+        [quotes[0], quotes[next]] = [quotes[next], quotes[0]];
+      }
+    }
+    sessionStorage.setItem(key, quotes[0]);
+  } catch {
+    // Keep random playback available when browser storage is disabled.
+  }
   const motion = matchMedia("(prefers-reduced-motion: reduce)");
   const segmenter = new Intl.Segmenter("zh-CN", { granularity: "grapheme" });
   const lines = quotes.map((quote) => [...segmenter.segment(quote)].map((part) => part.segment));
