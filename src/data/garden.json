@@ -1,0 +1,74 @@
+{
+  "kind": "habit-garden-backup",
+  "formatVersion": 2,
+  "exportedAt": "2026-10-29T10:56:43.155336Z",
+  "habits": [
+    {
+      "name": "读书",
+      "icon": "book",
+      "colorIndex": 0,
+      "shape": "daisy",
+      "schedule": {
+        "kind": "daily"
+      },
+      "position": 0,
+      "pauses": [],
+      "createdOn": "2026-10-15",
+      "days": {
+        "2026-10-15": "done",
+        "2026-10-16": "done",
+        "2026-10-17": "done",
+        "2026-10-19": "done",
+        "2026-10-21": "done",
+        "2026-10-22": "done",
+        "2026-10-26": "done",
+        "2026-10-28": "done",
+        "2026-10-29": "done"
+      }
+    },
+    {
+      "name": "运动",
+      "icon": "leaf",
+      "colorIndex": 1,
+      "shape": "tulip",
+      "schedule": {
+        "kind": "daily"
+      },
+      "position": 1,
+      "pauses": [],
+      "createdOn": "2026-10-16",
+      "days": {
+        "2026-10-16": "done",
+        "2026-10-17": "done",
+        "2026-10-19": "done",
+        "2026-10-21": "done",
+        "2026-10-22": "done",
+        "2026-10-26": "done",
+        "2026-10-28": "done",
+        "2026-10-29": "done"
+      }
+    },
+    {
+      "name": "向阳而生",
+      "icon": "sun",
+      "colorIndex": 2,
+      "shape": "sunflower",
+      "schedule": {
+        "kind": "daily"
+      },
+      "position": 2,
+      "pauses": [],
+      "createdOn": "2026-10-16",
+      "days": {
+        "2026-10-16": "done",
+        "2026-10-17": "done",
+        "2026-10-19": "done",
+        "2026-10-21": "done",
+        "2026-10-22": "done",
+        "2026-10-26": "done",
+        "2026-10-28": "done",
+        "2026-10-29": "done"
+      }
+    }
+  ]
+}

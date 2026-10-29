@@ -31,7 +31,7 @@ npm run preview # Preview the existing dist directory
 - Posts: `src/content/posts/*.md`
 - Moments (short updates): `src/content/moments/*.md`
 - About page: `src/content/pages/about.md`
-- Recommended resources and links: `src/data/friends.json`
+- Garden phone backup: `src/data/garden.json` (replace with the original app export)
 - Colors and layout: `src/styles/global.css`
 - Local sample illustrations: `public/images/`
 
@@ -60,9 +60,9 @@ The wallpaper is stored locally at `public/images/seaside-banner.png` and was ge
 
 ## Current scope
 
-Implemented features include pagination for posts and moments, article pages, code copying, a table of contents, an image lightbox, archives, categories and tags, recommended links, an About page, a 404 page, three theme modes, mobile navigation, Pagefind search, RSS, and a sitemap. The home banner uses a locally generated seaside wallpaper; the other sample illustrations are original SVGs. Images do not depend on external image services.
+Implemented features include pagination for posts and moments, article pages, code copying, a table of contents, an image lightbox, archives, categories and tags, reading and garden sections, an About page, a 404 page, three theme modes, mobile navigation, Pagefind search, RSS, and a sitemap. The home banner uses a locally generated seaside wallpaper; the other sample illustrations are original SVGs. Images do not depend on external image services.
 
-This version focuses on the local experience. Donations and promotions, automated deployment, real personal content, and a photo optimization workflow are deferred until the visual design is confirmed. Full cross-browser and Lighthouse acceptance testing has not been completed. The links page currently lists recommended technical resources, without implying relationships with their owners. Personal social accounts and a link-request email address have not been configured.
+This version focuses on the local experience. Donations and promotions, automated deployment, real personal content, and a photo optimization workflow are deferred until the visual design is confirmed. Full cross-browser and Lighthouse acceptance testing has not been completed. The links section has been removed, and `/friends/` no longer serves a page. Personal social accounts and a contact email address have not been configured.
 
 ## Future deployment
 
@@ -75,3 +75,13 @@ Do not put private draft images in `public/`; every file in that directory is co
 The `Deploy blog to GitHub Pages` workflow (`.github/workflows/deploy-pages.yml`) refreshes WeRead data before every build triggered by a push to `main` or `workflow_dispatch`. Enable **Settings → Pages → Source → GitHub Actions** and add the repository Actions secret **WEREAD_API_KEY**. The workflow derives the site origin/base path from Pages settings.
 
 Sync errors stop publication, preserving the last deployed site. The fresh JSON is used in the build without committing it back. Sync, build, and deployment share one job, so re-running it also refreshes the data. Local builds remain offline; use `npm run sync:reading` with the key in your environment or ignored `.env` to refresh locally. See [the Chinese guide](README-ZH.md#读书栏目与部署时同步) for data rules and setup details.
+
+## Garden: a read-only view of the phone backup
+
+The `/garden/` section displays habit plants, completion totals, distinct action days and monthly history. Select a plant to view its history and expand a month to read the calendar. Everyone sees the same page; habits and check-ins are managed in the phone app.
+
+Replace `src/data/garden.json` with the complete Habit Garden export (`kind: "habit-garden-backup"`, `formatVersion: 2`). Keep the native structure, including `exportedAt`, `schedule`, `position`, `pauses`, `createdOn` and each habit's `days` map. The build validates the backup without rewriting it. There is no editing API, login, browser storage or data-maintenance skill.
+
+Run `npm run check`, `npm test` and `npm run build`, then publish through the existing Pages workflow. `npm run dev` previews local edits immediately; online content changes only after deployment. Snapshot dates come from `exportedAt`, displayed in Asia/Shanghai time, rather than the build or visitor's date.
+
+Completed days drive the blog's visual growth stages: seed at 0, sprout at 1–6, bud at 7–20, bloom at 21 or more. These are presentation rules, not a reproduction of the app's growth algorithm. Rest is counted separately; absent dates remain unrecorded. The supplied daily schedule is supported; other schedule kinds retain their data and use a generic label. Pause metadata is retained without inventing interval semantics. Unsupported backup versions or record states stop the build. Only include a backup intended for public display.

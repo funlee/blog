@@ -31,7 +31,7 @@ npm run preview # 预览现有 dist
 - 文章：`src/content/posts/*.md`
 - 碎碎念：`src/content/moments/*.md`
 - 关于：`src/content/pages/about.md`
-- 推荐资源/友链：`src/data/friends.json`
+- 花园手机备份：`src/data/garden.json`（用 App 原始导出文件替换）
 - 阅读数据快照：`src/data/reading.json`（说明见下文）
 - 配色和布局：`src/styles/global.css`
 - 本地示例插画：`public/images/`
@@ -62,9 +62,9 @@ npm run new -- moment a-small-moment "今天的一点记录"
 
 ## 当前范围
 
-已实现首页/碎碎念分页、文章详情、代码复制、目录、图片灯箱、归档、分类标签、友链、关于、404、三种主题、移动导航、Pagefind 搜索、RSS 和站点地图。首页横幅使用本地生成的海边风景壁纸，其余示例插画为原创 SVG，不依赖外部图片服务。
+已实现首页/碎碎念分页、文章详情、代码复制、目录、图片灯箱、归档、分类标签、读书、花园、关于、404、三种主题、移动导航、Pagefind 搜索、RSS 和站点地图。首页横幅使用本地生成的海边风景壁纸，其余示例插画为原创 SVG，不依赖外部图片服务。
 
-本轮面向本地体验。赞赏/推广、自动部署、真实资料和照片的优化流程留待视觉确认后补齐；尚未完成全浏览器及 Lighthouse 正式验收。当前友链为推荐技术资源，没有虚构站长关系。没有配置个人社交账号或申请邮箱。
+本轮面向本地体验。赞赏/推广、自动部署、真实资料和照片的优化流程留待视觉确认后补齐；尚未完成全浏览器及 Lighthouse 正式验收。友链栏目已下架，原 `/friends/` 地址不再提供页面。没有配置个人社交账号或申请邮箱。
 
 ## 将来部署
 
@@ -119,3 +119,22 @@ npm run build
 - 接口的 `skill_version` 当前为1.0.5。如果服务器要求升级，脚本会中止；核对官方技能新文档并更新实现、版本号与测试后再部署，不会在 CI 中执行远程升级指令。
 
 部署参考：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[Astro GitHub Pages 指南](https://docs.astro.build/en/guides/deploy/github/)。
+
+## 花园：展示手机上的习惯记录
+
+顶部「花园」进入 `/garden/`，展示习惯植物、累计完成次数、行动天数和每项习惯的月历。点击植物切换成长足迹，展开月份浏览历史。页面完全只读，所有人看到相同内容，没有登录、身份切换或打卡操作。
+
+习惯创建和打卡在手机 Habit Garden 中完成。更新博客时：
+
+1. 从手机 App 导出备份 JSON。
+2. 用完整原文件替换 `src/data/garden.json`，保留 `kind: "habit-garden-backup"`、`formatVersion: 2`、`exportedAt` 和 `habits`，无需转换结构。
+3. 运行 `npm run check`、`npm test` 和 `npm run build`，检查数据和静态产物。
+4. 本地用 `npm run dev` 实时预览；完整预览用 `npm start`。提交到 `main` 后沿用现有 GitHub Pages 工作流发布。仅替换本地文件不会更新线上页面。
+
+构建不会改写源 JSON，也不会访问手机或外部习惯接口。`position` 决定植物顺序，`icon`、`colorIndex`、`shape` 决定展示样式，`createdOn` 与 `days` 决定记录。`done` 计为一次完成，`rest` 单独统计，缺失日期显示「未记录」。行动天数按所有习惯的完成日期去重。
+
+页面截止日和更新时间来自 `exportedAt`，按北京时间显示，不随部署日或访客设备日期延长。植物阶段为博客的展示规则：累计完成 0 次是种子、1–6 次萌芽、7–20 次花苞、21 次及以上开花；这不是手机 App 生长算法的复刻。
+
+额外原始字段和 `pauses` 会保留，不增补自定义存储字段。当前已核对的导出示例为 `schedule.kind: "daily"`；其他频率保留原数据、显示「自定义安排」。暂停区间只展示其段数，月历不猜测暂停日期或计划应完成次数。未识别的格式版本、无效日期或未知打卡状态会使构建失败并提示具体位置，避免发布错误记录。
+
+替换的数据会用于公开花园；只放入你希望公开展示的手机备份。本项目没有维护或修改打卡数据的 skill。

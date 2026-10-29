@@ -993,63 +993,6 @@ html[data-theme="dark"] .astro-code span {
   font-size: 10px;
   color: var(--muted);
 }
-.friend-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-.friend {
-  display: flex;
-  align-items: center;
-  padding: 24px;
-  gap: 16px;
-}
-.friend-avatar {
-  width: 48px;
-  height: 48px;
-  display: grid;
-  place-items: center;
-  border-radius: 13px;
-  color: white;
-  font-size: 22px;
-  flex-shrink: 0;
-}
-.friend h2 {
-  font-size: 14px;
-}
-.friend h2 span {
-  font-weight: 400;
-  font-size: 12px;
-  color: var(--muted);
-  margin-left: 5px;
-}
-.friend p {
-  color: var(--muted);
-  font-size: 11px;
-  margin-top: 5px;
-}
-.exchange {
-  padding: 32px;
-  margin-top: 28px;
-}
-.exchange h2 {
-  font-size: 23px;
-  margin: 10px 0;
-}
-.exchange > p {
-  color: var(--muted);
-  font-size: 13px;
-  margin: 12px 0;
-}
-.exchange pre {
-  white-space: pre-wrap;
-  background: var(--bg);
-  padding: 20px;
-  border-radius: 8px;
-  font-size: 12px;
-  line-height: 2;
-  overflow-wrap: anywhere;
-}
 .soft-button {
   display: inline-flex;
   background: var(--soft);
@@ -1460,12 +1403,6 @@ html[data-theme="dark"] .hero {
   }
   .adjacent {
     grid-template-columns: 1fr;
-  }
-  .friend-grid {
-    grid-template-columns: 1fr;
-  }
-  .exchange {
-    padding: 24px;
   }
   .taxonomy-grid {
     gap: 14px;

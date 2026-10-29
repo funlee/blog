@@ -1,0 +1,81 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import snapshot from '../data/garden.json';
+import {validateGarden, gardenDate, gardenSummary, gardenHabits, habitSummary, habitMonths, scheduleLabel, monthCells} from '../lib/garden.mjs';
+import '../styles/garden.css';
+
+const data = validateGarden(snapshot);
+const asOf = gardenDate(data.exportedAt);
+const habits = gardenHabits(data);
+const totals = gardenSummary(data);
+const exportedTime = new Intl.DateTimeFormat('zh-CN', {timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hour12: false}).format(new Date(data.exportedAt));
+const showDate = (value: string) => value.replaceAll('-', '.');
+const stateNames: Record<string, string> = {done: '完成', rest: '休息', none: '未记录', future: '导出日之后', inactive: '尚未开始'};
+---
+<Base title="花园" description="把想坚持的事，种成一座慢慢生长的花园。">
+  <div class="garden-page" data-garden-page>
+    <div class="section-heading garden-heading"><h2>我的习惯花园</h2><span class="muted">更新于 <time datetime={data.exportedAt}>{showDate(asOf)} {exportedTime}</time></span></div>
+    {habits.length === 0 ? (
+      <section class="panel garden-empty" aria-labelledby="garden-empty-title">
+        <div class="garden-empty-art" aria-hidden="true"><Icon name="leaf" size={48}/><span></span></div>
+        <span class="eyebrow">EVERY GARDEN STARTS WITH A SEED</span>
+        <h2 id="garden-empty-title">第一颗种子，还在路上。</h2>
+        <p>把想坚持的事种下来，<br/>让每一次行动，留下生长的痕迹。</p>
+        <span class="garden-empty-note">慢慢来，花会开的。</span>
+      </section>
+    ) : (
+      <>
+        <div class="garden-stats">
+          <div class="panel garden-stat"><span>种下的习惯</span><p><strong>{totals.habits}</strong><small>个</small></p></div>
+          <div class="panel garden-stat"><span>累计行动</span><p><strong>{totals.completions}</strong><small>次</small></p></div>
+          <div class="panel garden-stat"><span>有行动的日子</span><p><strong>{totals.actionDays}</strong><small>天</small></p></div>
+        </div>
+        <section class="panel garden-overview" aria-labelledby="garden-bed-title">
+          <div class="garden-section-heading"><div><span class="eyebrow">SMALL STEPS, SLOW GROWTH</span><h2 id="garden-bed-title">一点点，长成喜欢的样子。</h2></div><Icon name="leaf"/></div>
+          <nav class="garden-bed" aria-label="选择习惯，查看成长足迹">
+            {habits.map(({habit, key}, index) => {
+              const stats = habitSummary(habit);
+              return <a class="garden-plot" href={`#garden-${key}`} data-garden-select={key} data-color={habit.colorIndex % 6} aria-current={index === 0 ? 'true' : undefined}>
+                <span class="garden-plant" data-stage={stats.stage} data-shape={habit.shape} aria-hidden="true"><span class="garden-soil"></span><span class="garden-stem"></span><span class="garden-leaf"></span><span class="garden-leaf right"></span><span class="garden-flower"></span></span>
+                <h3><Icon name={habit.icon} size={15}/>{habit.name}</h3><span class="garden-stage">{stats.name}</span><small>完成 {stats.done} 次</small>
+              </a>;
+            })}
+          </nav>
+          <div class="garden-growth-key"><span>种子</span><span aria-hidden="true">→</span><span>萌芽</span><span aria-hidden="true">→</span><span>花苞</span><span aria-hidden="true">→</span><span>开花</span></div>
+          <p class="garden-philosophy">完成让植物生长，休息让它保持，每一步都算数。</p>
+        </section>
+        <p class="sr-only" data-garden-announcement role="status" aria-live="polite"></p>
+        {habits.map(({habit, key}) => {
+          const stats = habitSummary(habit);
+          const months = habitMonths(habit, asOf);
+          return <section class="panel garden-detail" id={`garden-${key}`} data-garden-detail={key} aria-labelledby={`garden-title-${key}`}>
+            <div class="garden-section-heading"><div><span class="eyebrow">GROWTH JOURNAL</span><h2 id={`garden-title-${key}`}>{habit.name}的成长足迹</h2><p class="muted">{scheduleLabel(habit.schedule)}{habit.pauses.length > 0 && ` · ${habit.pauses.length} 段暂停记录`}</p></div><span class="garden-stage-badge">{stats.name}</span></div>
+            <div class="garden-detail-stats"><span>完成 <b>{stats.done}</b> 次</span><span>休息 <b>{stats.rest}</b> 天</span></div>
+            <div class="garden-progress-copy"><span>{stats.next ? `再完成 ${stats.next - stats.done} 次，迎接下一次生长` : '花已经盛开，每一次照料仍会留下记录'}</span><span>{stats.done} 次行动</span></div>
+            <progress class="garden-progress" value={Math.min(stats.done, 21)} max="21" aria-label={`${habit.name}的累计成长进度`}></progress>
+            <div class="garden-history">
+              {months.map((month, index) => {
+                const calendar = monthCells(habit, month, asOf);
+                const monthDone = calendar.days.filter(d => d.status === 'done').length;
+                const monthRest = calendar.days.filter(d => d.status === 'rest').length;
+                return <details class="garden-month" open={index === 0}>
+                  <summary><span>{month.slice(0,4)} 年 {Number(month.slice(5))} 月</span><small>完成 {monthDone} 次 · 休息 {monthRest} 天</small><span class="garden-month-chevron" aria-hidden="true">⌄</span></summary>
+                  <div class="garden-calendar" role="group" aria-label={`${habit.name}，${month}，完成${monthDone}次，休息${monthRest}天`}>
+                    {['一', '二', '三', '四', '五', '六', '日'].map(day => <span class="garden-weekday" aria-hidden="true">{day}</span>)}
+                    {Array.from({length: calendar.offset}, () => <span class="garden-calendar-pad" aria-hidden="true"></span>)}
+                    {calendar.days.map(day => <span class:list={['garden-day', day.status, {'as-of': day.date === asOf}]}><time datetime={day.date}>{day.day}</time><span class="garden-day-symbol" aria-hidden="true">{day.status === 'done' ? '✓' : day.status === 'rest' ? '☾' : day.status === 'none' ? '·' : '—'}</span><span class="sr-only">{stateNames[day.status]}</span></span>)}
+                  </div>
+                </details>;
+              })}
+              <div class="garden-calendar-key"><span><i class="done" aria-hidden="true"></i>✓ 完成</span><span><i class="rest" aria-hidden="true"></i>☾ 休息</span><span>· 未记录</span><span>— 尚未开始 / 导出日之后</span></div>
+            </div>
+            <div class="garden-detail-footer"><span>种于 <time datetime={habit.createdOn}>{showDate(habit.createdOn)}</time></span><span>{stats.lastDone ? <>最近完成 <time datetime={stats.lastDone}>{showDate(stats.lastDone)}</time></> : '等待第一次照料'}</span></div>
+          </section>;
+        })}
+        <p class="garden-snapshot-note">记录截至 {showDate(asOf)} · 北京时间 · 生长阶段按累计完成次数呈现</p>
+      </>
+    )}
+  </div>
+</Base>
+<script>import '../scripts/garden';</script>
