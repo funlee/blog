@@ -14,7 +14,8 @@
     "start": "npm run build && npm run preview",
     "test": "node --test tests/*.test.mjs",
     "new": "node scripts/new-content.mjs",
-    "sync:reading": "node --env-file-if-exists=.env scripts/sync-reading.mjs"
+    "sync:reading": "node --env-file-if-exists=.env scripts/sync-reading.mjs",
+    "garden:checkin": "node .agents/skills/garden-checkin/scripts/checkin.mjs"
   },
   "dependencies": {
     "astro": "7.3.8",

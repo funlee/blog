@@ -31,7 +31,7 @@ npm run preview # 预览现有 dist
 - 文章：`src/content/posts/*.md`
 - 碎碎念：`src/content/moments/*.md`
 - 关于：`src/content/pages/about.md`
-- 花园手机备份：`src/data/garden.json`（用 App 原始导出文件替换）
+- 花园打卡数据：`src/data/garden.json`（使用「花园打卡」skill 维护）
 - 阅读数据快照：`src/data/reading.json`（说明见下文）
 - 配色和布局：`src/styles/global.css`
 - 本地示例插画：`public/images/`
@@ -120,21 +120,27 @@ npm run build
 
 部署参考：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[Astro GitHub Pages 指南](https://docs.astro.build/en/guides/deploy/github/)。
 
-## 花园：展示手机上的习惯记录
+## 花园：通过 skill 维护习惯记录
 
 顶部「花园」进入 `/garden/`，展示习惯植物、累计完成次数、行动天数和每项习惯的月历。点击植物切换成长足迹，展开月份浏览历史。页面完全只读，所有人看到相同内容，没有登录、身份切换或打卡操作。
 
-习惯创建和打卡在手机 Habit Garden 中完成。更新博客时：
+`src/data/garden.json` 是花园记录的数据源，现有手机打卡历史和 v2 结构继续保留，无需再从手机 App 导入。项目内的「花园打卡」skill 位于 `.agents/skills/garden-checkin/SKILL.md`，可使用 `$garden-checkin` 并说明任务，例如「读书打卡」「补打卡昨天的运动」。也可以直接运行：
 
-1. 从手机 App 导出备份 JSON。
-2. 用完整原文件替换 `src/data/garden.json`，保留 `kind: "habit-garden-backup"`、`formatVersion: 2`、`exportedAt` 和 `habits`，无需转换结构。
-3. 运行 `npm run check`、`npm test` 和 `npm run build`，检查数据和静态产物。
-4. 本地用 `npm run dev` 实时预览；完整预览用 `npm start`。提交到 `main` 后沿用现有 GitHub Pages 工作流发布。仅替换本地文件不会更新线上页面。
+```sh
+npm run garden:checkin -- --list
+npm run garden:checkin -- --habit '读书'
+npm run garden:checkin -- --habit '运动' --date yesterday
+npm run garden:checkin -- --habit '读书' --date 2026-11-03
+```
+
+必须明确任务，名称无法唯一匹配时先澄清。默认按北京时间当天打卡，`--date` 支持真实的 `YYYY-MM-DD` 日期以及 `today`、`yesterday`、`day-before-yesterday`（今天、昨天、前天）。每个任务每天最多一次完成：已有 `done` 时不改写文件或更新时间；已有 `rest` 时改为 `done` 并说明状态变化。无效日期、未来日期、创建日前的日期、未知或重名任务均会被拒绝。
+
+脚本写入前后均校验数据，保留其他习惯、历史记录和额外字段，通过写锁与原子替换保存文件。`--file <path>` 可用于临时副本测试。skill 不自动提交、推送或发布。发布前运行 `npm run check`、`npm test` 和 `npm run build` 检查；本地用 `npm run dev` 实时预览，完整预览用 `npm start`。提交到 `main` 后沿用现有 GitHub Pages 工作流发布，本地打卡不会立即更新线上页面。
 
 构建不会改写源 JSON，也不会访问手机或外部习惯接口。`position` 决定植物顺序，`icon`、`colorIndex`、`shape` 决定展示样式，`createdOn` 与 `days` 决定记录。`done` 计为一次完成，`rest` 单独统计，缺失日期显示「未记录」。行动天数按所有习惯的完成日期去重。
 
-页面截止日和更新时间来自 `exportedAt`，按北京时间显示，不随部署日或访客设备日期延长。植物阶段为博客的展示规则：累计完成 0 次是种子、1–6 次萌芽、7–20 次花苞、21 次及以上开花；这不是手机 App 生长算法的复刻。
+`exportedAt` 现在表示数据更新时间：实际新增打卡或将休息改为完成时更新为执行时间，补打卡也一样；重复打卡则保留原值。页面截止日和更新时间来自该字段，按北京时间显示，不随部署日或访客设备日期延长。植物阶段为博客的展示规则：累计完成 0 次是种子、1–6 次萌芽、7–20 次花苞、21 次及以上开花；这不是手机 App 生长算法的复刻。
 
 额外原始字段和 `pauses` 会保留，不增补自定义存储字段。当前已核对的导出示例为 `schedule.kind: "daily"`；其他频率保留原数据、显示「自定义安排」。暂停区间只展示其段数，月历不猜测暂停日期或计划应完成次数。未识别的格式版本、无效日期或未知打卡状态会使构建失败并提示具体位置，避免发布错误记录。
 
-替换的数据会用于公开花园；只放入你希望公开展示的手机备份。本项目没有维护或修改打卡数据的 skill。
+打卡记录会用于公开花园，只记录你希望公开展示的内容。新增任务、撤销打卡和记录休息不属于当前打卡 skill 的操作范围。

@@ -1,0 +1,3 @@
+interface:
+  display_name: "花园打卡"
+  short_description: "为博客花园的指定习惯记录完成，支持北京时间当天打卡和历史补卡"
